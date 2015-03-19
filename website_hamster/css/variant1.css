@@ -1,0 +1,526 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+header {
+  white-space: nowrap;
+  font-size: 18px;
+  font-weight: 400;
+  min-height: 104px;
+}
+
+/*---  Section 01  Sale  ---*/
+section.sale {
+  background-image: url('../img/v5_sale_background01.png');
+  background-repeat: repeat-x;
+  background-position: center top;
+  min-height: 591px;
+}
+
+.v1-percent {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 14px;
+}
+
+.v1-prise {
+  position: absolute;
+  right: 0;
+  margin-right: 250px;
+  margin-top: 10px;
+}
+
+section.sale .v5-sale-rubric {
+    font-family: PT Sans;
+    font-weight: 700;
+    font-size: 47px;
+    text-align: center;
+    font-variant: small-caps;
+    margin-top: -4px;
+    letter-spacing: -3px;
+}
+
+section.sale .v5-sale-text-privilege01 {
+    font-family: Decima Nova Pro;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-left: 3px;
+    margin-top: 9px;
+    display: inline-block;
+}
+
+section.sale .v5-sale-text-privilege02 {
+    font-family: Decima Nova Pro; font-weight: 400; font-size: 12px; text-transform: uppercase; 
+    margin-left: 450px; margin-top: 9px; display: inline-block;
+}
+
+section.sale .v5-sale-btn-position {
+    text-align: center;
+    margin-top: 168px;
+}
+@media screen and (max-width: 1368px) {
+  section.sale .v5-sale-background02 {
+    min-width: 960px;
+  }
+}
+
+section.sale .v5-sale-background02 {
+    background-image: url('../img/v5_sale_background02.png');
+    background-position: center top;
+    background-repeat: repeat-x;
+    position: absolute;
+    height: 544px;
+    margin-top: 5px;
+}
+
+
+section.sale .btn-v5-sale-blue {
+    background-image: -webkit-gradient(linear,left 0,left 100%,from(#f0ad4e),to(#ec971f));
+    background-image: -webkit-linear-gradient(top,#f0ad4e,0%,#ec971f,100%);
+    background-image: -moz-linear-gradient(top,#f0ad4e 0,#ec971f 100%);
+    background-image: linear-gradient(to bottom,#f0ad4e 0,#ec971f 100%);
+    background-repeat: repeat-x;
+    border-color: #eb9316;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e',endColorstr='#ffec971f',GradientType=0); 
+    box-shadow: 0px 3px 0px 0px #336666;
+    background-image: url('../img/img_btn02.png');
+    background-repeat: repeat;
+    border-color: transparent;
+    color: #ffffff;
+    font-family: PT Sans;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    height: 48px;
+    width: 302px;
+    line-height: 35px;  
+    margin-right: 270px;
+}
+
+section.sale .btn-v5-sale-blue:hover {
+    background-image: -webkit-gradient(linear,left 0,left 100%,from(#f0ad4e),to(#ec971f));
+    background-image: -webkit-linear-gradient(top,#f0ad4e,0%,#ec971f,100%);
+    background-image: -moz-linear-gradient(top,#f0ad4e 0,#ec971f 100%);
+    background-image: linear-gradient(to bottom,#f0ad4e 0,#ec971f 100%);
+    background-repeat: repeat-x;
+    border-color: #eb9316;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e',endColorstr='#ffec971f',GradientType=0); 
+    box-shadow: 0px 3px 0px 0px #336666;
+    background-image: url('../img/img_btn_hover02.png');
+    background-repeat: repeat;
+    border-color: transparent;
+    color: #ffffff;
+    font-family: PT Sans;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    height: 48px;
+    width: 302px;
+    line-height: 35px;
+    margin-right: 270px;
+}
+
+section.sale .btn-v5-sale-yellow {
+    background-image: -webkit-gradient(linear,left 0,left 100%,from(#f0ad4e),to(#ec971f));
+    background-image: -webkit-linear-gradient(top,#f0ad4e,0%,#ec971f,100%);
+    background-image: -moz-linear-gradient(top,#f0ad4e 0,#ec971f 100%);
+    background-image: linear-gradient(to bottom,#f0ad4e 0,#ec971f 100%);
+    background-repeat: repeat-x;
+    border-color: #eb9316;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e',endColorstr='#ffec971f',GradientType=0); 
+    box-shadow: 0px 3px 0px 0px #999900;
+    background-image: url('../img/img_btn01.png');
+    background-repeat: repeat;
+    border-color: transparent;
+    color: #000;
+    font-family: PT Sans;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    height: 48px;
+    width: 302px;
+    line-height: 35px; 
+}
+
+section.sale .btn-v5-sale-yellow:hover {
+    background-image: -webkit-gradient(linear,left 0,left 100%,from(#f0ad4e),to(#ec971f));
+    background-image: -webkit-linear-gradient(top,#f0ad4e,0%,#ec971f,100%);
+    background-image: -moz-linear-gradient(top,#f0ad4e 0,#ec971f 100%);
+    background-image: linear-gradient(to bottom,#f0ad4e 0,#ec971f 100%);
+    background-repeat: repeat-x;
+    border-color: #eb9316;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e',endColorstr='#ffec971f',GradientType=0); 
+    box-shadow: 0px 2px 0px 0px #999900;
+    background-image: url('../img/img_btn01_hover01.png');
+    background-repeat: repeat;
+    border-color: transparent;
+    color: #000;
+    font-family: PT Sans;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    height: 48px;
+    width: 302px;
+    line-height: 35px;
+}
+
+/*--- Sale Timer ---*/
+.v5-sale-timer-all {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 210px;
+    margin-top: 19px;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 160px;
+}
+
+.v5-sale-timer-section {
+}
+
+.v5-sale-text-hours {
+  background-image: url('../img/v4_background_timer_hours01.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.v5-sale-text-minutes {
+  background-image: url('../img/v4_background_timer_minutes01.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  
+  padding-top: 10px;
+}
+
+.v5-sale-text-seconds {
+  background-image: url('../img/v4_background_timer_seconds01.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  
+  padding-top: 10px;
+}
+
+.v5-sale-lable-timer {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.v5-sale-text-bottom {
+    text-align: center;
+    font-family: PT Sans;
+    font-weight: 700;
+    font-size: 20px;
+    font-variant: small-caps;
+    color: #fff;
+    margin-top: 4px;
+    white-space: nowrap;
+}
+
+
+/*---  Condition Work  ---*/
+section.v5-conditions-work .rubric {
+  margin-top: 39px;
+}
+
+
+/*---  Caret  ---*/
+.v5-caret-section {
+  background-color: #e5e5e5;
+  min-height: 30px;
+  margin-top: 40px;
+}
+
+.v5-conditions-work-img {
+margin-left: 25px;
+margin-top: 20px;
+}
+
+
+/*---  Original  ---*/
+section.original {
+  min-height: 342px;
+}
+
+.v5-original-text-one {
+  font-family: PT Sans;
+  font-weight: 700;
+  font-size: 46px;
+  letter-spacing: -3px;
+  line-height: 1.2;
+}
+
+.v5-original-list {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 21px;
+  width: 473px;
+  font-variant: small-caps;
+  line-height: 22px;
+}
+
+.v5-original-persent-img {
+  background-image: url('../img/talking_hamster_minpersent01.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  height: 54px;
+  padding-top: 5px;
+}
+
+.v5-original-persent-text {
+  width: 399px;
+  margin-left: 70px;
+  top: 38px;
+}
+
+.v5-original-lock-img {
+  background-image: url('../img/talking_hamster_loke01.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  height: 54px;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+.v5-original-lock-text {
+  width: 399px;
+  margin-left: 70px;
+}
+
+.v5-original-arrow-img {
+  background-image: url('../img/talking_hamster_warranty01.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  height: 54px;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+.v5-original-arrow-text {
+  width: 399px;
+  margin-left: 70px;
+}
+
+.v5-original-boald {
+  font-weight: 700;
+}
+
+/*---  Best Gift  ---*/
+.v5-best-gift {
+  margin-top: 76px;
+}
+
+.v5-best-gift-timer-all {
+    margin-left: 230px;
+    display: block;
+    width: 210px;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: -50px;
+}
+
+.v5-best-gift-timer-section {
+}
+
+.v5-best-gift-text-hours {
+  background-image: url('../img/v4_background_timer_hours01.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.v5-best-gift-text-minutes {
+  background-image: url('../img/v4_background_timer_minutes01.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  
+  padding-top: 10px;
+}
+
+.v5-best-gift-text-seconds {
+  background-image: url('../img/v4_background_timer_seconds01.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  
+  padding-top: 10px;
+}
+
+.v5-best-gift-lable-timer {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 26px;
+    margin-left: 60px;
+    width: 190px;
+}
+
+
+/*---  Only Original  ---*/
+.onlyoriginal {
+  background-image: url('../img/v5_background04.png');
+  background-position: center;
+  height: 226px;
+}
+
+.onlyoriginal-rubric {
+  font-family: PT Sans;
+  font-weight: 700;
+  font-size: 40px;
+  font-variant: small-caps;
+  text-align: center;
+  padding-top: 27px;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.onlyoriginal-list {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  font-variant: small-caps;
+  margin-left: 64px;
+  white-space: nowrap;
+  letter-spacing: -1px;
+}
+
+.check {
+  background-image: url('../img/original_check01.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  display: inline-block;
+  width: 440px;
+  padding-left: 37px;
+  margin-right: -21px;
+}
+
+.v5-certificate {
+text-align: center;
+margin-top: 20px;
+}
+
+/*---  Modal  ---*/
+/*Заказать купон*/
+.form-control.form-control-v5 {
+  margin-left: -6px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  width: 312px;
+  height: 39px;
+}
+
+.btn-v5-modal-blue {
+    background-image: -webkit-gradient(linear,left 0,left 100%,from(#f0ad4e),to(#ec971f));
+    background-image: -webkit-linear-gradient(top,#f0ad4e,0%,#ec971f,100%);
+    background-image: -moz-linear-gradient(top,#f0ad4e 0,#ec971f 100%);
+    background-image: linear-gradient(to bottom,#f0ad4e 0,#ec971f 100%);
+    background-repeat: repeat-x;
+    border-color: #eb9316;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e',endColorstr='#ffec971f',GradientType=0); 
+    box-shadow: 0px 3px 0px 0px #336666;
+    background-image: url('../img/img_btn02.png');
+    background-repeat: repeat;
+    border-color: transparent;
+    color: #ffffff;
+    font-family: PT Sans;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    height: 48px;
+    width: 318px;
+    margin-left: -10px;
+    line-height: 35px;  
+    margin-right: 270px;
+}
+
+.btn-v5-modal-blue:hover {
+    background-image: -webkit-gradient(linear,left 0,left 100%,from(#f0ad4e),to(#ec971f));
+    background-image: -webkit-linear-gradient(top,#f0ad4e,0%,#ec971f,100%);
+    background-image: -moz-linear-gradient(top,#f0ad4e 0,#ec971f 100%);
+    background-image: linear-gradient(to bottom,#f0ad4e 0,#ec971f 100%);
+    background-repeat: repeat-x;
+    border-color: #eb9316;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e',endColorstr='#ffec971f',GradientType=0); 
+    box-shadow: 0px 3px 0px 0px #336666;
+    background-image: url('../img/img_btn_hover02.png');
+    background-repeat: repeat;
+    border-color: transparent;
+    color: #ffffff;
+    font-family: PT Sans;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    height: 48px;
+    width: 318px;
+    margin-left: -10px;
+    line-height: 35px;
+    margin-right: 270px;
+}
+
+.btn-v5-modal-yellow {
+  background-image: url('../img/img_btn01.png');
+  background-repeat: repeat;
+  border-color: #FFCD00;
+  width: 318px;
+  margin-left: -10px;
+  box-shadow: 0px 4px 0px 0px #B49300;
+  color: #000;
+  font-family: PT Sans;
+  font-weight: 700;
+  font-size: 24px;
+  height: 48px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.btn-v5-modal-yellow:hover {
+  background-image: url('../img/img_btn01_hover01.png');
+  background-repeat: repeat;
+  border-color: #FFCD00;
+  color: #000;
+  width: 318px;
+  margin-left: -10px;
+}

@@ -1,0 +1,580 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+header {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	white-space: nowrap;
+	margin-bottom: 30px;
+}
+
+header .namber-one {
+	font-weight: bold;
+}
+
+.header-position {
+	margin-top: 24px;
+}
+
+header .img-phone {
+	float: left;
+	margin-top: 22px;
+	margin-left: 20px;
+}
+
+header .callback-text {
+	/*text-transform: uppercase;*/
+	display: inline-block;
+	border-style: none none dashed none;
+	color: #000;
+	border-width: 1px;
+	border-color: #d14d53;
+	margin-left: 10px;
+	margin-top: 20px;
+	float: left;
+}
+
+header {
+	font-weight: 400;
+	font-variant: small-caps;
+}
+
+/**.rubric {
+	width: 820px;
+	margin-top: 20px;
+}
+**/
+
+/*Section 01 @>D5A8>=0;L=K9 A0=B0:;0CA 8 */
+section.profi-santa {
+	background: url('../img/profi_santa_bacground01.jpg') center center;
+	background-color: #fff;
+	min-height: 690px;
+	background-repeat: repeat-x;
+	margin-top: -5px;
+}
+
+section.profi-santa .profi-santa-text01 {
+	background-color: #fff;
+	color: #000;
+	background-repeat: repeat-x;
+	text-align: center;
+	margin-bottom: 7px;
+}
+
+section.profi-santa .profi-santa-text02 {
+	background-color: #7f9297;
+	color: #fff;
+	background-repeat: repeat-x;
+	text-align: center;
+}
+
+section.profi-santa .profi-ribbon {
+	position: relative;
+	margin-top: -10px;
+	left: 62px;
+}
+
+
+/*=====  Discounts form  =====  BEGIN  =====*/
+/*---*/
+/*=====  END  =====  */
+
+		/*=====  >G5<C <K  =====  BEGIN  =====*/
+section.conclusion-table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section.conclusion-table .conclusion-position {
+	margin-top: -50px;
+}
+
+section.conclusion-table .frame-bottom {
+	border-style: solid;
+	border-color: #949494;
+	border-width: 1px;
+	border-style: none none solid none;
+	width: 464px;
+	margin-bottom: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+section.conclusion-table .frame-left {
+	border-style: solid;
+	border-color: #949494;
+	border-width: 1px;
+	border-style: none none none solid;
+	width: 1px;
+	height: 72px;
+}
+
+section.conclusion-table .conclusion-text {
+	margin-left: 112px;
+}
+
+section.conclusion-table .smile {
+	background-image: url('../img/conclusion_smele01.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: left;
+	margin-bottom: 16px;
+}
+
+section.conclusion-table .five {
+	background-image: url('../img/conclusion_five01.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: left;
+	margin-bottom: 16px;
+	margin-left: 60px;
+}
+
+section.conclusion-table .medal {
+	background-image: url('../img/conclusion_medal01.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: left;
+	margin-bottom: 16px;
+}
+
+section.conclusion-table .like {
+	background-image: url('../img/conclusion_like01.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: left;
+	margin-bottom: 16px;
+	margin-left: 60px;
+}
+		/*=====  >G5<C <K  =====  END  =====*/
+
+
+/*Section 02 0H8 :>ABN<K*/
+.our-suit-rubric {
+	margin-top: 80px;
+}
+
+section.our-suit {
+	background-image: url('../img/oursuit_background01.png');
+	background-repeat: repeat-x;
+	height: 418px;
+	margin-top: 10px;
+}
+
+section.our-suit .suit-santa{
+	background-image: url('../img/oursuit_santa01.png');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: center;
+	margin-top: 50px;
+	width: 250px;
+	height: 322px;
+}
+
+section.our-suit .suit-snow-maiden {
+	background-image: url('../img/oursuit_snow_maiden01.png');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: center;
+	width: 250px;
+	height: 322px;
+}
+
+section.our-suit .suit-snowman {
+	background-image: url('../img/oursuit_snowman01.png');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: center;
+	width: 80px;
+	height: 322px;
+}
+
+
+/*Section 03 0H8 CA;C38*/
+section.our-services {
+	background-color: transparent;
+	margin-top: 67px;
+}
+
+section.our-services .our-services-frame-row {
+	width: 315px;
+}
+
+section.our-services .our-services-text {
+	margin-top: 50px;
+}
+
+section.our-services .congratulations-01 {
+	background-image: url('../img/our_services_congratulations01.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: transparent;
+	padding-top: 150px;
+	min-width: 210px;
+	height: 306px;
+	margin-top: 20px;
+}
+
+section.our-services .matinee {
+	background-image: url('../img/our_services_matinee01.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: transparent;
+	padding-top: 150px;
+	min-width: 210px;
+	height: 306px;
+}
+
+section.our-services .happy-new-year {
+	background-image: url('../img/our_services_happy_new_year01.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: transparent;
+	padding-top: 150px;
+	min-width: 210px;
+	height: 306px;
+}
+
+section.our-services .corporate {
+	background-image: url('../img/our_services_corporate01.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: transparent;
+	padding-top: 150px;
+	min-width: 210px;
+	height: 306px;
+	margin-top: 40px;
+}
+
+section.our-services .saxofone {
+	background-image: url('../img/our_services_saxofone01.png');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	padding-top: 150px;
+	min-width: 210px;
+	height: 306px;
+}
+
+section.our-services .congratulations-02 {
+	background-image: url('../img/our_services_congratulations02.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: transparent;
+	padding-top: 150px;
+	min-width: 210px;
+	height: 306px;
+}
+
+
+/*Section 04 0: <K @01>B05<*/
+section.how-we-work {
+	background-image: url('../img/how_we_work01.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #38b9c8;
+	height: 390px;
+	margin-top: 90px;
+}
+
+
+/*Section 05 B7K2K =0H8E :;85=B>2*/
+section.reviews {
+	background-image: url('../img/reviews_background01.png');
+	background-repeat: repeat-x;
+	background-position: center top;
+	background-color: #888c8a;
+	color: #fff;
+	margin-top: 45px;
+	padding-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section.reviews .bottom-background {
+	background-image: url('../img/reviews_background_bottom01.png');
+	background-repeat: repeat-x;
+	background-color: #fff;
+	background-position: center bottom;
+	min-height: 17px;	
+	margin-top: 60px;
+}
+
+section.reviews .reviews-frame {
+	/*background-color: #000;*/
+	color: #fff;
+	width: 300px;
+	margin-top: 48px;
+	margin-right: 10px;
+	margin-left: 10px;
+	float: left;
+}
+
+section.reviews .reviews-frame-in-frame {
+	background-color: #f5f4f4;
+	color: #000;
+	margin-top: -140px;
+	padding-top: 150px;
+	padding-left: 7px;
+	padding-bottom: 10px;
+	padding-right: 7px;
+	min-height: 400px;
+}
+
+section.reviews .anna {
+	background-image: url('../img/reviews_anna01.png');
+	background-repeat: no-repeat;
+	width: 198px;
+	height: 198px;
+	margin-top: -20px;
+}
+
+
+/*Section 06 @>1;5<K 2>7=8:0NI85 ?@8 70:075 ...*/
+section.no-problem {
+	margin-top: 60px;
+}
+
+section.no-problem .description-problem,
+section.no-problem .description-no-problem {
+	width: 460px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+section.no-problem .no-problem-text {
+	margin-left: 65px;
+	text-align: left;
+	min-height: 50px;
+}
+
+
+section.no-problem .cloud {
+	background-image: url('../img/no_problem_cloud01.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 137px;
+}
+
+section.no-problem .heart {
+	background-image: url('../img/no_problem_heart01.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 137px;
+}
+
+section.no-problem .cross {
+	background-image: url('../img/no_problem_cross01.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	margin-top: 20px;
+}
+
+section.no-problem .tick {
+	background-image: url('../img/no_problem_tick01.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	margin-top: 22px;
+}
+
+
+/*Section 07 @>1;5<K 2>7=8:0NI85 ?@8 70:075 ...*/
+section.our-clients {
+	background-color: #38b9c8;
+	color: #fff;
+	margin-top: 70px;
+	padding-top: 25px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+section.our-clients .frame-our-clients {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+section.our-clients .biglion {
+	background-image: url('../img/our_clients_biglion01.png');
+	background-repeat: no-repeat;
+	height: 54px;
+	width: 109px;
+}
+
+section.our-clients .emozzi {
+	background-image: url('../img/our_clients_emozzi01.png');
+	background-repeat: no-repeat;
+	height: 54px;
+	width: 120px;
+}
+
+section.our-clients .roshen {
+	background-image: url('../img/our_clients_roshen01.png');
+	background-repeat: no-repeat;
+	height: 56px;
+	width: 104px;
+}
+
+section.our-clients .bodo {
+	background-image: url('../img/our_clients_bodo01.png');
+	background-repeat: no-repeat;
+	height: 55px;
+	width: 141px;
+}
+
+
+/*Section 08 :F8O "52>G:0 A ?>40@:><"*/
+section.action {
+	background-image: url('../img/action_background01.jpg');
+	background-position: center center;
+	background-color: #fff;
+	background-repeat: repeat-x;	
+	height: 458px;
+	margin-top: 10px;
+}
+
+/*Footer*/
+footer {
+	background-color: #1c1c1c;
+	color: #fff;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+footer .width-frame-text {
+	width: 540px;
+	margin-left: auto;
+	margin-right: auto;
+	font-variant: normal;
+	text-align: center;
+	white-space: nowrap;
+}
+
+
+/*=====  MODAL  =====  Discounts  =====  BEGIN  =====*/
+.close-position {
+	top: 10px;
+	right: 10px;
+	position: absolute;
+}
+
+.modal-discounts-lable-callback {
+	margin-top: -17px;
+	margin-bottom: 30px;
+}
+
+.form-callback {
+	margin-top: 30px;
+}
+
+.callback-modal {
+	background-color: #f7f7f7;
+	margin-top: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 50px;
+}
+
+.callback-modal-text {
+	margin-top: 54px;
+}
+
+.modal-discounts-lable {
+	margin-top: -17px;
+	margin-bottom: 90px;
+}
+
+.callback-left-modal {
+	float: left;
+	margin-top: 10px;
+	margin-left: 24px;
+	margin-right: 24px;
+	min-height: 50px;
+}
+
+.callback-text-img {
+	margin-left: 70px;
+}
+
+.callback-time-img,
+.callback-music-img,
+.callback-cup-img,
+.callback-box-img,
+.callback-hanger-img,
+.callback-smile-img {
+	max-width: 400px;
+	margin-top: 20px;
+}
+
+.callback-time-img {
+	background-image: url('../img/modal_callback_time01.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.callback-music-img {
+	background-image: url('../img/modal_callback_music01.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.callback-cup-img {
+	background-image: url('../img/modal_callback_cup01.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.callback-box-img {
+	background-image: url('../img/modal_callback_box01.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.callback-hanger-img {
+	background-image: url('../img/modal_callback_hanger01.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.callback-smile-img {
+	background-image: url('../img/modal_callback_smile01.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.callback-right-modal {
+	background-color: #f7f7f7;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #fff;
+	padding-left: 10px;
+	padding-right: 10px;
+	/*padding-bottom: 146px;*/
+	height: 100%;
+}
+
+/*=====  END  =====  */
+
+
+/*=====  !B@0=8F5 1;03>40@=>AB8  =====  BEGIN  =====*/
+section.thank {
+	background: url('../img/profi_santa_bacground01.jpg') center center;
+	background-color: #fff;
+	min-height: 458px;
+	background-repeat: repeat-x;
+}
+
+section.thank .thank-text {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	color: #fff;
+}
+
+/*=====  END  =====*/

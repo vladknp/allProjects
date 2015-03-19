@@ -1,0 +1,148 @@
+body {
+	min-width: 960px !important;
+}
+
+.container {
+	max-width: none !important;
+	width: 960px;
+}
+
+header .logo-thank {
+	margin: 26px 0px 22px 383px;
+}
+
+/*Сторінка подяки*/
+section.thank {
+	background: #2d4c65 url('../img/background_not_enough_clients.png');
+	color: #fff;
+	position: relative;
+}
+
+section.thank .btn-success {
+	width: 310px;
+	margin-top: 15px;
+	margin-bottom: 160px;
+	font-size: 24px;
+	font-family: "Open Sans";
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 2px 1px 0px #4c9a4c;
+}
+
+section.thank .btn-success:hover {
+	box-shadow: 0px 0px 1px 0px #4c9a4c;
+}
+
+section.thank .content {
+	text-align: center;
+	width: 760px;
+	margin: 167px auto 0px;
+}
+
+section.thank .content .text {
+	font-size: 48px;
+	font-family: "Open Sans";
+	font-weight: bold;
+	color: #fff;
+}
+
+section.thank .content .text .text-14 {
+	font-size: 24px;
+	white-space: nowrap;
+}
+
+/*Footer*/
+footer.info-footer {
+	height: 106px;
+	background: #1b1b1b;
+	white-space: nowrap;
+	color: #fff;
+	font-family: "Open Sans";
+	font-size: 14px;
+}
+
+footer.info-footer .block {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	float: left;
+	white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+footer.info-footer .block-left {
+	width: 33.33%;
+}
+
+footer.info-footer .block-middle {
+	width: 33.33%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+footer.info-footer .block-right {
+	width: 33.33%;
+}
+
+
+footer.info-footer .info-footer-telephone {
+	font-family: "Open Sans";
+	font-size: 21px;
+	color: #fff;
+	margin: 26px 0px 0px 5px;
+}
+
+footer.info-footer .info-footer-telephone b {
+	font-family: "PT Sans";
+	font-size: 22px;
+	color: #fff;
+}
+
+
+footer.info-footer .info-footer-email {
+	font-family: "Open Sans";
+	font-size: 14px;
+	color: #fff;
+	margin: 0px 0px 0px 5px;
+}
+
+footer.info-footer .info-footer-email b {
+	font-family: "PT Sans";
+	font-size: 14px;
+	color: #fff;
+}
+
+footer.info-footer .contact {
+	margin: 0px 0px 0px 0px;
+}
+
+footer.info-footer .info-map {
+	float: left;
+	height: 51px;
+	width: 57px;
+	margin: 5px 8px 0px 55px;
+}
+
+footer.info-footer .info-address {
+	font-size: 14px;
+	font-family: "Open Sans";
+	text-align: left;
+	margin: 22px 0px 0px 0px;
+	line-height: 16px;
+}
+
+footer.info-footer .info-address b {
+	font-size: 14px;
+	font-family: "PT Sans";
+	text-align: left;
+}
+
+footer.info-footer .protection {
+	font-weight: 600;
+	text-align: center;
+	margin: 43px 0px 0px 0px;
+}

@@ -1,0 +1,44 @@
+/*
+
+	The following chart describes the possible mappings of weights to the numeric definitions.
+	More details at http://www.webtype.com/info/articles/fonts-weights/.
+
+	100    Extra Light or Ultra Light
+	200    Light or Thin
+	300    Book or Demi
+	400    Normal or Regular
+	500    Medium
+	600    Semibold, Demibold
+	700    Bold
+	800    Black, Extra Bold or Heavy
+	900    Extra Black, Fat, Poster or Ultra Black
+
+*/
+
+@font-face {
+		font-family: "Decima Nova Pro";
+		font-weight: 400;
+		src: url("../fonts/Decimanovapro-R.ttf"),
+		 		 url("../fonts/Decimanovapro-R.eot"); /* IE9 */
+}
+
+@font-face {
+		font-family: "Decima Nova Pro";
+		font-weight: 700;
+		src: url("../fonts/Decimanovapro-B.ttf"),
+		 		 url("../fonts/Decimanovapro-B.eot"); /* IE9 */
+}
+
+@font-face {
+		font-family: "GLYPHICONS Halflings";
+		font-weight: 400;
+		src: url("../fonts/GLYPHICONS-Halflings-R.ttf"),
+		 		 url("../fonts/GLYPHICONS-Halflings-R.eot"); /* IE9 */
+}
+
+@font-face {
+		font-family: "GLYPHICONS Halflings";
+		font-weight: 700;
+		src: url("../fonts/GLYPHICONS-Halflings-R.ttf"),
+		 		 url("../fonts/GLYPHICONS-Halflings-R.eot"); /* IE9 */
+}

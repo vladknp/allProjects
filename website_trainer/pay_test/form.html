@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Pay</title>
+</head>
+<body>
+	
+	<div>
+		<script src="js/form.js"></script>
+
+		<script src="http://crypto-js.googlecode.com/svn/tags/3.0.2/build/rollups/md5.js"></script>
+		
+		<script language=JavaScript src='https://auth.robokassa.ru/Merchant/PaymentForm/FormMS.js?
+		MrchLogin=$mrh_login&OutSum=$out_summ&InvId=$inv_id
+		&Desc=$inv_desc&SignatureValue=$crc&Shp_item=$shp_item
+		&Culture=$culture'></script>
+	</div>
+
+</body>
+</html>

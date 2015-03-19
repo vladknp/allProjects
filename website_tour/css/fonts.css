@@ -1,0 +1,112 @@
+/*
+
+	The following chart describes the possible mappings of weights to the numeric definitions.
+	More details at http://www.webtype.com/info/articles/fonts-weights/.
+
+	100    Extra Light or Ultra Light
+	200    Light or Thin
+	300    Book or Demi
+	400    Normal or Regular
+	500    Medium
+	600    Semibold, Demibold
+	700    Bold
+	800    Black, Extra Bold or Heavy
+	900    Extra Black, Fat, Poster or Ultra Black
+
+*/
+
+/*Fonts Tahoma*/
+@font-face {
+	font-family: "Tahoma";
+	src: url("../fonts/Tahoma-R.eot");
+	src: url("../fonts/Tahoma-R.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Tahoma-R.woff") format("woff"),
+    url("../fonts/Tahoma-R.ttf") format("truetype"),
+    url("../fonts/Tahoma-R.svg#Tahoma") format("svg");
+	/*font-weight: 400;*/
+}
+
+@font-face {
+	font-family: "Tahoma B";
+	src: url("../fonts/Tahoma-B.eot");
+	src: url("../fonts/Tahoma-B.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Tahoma-B.woff") format("woff"),
+    url("../fonts/Tahoma-B.ttf") format("truetype"),
+    url("../fonts/Tahoma-B.svg#Tahoma B") format("svg");
+	/*font-weight: 700;*/
+}
+
+/*Fonts PFDin TextCondPro*/
+@font-face {
+	font-family: 'PFDin TextCondPro R';
+	src: url("../fonts/PFDinTextCondPro-R.eot");
+	src: url("../fonts/PFDinTextCondPro-R.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PFDinTextCondPro-R.ttf") format("truetype"),
+    url("../fonts/PFDinTextCondPro-R.woff") format("woff"),
+    url("../fonts/PFDinTextCondPro-R.svg#PFDin TextCondPro R") format("svg");
+    font-weight: normal;
+    font-style: normal;
+	/*font-weight: 400;*/
+}
+
+@font-face {
+	font-family: "PFDin TextCondPro L";
+	src: url("../fonts/PFDinTextCondPro-L.eot");
+	src: url("../fonts/PFDinTextCondPro-L.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PFDinTextCondPro-L.ttf") format("truetype"),
+    url("../fonts/PFDinTextCondPro-L.woff") format("woff"),
+    url("../fonts/PFDinTextCondPro-L.svg#PFDin TextCondPro L") format("svg");
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: "PFDin TextCondPro L-I";
+	src: url("../fonts/PFDinTextCondPro-L-I.eot");
+	src: url("../fonts/PFDinTextCondPro-L-I.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PFDinTextCondPro-L-I.ttf") format("truetype"),
+    url("../fonts/PFDinTextCondPro-L-I.woff") format("woff"),
+    url("../fonts/PFDinTextCondPro-L-I.svg#PFDin TextCondPro L-I") format("svg");
+	/*font-weight: 200;*/
+}
+
+@font-face {
+	font-family: "PFDin TextCondPro M";
+	src: url("../fonts/PFDinTextCondPro-M.eot");
+	src: url("../fonts/PFDinTextCondPro-M.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PFDinTextCondPro-M.ttf") format("truetype"),
+    url("../fonts/PFDinTextCondPro-M.woff") format("woff"),
+    url("../fonts/PFDinTextCondPro-M.svg#PFDin TextCondPro M") format("svg");
+	/*font-weight: 500;*/
+}
+
+@font-face {
+	font-family: "PFDin TextCondPro B";
+	src: url("../fonts/PFDinTextCondPro-B.eot");
+	src: url("../fonts/PFDinTextCondPro-B.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PFDinTextCondPro-B.ttf") format("truetype"),
+    url("../fonts/PFDinTextCondPro-B.woff") format("woff"),
+    url("../fonts/PFDinTextCondPro-B.svg#PFDin TextCondPro B") format("svg");
+	/*font-weight: 700;*/
+}
+
+/*Font PFDin TextCompPro*/
+@font-face {
+	font-family: "PFDin TextCompPro R";
+	src: url("../fonts/PFDinTextCompPro-R.eot");
+	src: url("../fonts/PFDinTextCompPro-R.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PFDinTextCompPro-R.ttf") format("truetype"),
+    url("../fonts/PFDinTextCompPro-R.woff") format("woff"),
+    url("../fonts/PFDinTextCompPro-R.svg#PFDin TextCompPro R") format("svg");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "PFDin TextCompPro M";
+	src: url("../fonts/PFDinTextCompPro-M.eot");
+	src: url("../fonts/PFDinTextCompPro-M.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PFDinTextCompPro-M.ttf") format("truetype"),
+    url("../fonts/PFDinTextCompPro-M.woff") format("woff"),
+    url("../fonts/PFDinTextCompPro-M.svg#PFDin TextCompPro M") format("svg");
+	/*font-weight: 500;*/
+}
+

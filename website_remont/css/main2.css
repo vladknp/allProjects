@@ -1,0 +1,1211 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+  min-width: 960px !important;
+  font-family: "IKEA Script";
+  font-size: 18px;
+  color: #000;
+  margin: 0px 0px 0px 0px;
+}
+
+.container {
+  width: 960px !important;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+header {
+  min-height: 97px;
+  white-space: nowrap;
+}
+
+header div div {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+header .left {
+  font-family: "PFDin TextCondPro M";
+  font-size: 24px;
+  width: 205px;
+  margin: 41px 0px 0px 0px;
+}
+
+header .center {
+  font-family: "PFDin TextCondPro L-I";
+  font-size: 20px;
+  color: #666666;
+  width: 520px;
+  margin: 41px 0px 0px 0px;
+}
+
+header .right {
+  margin: 20px 0px 0px 0px;
+}
+
+header .right span {
+  font-family: "PFDin TextCondPro L";
+  font-size: 18px;
+}
+
+header .right div {
+  font-family: "PFDin TextCondPro M";
+  font-size: 30px;
+}
+
+/*============*/
+/*=  BEGINE  =*/ /*Section 01 page-proofs remont "Качественный ремонт квартир"*/
+/*============*/
+section.remont {
+}
+
+section.remont .background-img {
+  background-image: url("../img/section01_background01.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% -2px;
+  height: 556px;
+}
+
+section.remont .background-top-line {
+  background-image: url("../img/section01_background_line_top_01.png");
+  background-repeat: repeat;
+  height: 13px;
+}
+
+section.remont .rubric {
+  font-family: "PFDin TextCondPro B";
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: right;
+  color: #ffffff;
+  margin: 40px 24px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  text-shadow: 0px 0px 2px #564F4F;
+}
+
+section.remont .rubric span {
+  margin: 0px 144px 0px 0px;
+}
+
+/*Form elements*/
+section.remont .form {
+  float: right;
+  background-image: url("../img/section01_background_form01.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  text-align: center;
+  width: 398px;
+  height: 400px;
+  margin: 18px 21px 0px 0px;
+}
+
+section.remont .form-rubric {
+  font-family: "PFDin TextCondPro M";
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #ffcc33;
+  margin: 13px 0px 0px 0px;
+}
+
+section.remont .form-rubric div {
+  font-size: 18px;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+section.remont form {
+  width: 290px;
+  margin: 11px auto 0px;
+}
+
+section.remont .form-group {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+section.remont .form-control {
+  display: block;
+  width: 100%;
+  height: 42px;
+  padding: 6px 12px;
+  font-family: "PFDin TextCondPro L";
+  font-size: 18px;
+  line-height: 1.428571429;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+section.remont .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 7px 50px;
+  font-family: "PFDin TextCondPro M";
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #663300;
+  line-height: 1;
+  border-radius: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+section.remont .btn-warning {
+  background-image: url("../img/section01_background_btn_yellow_01.png");
+  background-repeat: repeat;
+  box-shadow: 0px 3px 0px 0px #cc9933;
+}
+
+section.remont .btn-warning:hover {
+  background-image: url("../img/section01_background_btn_yellow_hover_01.png");
+  background-repeat: repeat;
+  box-shadow: 0px 3px 0px 0px #cc9933;
+}
+/*END*//*Form elements*/
+
+section.remont .background-bottom-line {
+  background-image: url("../img/section01_background_line_bottom_01.png");
+  background-repeat: repeat;
+  height: 23px;
+}
+
+section.remont .bottom-element {
+  background-image: url("../img/section01_background02.png");
+  background-repeat: repeat;
+  text-align: center;
+  white-space: nowrap;
+}
+
+section.remont .bottom-element .slash {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px 0px 0px 0px;
+}
+
+section.remont .roll {
+  display: inline-block;
+  background-image: url("../img/section01_roll_01.png");
+  background-repeat: no-repeat;
+  background-position: 0% 25%;
+  padding: 0px 0px 0px 70px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+section.remont .roll span {
+  font-family: "PFDin TextCondPro M";
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+section.remont .roll div span {
+  font-family: "PFDin TextCondPro L";
+  line-height: 1.2;
+  font-size: 18px;
+}
+
+section.remont .home {
+  display: inline-block;
+  vertical-align: top;
+  background-image: url("../img/section01_home_01.png");
+  background-repeat: no-repeat;
+  background-position: 0% 35%;
+  padding: 0px 0px 0px 70px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+section.remont .home span {
+  font-family: "PFDin TextCondPro M";
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+section.remont .home div span {
+  font-family: "PFDin TextCondPro L";
+  line-height: 1.2;
+  font-size: 18px;
+}
+
+section.remont .pocketbook {
+  display: inline-block;
+  vertical-align: top;
+  background-image: url("../img/section01_pocketbook_01.png");
+  background-repeat: no-repeat;
+  background-position: 0% 15%;
+  padding: 0px 0px 0px 0px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+section.remont .pocketbook span {
+  font-family: "PFDin TextCondPro M";
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 0px 0px 0px 70px;
+}
+
+section.remont .pocketbook div span {
+  font-family: "PFDin TextCondPro L";
+  line-height: 1.2;
+  font-size: 18px;
+  margin: 0px 0px 0px -70px;
+}
+/*============*/
+/*=    END   =*/ /*Section 01 page-proofs remont "Качественный ремонт квартир"*/
+/*============*/
+
+
+/*============*/
+/*=  BEGINE  =*/ /*Section 02 page-proofs our services "Наши услуги"*/
+/*============*/
+section.services {
+}
+
+section.services .rubric {
+  font-family: "PFDin TextCondPro B";
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #666666;
+  margin: 57px 0px 0px 0px;
+}
+
+section.services .services-all {
+  text-align: center;
+  margin: 40px 0px 0px 0px;
+}
+
+section.services .services01 {
+  display: inline-block;
+  vertical-align: top;
+  background-image: url("../img/section02_remont01_01.png");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  height: 391px;
+  width: 476px;
+  padding: 213px 0px 0px 0px;
+  margin: 0px 0px 74px 0px;
+}
+
+section.services .services01 .rubric {
+  font-family: "PFDin TextCondPro B";
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #669966;
+  margin: 0px 0px 0px 0px;
+}
+
+section.services .services01 div div {
+  font-family: "PFDin TextCondPro L";
+  font-size: 18px;
+  text-transform: none;
+  text-align: center;
+  line-height: 1.3;
+  color: #000000;
+  width: 74%;
+  height: 112px;
+  margin: 0 auto;
+  border-radius: 0px 0px 120px 120px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+section.services .services02 {
+  display: inline-block;
+  vertical-align: top;
+  background-image: url("../img/section02_remont02_01.png");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  height: 391px;
+  width: 476px;
+  padding: 213px 0px 0px 0px;
+}
+
+section.services .services02 .rubric {
+  font-family: "PFDin TextCondPro B";
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #669966;
+  margin: 0px 0px 0px 0px;
+}
+
+section.services .services02 div div {
+  font-family: "PFDin TextCondPro L";
+  font-size: 18px;
+  text-transform: none;
+  text-align: center;
+  line-height: 1.3;
+  color: #000000;
+  width: 74%;
+  height: 112px;
+  margin: 0 auto;
+  border-radius: 0px 0px 120px 120px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+section.services .services03 {
+  display: inline-block;
+  vertical-align: top;
+  background-image: url("../img/section02_remont03_01.png");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  height: 391px;
+  width: 476px;
+  padding: 213px 0px 0px 0px;
+  margin: 0px 0px 74px 0px;
+}
+
+section.services .services03 .rubric {
+  font-family: "PFDin TextCondPro B";
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #669966;
+  margin: 0px 0px 0px 0px;
+}
+
+section.services .services03 div div {
+  font-family: "PFDin TextCondPro L";
+  font-size: 18px;
+  text-transform: none;
+  text-align: center;
+  line-height: 1.3;
+  color: #000000;
+  width: 74%;
+  height: 112px;
+  margin: 0 auto;
+  border-radius: 0px 0px 120px 120px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+section.services .services04 {
+  display: inline-block;
+  vertical-align: top;
+  background-image: url("../img/section02_remont04_01.png");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  height: 391px;
+  width: 476px;
+  padding: 213px 0px 0px 0px;
+}
+
+section.services .services04 .rubric {
+  font-family: "PFDin TextCondPro B";
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #669966;
+  margin: 0px 0px 0px 0px;
+}
+
+section.services .services04 div div {
+  font-family: "PFDin TextCondPro L";
+  font-size: 18px;
+  text-transform: none;
+  text-align: center;
+  line-height: 1.3;
+  color: #000000;
+  width: 74%;
+  margin: 0 auto;
+  border-radius: 0px 0px 120px 120px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+/*============*/
+/*=    END   =*/ /*Section 02 page-proofs our services "Наши услуги"*/
+/*============*/
+
+
+/*============*/
+/*=  BEGINE  =*/ /*Section 03 page-proofs problems  "Шесть основых проблем"*/
+/*============*/
+section.problems {
+  background-image: url("../img/section03_background_01.png");
+  background-repeat: repeat;
+}
+
+section.problems .line-top {
+  background-image: url("../img/section03_background_line_top_01.png");
+  background-repeat: repeat;
+  height: 22px;
+  margin: 9px 0px 0px 0px;
+}
+
+section.problems .rubric {
+  font-family: "PFDin TextCondPro B";
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #333333;
+  margin: 27px 0px 0px 0px;
+  line-height: 1;
+}
+
+section.problems .rubric div {
+  font-family: "PFDin TextCondPro L";
+  font-size: 24px;
+  line-height: 1;
+  margin: 0px 0px 0px 0px;
+}
+
+section.problems .cards {
+  margin: 43px 0px 0px 0px;
+  text-align: center;
+  width: 100%;
+  height: 679px;
+}
+
+section.problems .card {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  width: 250px;
+  margin: 0px 32px 50px;
+}
+
+section.problems .card-top {
+  background-image: url("../img/section03_background_card_top_01.png");
+  background-repeat: repeat;
+  height: 148px;
+  padding: 6px 0px 0px 10px;
+  overflow: hidden;
+}
+
+section.problems .card-top .rubric {
+  background-image: url("../img/section03_exclamation_01.png");
+  background-repeat: no-repeat;
+  font-family: "PFDin TextCondPro B";
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: inherit;
+  line-height: 1;
+  color: #ff9933;
+  padding: 10px 0px 0px 40px;
+  margin: 0px 0px 0px 0px;
+}
+
+section.problems .card-top .card-content {
+  font-family: "PFDin TextCondPro L";
+  font-size: 18px;
+  line-height: 1.24;
+  color: #ffffff;
+  margin: 10px 0px 0px 0px;
+}
+
+section.problems .card-bottom {
+  background-image: url("../img/section01_background_line_bottom_01.png");
+  background-repeat: repeat;
+  height: 148px;
+  padding: 14px 0px 0px 10px;
+  overflow: hidden;
+}
+
+section.problems .card-bottom .rubric {
+  display: table-cell;
+  vertical-align: bottom;
+  background-image: url("../img/section03_check_01.png");
+  background-repeat: no-repeat;
+  font-family: "PFDin TextCondPro B";
+  font-size: 22px;
+  text-transform: uppercase;
+  line-height: 0.7;
+  color: #ffffff;
+  padding: 0px 0px 0px 40px;
+  margin: 0px 0px 0px 0px;
+  height: 23px;
+}
+
+section.problems .card-bottom .card-content {
+  font-family: "PFDin TextCondPro L";
+  font-size: 18px;
+  line-height: 1.27;
+  color: #ffffff;
+  margin: 10px 0px 0px 0px;
+}
+
+section.problems .section-form {
+  background-image: url("../img/section03_background_section_form_01.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  min-height: 711px;
+}
+
+/*Form elements*/
+section.problems .form {
+  float: right;
+  background-image: url("../img/section01_background_form01.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  text-align: center;
+  width: 398px;
+  height: 400px;
+  margin: 75px 53px 0px 0px;
+}
+
+section.problems .form-rubric {
+  font-family: "PFDin TextCondPro M";
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #ffcc33;
+  margin: 13px 0px 0px 0px;
+}
+
+section.problems .form-rubric div {
+  font-size: 18px;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+section.problems form {
+  width: 290px;
+  margin: 11px auto 0px;
+}
+
+section.problems .form-group {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+section.problems .form-control {
+  display: block;
+  width: 100%;
+  height: 42px;
+  padding: 6px 12px;
+  font-family: "PFDin TextCondPro L";
+  font-size: 18px;
+  line-height: 1.428571429;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+section.problems .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 7px 50px;
+  font-family: "PFDin TextCondPro M";
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #663300;
+  line-height: 1;
+  border-radius: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+section.problems .btn-warning {
+  background-image: url("../img/section01_background_btn_yellow_01.png");
+  background-repeat: repeat;
+  box-shadow: 0px 3px 0px 0px #cc9933;
+}
+
+section.problems .btn-warning:hover {
+  background-image: url("../img/section01_background_btn_yellow_hover_01.png");
+  background-repeat: repeat;
+  box-shadow: 0px 3px 0px 0px #cc9933;
+}
+/*END*//*Form elements*/
+/*============*/
+/*=    END   =*/ /*SSection 03 page-proofs problems  "Шесть основых проблем"*/
+/*============*/
+
+
+/*============*/
+/*=  BEGINE  =*/ /*Section 04 page-proofs reviewse `Отзывы`*/
+/*============*/
+section.reviews {
+  background-image: url("../img/section04_background_01.png");
+  background-repeat: repeat;
+  padding: 0px 0px 10px;
+}
+
+section.reviews .line-top {
+  background-image: url("../img/section04_background_line_top_01.png");
+  background-repeat: repeat;
+  height: 23px;
+}
+
+section.reviews .rubric {
+  font-family: "PFDin TextCondPro B";
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #333333;
+  margin: 28px 0px 27px 0px;
+}
+
+section.reviews .reviews-block {
+  text-align: center;
+}
+
+section.reviews .background-card {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url("../img/section04_background_photo_card_01.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 454px;
+  height: 325px;
+  text-align: left;
+}
+
+section.reviews .row {
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url("../img/section04_row_01.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 63px;
+  height: 40px;
+}
+
+section.reviews .background-card .photo-card {
+  background-color: #c33;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+section.reviews .background-card img {
+  background-color: #c33;
+  /* width: 398px; */
+  /* height: 265px; */
+  margin: auto;
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+section.reviews .people-reviews-all{
+  text-align: center;
+  margin: -5px 0px 0px 0px;
+}
+
+section.reviews .people-reviews {
+  margin: 0px 0px 0px 0px;
+}
+
+section.reviews .people-reviews .people-photo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 210px;
+}
+
+section.reviews .people-reviews .people-photo img {
+  margin: 0px 0px 0px 0px;
+}
+
+section.reviews .people-reviews .people-photo div {
+  font-family: "PFDin TextCondPro L-I";
+  font-size: 18px;
+  color: #000000;
+  margin: 0px 0px 0px 0px;
+}
+
+section.reviews .people-reviews .people-text-reviews {
+  display: inline-block;
+  vertical-align: middle;
+  width: 684px;
+  text-align: left;
+  margin: -38px 0px 0px 0px;
+  line-height: 1.2;
+}
+
+section.reviews .people-reviews .people-text-reviews div {
+  font-family: "PFDin TextCondPro L";
+  font-size: 30px;
+  color: #993333;
+}
+
+section.reviews .people-reviews .people-text-reviews span {
+  font-family: "PFDin TextCondPro L";
+  font-size: 18px;
+}
+
+section.reviews .reviews-bottom-line {
+  background-image: url("../img/section04_reviews_line__01.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  height: 9px;
+  margin: 14px 0px 62px 0px;
+}
+/*============*/
+/*=    END   =*/ /*Section 04 page-proofs reviewse `Отзывы`*/
+/*============*/
+
+
+/*============*/
+/*=  BEGINE  =*/ /*Section 05 page-proofs operations  `Как мы работаем`*/
+/*============*/
+section.operations {
+  white-space: nowrap;
+}
+
+section.operations .background-operations {
+  background-image: url("../img/section05_background_01.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% top;
+  min-height: 491px;
+}
+
+
+section.operations .rubric {
+  font-family: "PFDin TextCondPro B";
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  margin: 42px 0px 0px;
+}
+
+section.operations .doints {
+  text-align: center;
+  margin: 71px 0px 0px;
+}
+
+section.operations .phase01,
+section.operations .phase02,
+section.operations .phase03,
+section.operations .phase04,
+section.operations .phase05 {
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  font-family: "PFDin TextCondPro L";
+  font-size: 20px;
+  text-align: left;
+  line-height: 1.2;
+  color: #ffffff;
+  min-width: 100px;
+  padding: 58px 0px 0px;
+}
+
+section.operations .points,
+section.operations .errow {
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 61px;
+}
+
+section.operations .phase01 {
+  background-image: url("../img/section05_phone_01.png");
+}
+
+section.operations .phase02 {
+  background-image: url("../img/section05_line_01.png");
+}
+
+section.operations .phase03 {
+  background-image: url("../img/section05_contract.png");
+}
+
+section.operations .phase04 {
+  background-image: url("../img/section05_role_01.png");
+}
+
+section.operations .phase05 {
+  background-image: url("../img/section05_home_01.png");
+}
+
+section.operations .points {
+  background-image: url("../img/section05_points_01.png");
+  /* width: 34px; */
+  height: 9px;
+}
+
+section.operations .errow {
+  background-image: url("../img/section05_errow_01.png");
+  /* width: 31px; */
+  height: 29px;
+}
+
+section.operations .background-request .line-top {
+  background-image: url("../img/section05_background_line_bottom_01.png");
+  background-repeat: repeat;
+  height: 23px;
+}
+
+section.operations .background-request {
+  background-image: url("../img/section05_background_request_01.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  height: 495px;
+}
+
+/*Form elements*/
+section.operations .background-request .form {
+  float: right;
+  background-image: url("../img/section01_background_form01.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  text-align: center;
+  width: 398px;
+  height: 400px;
+  margin: 67px 5px 0px 0px;
+}
+
+section.operations .background-request .form-rubric {
+  font-family: "PFDin TextCondPro M";
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #ffcc33;
+  margin: 13px 0px 0px 0px;
+}
+
+section.operations .background-request .form-rubric div {
+  font-size: 18px;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+section.operations .background-request form {
+  width: 290px;
+  margin: 11px auto 0px;
+}
+
+section.operations .background-request .form-group {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+section.operations .background-request .form-control {
+  display: block;
+  width: 100%;
+  height: 42px;
+  padding: 6px 12px;
+  font-family: "PFDin TextCondPro L";
+  font-size: 18px;
+  line-height: 1.428571429;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+section.operations .background-request .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 7px 50px;
+  font-family: "PFDin TextCondPro M";
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #663300;
+  line-height: 1;
+  border-radius: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+section.operations .background-request .btn-warning {
+  background-image: url("../img/section01_background_btn_yellow_01.png");
+  background-repeat: repeat;
+  box-shadow: 0px 3px 0px 0px #cc9933;
+}
+
+section.operations .background-request .btn-warning:hover {
+  background-image: url("../img/section01_background_btn_yellow_hover_01.png");
+  background-repeat: repeat;
+  box-shadow: 0px 3px 0px 0px #cc9933;
+}
+/*END*//*Form elements*/
+/*============*/
+/*=    END   =*/ /*Section 05 page-proofs operations  `Как мы работаем`*/
+/*============*/
+
+
+/*============*/
+/*=  BEGINE  =*/ /*Footer*/
+/*============*/
+footer {
+  background-image: url("../img/footer_background_01.png");
+  background-repeat: repeat;
+  min-height: 110px;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 1.2;
+}
+footer .phone,
+footer .number-all,
+footer .center,
+footer .question {
+  display: inline-block;
+  vertical-align: middle;
+  color: #ffffff;
+  margin: 13px 0px 0px;
+}
+
+footer .phone {
+  background-image: url("../img/footer_phone_01.png");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  width: 40px;
+  height: 39px;
+}
+
+footer .number-all {
+  min-width: 100px;
+  line-height: inherit;
+  text-align: left;
+}
+
+footer .number-all .number {
+  font-family: "PFDin TextCondPro M";
+  font-size: 36px;
+}
+
+footer .number-all .text {
+  font-family: "PFDin TextCondPro L";
+  font-size: 20px;
+}
+
+footer .center {
+  font-family: "PFDin TextCondPro L";
+  font-size: 18px;
+  line-height: inherit;
+  width: 365px;
+  margin-top: 25px;
+}
+
+footer .question {
+  min-width: 300px;
+  line-height: 1.3;
+}
+
+footer .question .text {
+  font-family: "PFDin TextCondPro M";
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+footer .question .text-link {
+  font-family: "PFDin TextCondPro L";
+  font-size: 24px;
+}
+
+footer .question .text-link a {
+  text-decoration: underline;
+  color: #33ccff;
+}
+
+footer .question .text-link a:hover {
+  color: #33ccff;
+}
+/*============*/
+/*=    END   =*/ /*Footer*/
+/*============*/
+
+
+/*============*/
+/*=  MODALS  =*/ /*FOOTER Оставте свой вопрос*/
+/*============*/
+/*Form elements*/
+.questionModal .my-modal-dialog {
+    width: 440px;  margin: 30px auto;
+}
+
+.questionModal .my-modal-content {
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.questionModal .my-modal-header {
+    border-bottom: none;
+    margin-right: auto;
+}
+
+.questionModal .my-close {
+    background-color: #fff;
+    color: #000;
+}
+
+.questionModal .my-modal-body {
+    text-align: center;
+}
+
+.questionModal .form {
+  display: inline-block;
+  background-image: url("../img/section01_background_form01.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  text-align: center;
+  width: 398px;
+  height: 400px;
+  margin: 18px 21px 0px 0px;
+}
+
+.questionModal .form-rubric {
+  font-family: "PFDin TextCondPro M";
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #ffcc33;
+  margin: 21px 0px 0px 0px;
+}
+
+.questionModal .form-rubric div {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.questionModal form {
+  width: 290px;
+  margin: 15px auto 0px;
+}
+
+.questionModal .form-group {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.questionModal .form-control {
+  display: block;
+  width: 100%;
+  height: 42px;
+  padding: 6px 12px;
+  font-family: "PFDin TextCondPro L";
+  font-size: 18px;
+  line-height: 1.428571429;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.questionModal .questions-form-textarea {
+  display: block;
+  width: 100%;
+  height: 72px;
+  padding: 6px 12px;
+  font-family: "PFDin TextCondPro L";
+  font-size: 18px;
+  line-height: 1.428571429;
+  color: #555;
+  vertical-align: middle;
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+
+  resize: none;
+}
+
+.questionModal .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 7px 50px;
+  font-family: "PFDin TextCondPro M";
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #663300;
+  line-height: 1;
+  border-radius: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.questionModal .btn-warning {
+  background-image: url("../img/section01_background_btn_yellow_01.png");
+  background-repeat: repeat;
+  box-shadow: 0px 3px 0px 0px #cc9933;
+}
+
+.questionModal .btn-warning:hover {
+  background-image: url("../img/section01_background_btn_yellow_hover_01.png");
+  background-repeat: repeat;
+  box-shadow: 0px 3px 0px 0px #cc9933;
+}
+/*END*//*Form elements*/

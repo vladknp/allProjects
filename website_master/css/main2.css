@@ -1,0 +1,1728 @@
+
+/*=====  BODY  =====*/
+body {
+  min-width: 960px !important;
+  font-family: "Decima Nova Pro";
+  font-size: 18px;
+  font-weight: 400;
+  font-variant: small-caps;
+  color: #000;
+}
+
+.container {
+  max-width: 960px !important;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+/*=====  Header  =====*/
+header {
+  min-height: 84px;
+  white-space: nowrap;
+}
+
+header .header-left {
+  display: inline-block;
+  vertical-align: top;
+  background-image: url('../img/header_checkpoint01.png');
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  line-height: 22px;
+  width: 284px;
+  padding-left: 21px;
+  padding-top: 7px;
+  margin-top: 30px;
+  margin-left: 11px;
+}
+
+header .header-callback {
+  display: inline-block;
+  vertical-align: top;
+  background-image: url('../img/header_phone01.png');
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  min-height: 25px;
+  padding-left: 20px;
+  margin-top: -2px;
+  margin-left: 3px;
+  text-decoration: none;
+}
+
+header .header-callback .header-callback-text {
+  color: #000;
+  border-style: none none dashed none;
+  border-width: 1px;
+  border-color: #39C;
+  text-decoration: none;
+  line-height: 18px;
+  color: #39C;
+  padding: 4px 0px 0px 0px;
+}
+
+
+header .header-right {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
+  margin-left: 400px;
+  line-height: 28px;
+}
+
+header .header-right .header-questions-text {
+  font-weight: 700;
+}
+
+header .header-right .header-questions-number {
+  font-size: 24px;
+}
+
+header .header-right .header-address {
+}
+
+
+/*=====  BEGINE  =====
+Section 01 page-proofs profi "Профессиональные мастер-классы для детей в Киеве"*/
+section.profi {
+  position: relative;
+  background-image: url('../img/background_profi04.png');
+  background-repeat: repeat;
+  height: 594px;
+  overflow: hidden;
+}
+
+section.profi .profi-background {
+  background-image: url('../img/background_profi22.png');
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  height: 100%;
+}
+
+section.profi .profi-rubric {
+  background-image: url('../img/background_profi21.png');
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  height: 87px;
+}
+
+section.profi .profi-logo {
+  float: left;
+  overflow: hidden;
+  margin: 0px 0px 0px 1px;
+}
+
+section.profi .rubric-text1 {
+  font-weight: 700;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 18px 0px 0px 153px;
+  white-space: nowrap;
+}
+
+section.profi .rubric-text2 {
+  font-size: 20px;
+  color: #fff;
+  margin: -3px 0px 0px 153px;
+}
+
+section.profi .rubric-link {
+  font-weight: 700;
+  text-decoration: none;
+  border-style: none none solid none;
+  border-width: 1px;
+  border-color: #ffcc99;
+  color: #ffcc99;
+}
+
+section.profi .profi-form-all {
+  float: right;
+  background-image: url('../img/background_profi03.png');
+  background-repeat: repeat;
+  width: 340px;
+  height: 380px;
+  border: dashed #f33;
+  border-radius: 12px;
+  text-align: center;
+  margin: 49px 0px 0px 0px;
+}
+
+section.profi .profi-form-all .profi-form {
+  width: 300px;
+  margin: 0px auto 0px;
+}
+
+section.profi .profi-form-all .profi-form-rubric {
+  font-weight: 400;
+  font-size: 30px;
+  font-variant: normal;
+  line-height: 1.2;
+  margin: 55px 0px 20px 0px;
+}
+
+section.profi .profi-form-all .profi-form .profi-form-group {
+  margin: 0px 0px 12px 0px;
+}
+
+section.profi .profi-form-all .profi-form .profi-form-control {
+  display: block;
+  width: 100%;
+  height: 41px;
+  padding: 6px 12px;
+  font-size: 18px;
+  line-height: 1.428571429;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+section.profi .profi-form-all .profi-form .profi-btn {
+  display: inline-block;
+  padding: 8px 12px 6px;
+  margin: -1px 0px 10px 0px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  color: #323232;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  width: 100%;
+}
+
+section.profi .profi-form-all .profi-form .profi-btn-warning {
+  background-image: url("../img/btn_yellow01.png");
+  background-repeat: repeat;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+  /*box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 1px rgba(153, 153, 51, 0.07);*/
+  box-shadow: 0px 2px 0px 0px #91792A;
+}
+
+section.profi .profi-form-all .profi-form .profi-btn-warning:hover {
+  box-shadow: 0px 2px 0px 0px 91792a;
+  background-image: url("../img/btn_yellow_hover01.png");
+  background-repeat: repeat;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+  /*box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 1px rgba(0,0,0,0.075);*/
+}
+
+section.profi .profi-timer-all {
+  margin: 8px 0px 17px 0px;
+  margin-right: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: left;
+  width: 100%;
+}
+
+section.profi .profi-timer-all .profi-timer-rubric {
+  display: inline-block !important;
+  float: left;
+  vertical-align: top;
+  font-family: "Decima Nova Pro";
+  font-weight: 400;
+  font-size: 18px;
+  font-variant: small-caps;
+  line-height: 22px;
+  margin: 3px 0px 0px 0px;
+  text-align: left;
+}
+
+section.profi .profi-timer-all .profi-timer {
+  display: inline-block !important;
+  float: right;
+  vertical-align: top;
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+section.profi .profi-timer-all .profi-timer .profi-timer-section {
+  display: inline-block;
+  vertical-align: top;
+  width: 65px;
+  margin: 0px -9px 0px 0px;
+  text-align: center;
+}
+
+section.profi .profi-timer-all .profi-timer .profi-timer-section .profi-timer-element {
+  background-image: url("../img/timer_background01.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Decima Nova Pro";
+  font-weight: 700;
+  font-size: 30px;
+  font-variant: small-caps;
+  color: #fff;
+  width: 65px;
+  height: 48px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: bottom;
+  /* margin-left: 1px; */
+  margin-right: 1px;
+  margin-left: auto;
+}
+
+section.profi .profi-timer-all .profi-timer .profi-timer-section .profi-timer-section-lable {
+  font-family: "Decima Nova Pro";
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+/*=====  BEGINE  =====
+Section 02 page-proofs advantage "Тренажеры"*/
+section.advantage {
+  background-image: url("../img/background_advantage02.png");
+  background-repeat: repeat;
+}
+
+section.advantage .advantage-container {
+  background-image: url("../img/background_advantage21.png");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  margin: 0 auto;
+  min-height: 419px;
+}
+
+section.advantage .advantage-container .advantage-rubric {
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  margin: 33px 0px;
+}
+
+section.advantage .advantage-container .advantage-block {
+  display: inline-block;
+  float: left;
+  width: 320px;
+  margin: 29px auto 0px;
+  overflow: hidden;
+}
+
+section.advantage .advantage-container .advantage-block .img-block {
+  display: block;
+  margin: 0px auto 8px;
+}
+
+section.advantage .advantage-container .advantage-block .advantage-block-text1 {
+  font-size: 30px;
+  text-align: center;
+  color: #663300;
+  margin: 0px 0px 0px 0px;
+}
+
+section.advantage .advantage-container .advantage-block .advantage-block-text2 {
+  font-size: 20px;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  line-height: 1.2;
+}
+
+
+/*=====  BEGINE  =====
+Section 03 page-proofs training "Наши мастер-классы"*/
+section.training {
+}
+
+section.training .training-rubric1 {
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 31px 0px 0px 0px;
+  line-height: 1.28;
+}
+
+section.training .training-rubric2 {
+  font-size: 24px;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+}
+
+section.training .training-block-1 {
+  display: inline-block;
+  float: left;
+  margin: 23px auto 21px;
+  overflow: hidden;
+  width: 320px;
+}
+
+section.training .training-block-2 {
+  display: none;
+  float: left;
+  margin: 23px auto 21px;
+  overflow: hidden;
+  width: 320px;
+}
+
+section.training .training-block-img {
+  display: block;
+  text-align: center;
+  margin: 0px auto 0px;
+}
+
+section.training .training-text1 {
+  font-size: 30px;
+  text-align: center;
+  color: #663300;
+  margin: 0px 0px 0px 0px;
+  line-height: 1.36;
+  white-space: nowrap;
+  letter-spacing: -1px;
+}
+
+section.training .training-text1 .training-text1-after {
+  font-size: 18px;
+}
+
+section.training .training-text2 {
+  margin: 0px 0px 4px 0px;
+  text-align: center;
+}
+
+section.training .training-text2 .training-price-before {
+  font-size: 24px;
+  color: #cc0000;
+}
+
+section.training .training-text2 .training-price-after {
+  font-size: 18px;
+  color: #040404;
+  text-decoration: line-through;
+}
+
+section.training .training-btn {
+  display: block;
+  padding: 9px 12px 7px;
+  margin: -1px auto 10px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  box-shadow: 0px 0px 0px 0px  #999933;
+  width: 250px;
+}
+
+section.training .training-warning {
+  background-image: url("../img/btn_yellow01.png");
+  background-repeat: repeat;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+  /*box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 1px rgba(153, 153, 51, 0.07);*/
+  box-shadow: 0px 2px 0px 0px #91792a;
+  color: #323232;
+}
+
+section.training .training-warning:hover {
+  background-image: url("../img/btn_yellow_hover01.png");
+  background-repeat: repeat;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+  /*box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 1px rgba(0,0,0,0.075);*/
+  box-shadow: 0px 2px 0px 0px #91792a;
+}
+
+section.training .training-show-all {
+  background-image: url("../img/background_training01.png");
+  background-repeat: repeat;
+  height: 77px;
+  margin: -14px 0px 0px 0px;
+  text-align: center;
+}
+section.training .training-show-all div div {
+  display: none;
+  margin: 6px auto 0px;
+}
+
+section.training .training-show-all a {
+  font-weight: 700;
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+section.training .training-show-all a:hover {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+/*=====  END  =====*/
+
+
+/*=====  BEGINE  =====
+Section 04 page-proofs problems "Проблемы"*/
+section.problems {
+    padding: 0px 0px 24px 0px;
+}
+
+section.problems .problems-nowrap{
+  white-space: nowrap;
+}
+
+section.problems .problems-problems {
+  display: inline-block;
+  width: 478px;
+}
+
+section.problems .problems-problems .problems-rubrick-left {
+  font-weight: 700;
+  font-size: 48px;
+  color: #666666;
+  text-align: left;
+  line-height: 1.22;
+  margin: 59px 0px 26px 0px;
+}
+
+section.problems .problems-problems .problems-element {
+  background-image: url("../img/cross01.png");
+  background-repeat: no-repeat;
+  background-position: 0% 5px;
+  padding: 0px 0px 0px 40px;
+  margin: 0px 0px 0px 0px;
+  line-height: 1.1;
+  min-height: 85px;
+}
+
+section.problems .problems-problems .problems-element .element-text1 {
+font-size: 30px;
+margin: 0px 0px 0px 0px;
+}
+
+section.problems .problems-problems .problems-element .element-text2 {
+font-size: 20px;
+margin: 0px 0px 0px 0px;
+}
+section.problems .problems-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+section.problems .problems-right .problems-rubrick-right {
+  font-weight: 700;
+  font-size: 30px;
+  color: #ff9933;
+  line-height: 1.2;
+  margin: 72px 0px 57px 0px;
+}
+
+section.problems .problems-right .problems-notes {
+  background-image: url("../img/note01.png");
+  background-repeat: no-repeat;
+  background-position: 0% 4px;
+  margin: 0px 0px 0px 0px;
+  line-height: 1.1;
+}
+
+section.problems .problems-right .problems-notes .notes-text1 {
+}
+
+section.problems .problems-right .problems-notes .notes-text2 {
+}
+
+section.problems .problems-right .problems-medal {
+  background-image: url("../img/medal01.png");
+  background-repeat: no-repeat;
+  background-position: 0% 0px;
+  margin: 0px 0px 0px 0px;
+  line-height: 1.1;
+}
+
+section.problems .problems-right .problems-medal .medal-text1 {
+}
+
+section.problems .problems-right .problems-medal .medal-text2 {
+}
+
+section.problems .problems-right .problems-paint {
+  background-image: url("../img/paint01.png");
+  background-repeat: no-repeat;
+  background-position: 0% 0px;
+  margin: 0px 0px 0px 0px;
+  line-height: 1.1;
+}
+
+section.problems .problems-right .problems-paint .paint-text1 {
+}
+
+section.problems .problems-right .problems-paint .paint-text2 {
+}
+
+section.problems .problems-right .problems-smile {
+  background-image: url("../img/smile01.png");
+  background-repeat: no-repeat;
+  background-position: 0% 0px;
+  margin: 0px 0px 0px 0px;
+  line-height: 1.1;
+}
+
+section.problems .problems-right .problems-smile .smile-text1 {
+}
+
+section.problems .problems-right .problems-smile .smile-text2 {
+}
+
+section.problems .problems-right .problems-notes,
+section.problems .problems-right .problems-medal,
+section.problems .problems-right .problems-paint,
+section.problems .problems-right .problems-smile {
+  padding: 0px 0px 0px 65px;
+  margin: 0px 0px 0px 0px;
+  min-height: 85px;
+}
+
+section.problems .problems-right .problems-notes .notes-text1,
+section.problems .problems-right .problems-medal .medal-text1,
+section.problems .problems-right .problems-paint .paint-text1,
+section.problems .problems-right .problems-smile .smile-text1 {
+  font-size: 30px;
+}
+
+section.problems .problems-right .problems-notes .notes-text2,
+section.problems .problems-right .problems-medal .medal-text2,
+section.problems .problems-right .problems-paint .paint-text2,
+section.problems .problems-right .problems-smile .smile-text2 {
+  font-size: 20px;
+}
+/*=====  END  =====*/
+
+/*=====  BEGINE  =====
+Section 05 page-proofs report "Один день из жизни нашей студии"*/
+section.report {
+  background-image: url("../img/background_report22.png");
+  background-repeat: repeat;
+  padding: 0px 0px 0px 0px;
+  overflow: hidden;
+}
+
+section.report .report-rubric {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.22;
+  text-align: center;
+  color: #FFFFFF;
+  white-space: nowrap;
+  margin: 25px 0px 0px 0px;
+}
+
+section.report .report-rubric span {
+  color: #993333;
+}
+
+section.report .report-timer-all {
+  display: inline-block;
+  float: left;
+  margin: 8px 0px 17px 0px;
+  margin-right: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: left;
+  /* width: 100%; */
+}
+
+section.report .report-timer-all .report-timer-rubric {
+  display: inline-block !important;
+  float: left;
+  vertical-align: top;
+  font-family: "Decima Nova Pro";
+  font-weight: 400;
+  font-size: 18px;
+  font-variant: small-caps;
+  line-height: 22px;
+  color: #ffffff;
+  margin: 3px 20px 0px 0px;
+  text-align: left;
+}
+
+section.report .report-timer-all .report-timer {
+  display: inline-block !important;
+  float: left;
+  vertical-align: top;
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+section.report .report-timer-all .report-timer .report-timer-section {
+  display: inline-block;
+  vertical-align: top;
+  width: 65px;
+  margin: 0px -4px 0px 0px;
+  text-align: center;
+}
+
+section.report .report-timer-all .report-timer .report-timer-section .report-timer-element {
+  background-image: url("../img/timer_background01.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Decima Nova Pro";
+  font-weight: 700;
+  font-size: 30px;
+  font-variant: small-caps;
+  color: #fff;
+  width: 65px;
+  height: 53px;
+  text-align: center;
+  display: table-cell;
+  padding: 13% 0px 0px 0px;
+  /* vertical-align: bottom; */
+}
+
+section.report .report-timer-all .report-timer .report-timer-section .report-timer-section-lable {
+  font-family: "Decima Nova Pro";
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.report .report-btn {
+  display: inline-block;
+  float: right;
+  padding: 14px 12px;
+  margin: 8px auto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  box-shadow: 0px 0px 0px 0px  #999933;
+  width: 50%;
+}
+
+section.report .report-warning {
+  background-image: url("../img/btn_yellow01.png");
+  background-repeat: repeat;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+  /*box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 1px rgba(153, 153, 51, 0.07);*/
+  box-shadow: 0px 2px 0px 0px #91792A;
+  color: #323232;
+}
+
+section.report .report-warning:hover {
+  background-image: url("../img/btn_yellow_hover01.png");
+  background-repeat: repeat;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+  /*box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 1px rgba(0,0,0,0.075);*/
+  box-shadow: 0px 2px 0px 0px #91792a;
+}
+
+section.report .report-form {
+    overflow: hidden;
+  
+    width: 700px;
+    margin: 8px auto 0px;
+}
+
+section.report .video-all {
+  background-image: url("../img/background_one_day21.png");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  padding: 0px 0px 0px 0px;
+  height: 623px;
+  margin: 8px 0px 0px 0px;
+  text-align: center;
+}
+
+section.report .video-all .video-text {
+  float: left;
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: #FFFFFF;
+  margin: 119px 0px 0px 38px;
+}
+
+section.report .video-all iframe {
+  width: 560px;
+  height: 315px;
+  margin: 13px 0px 0px 0px;
+}
+/*=====  END  =====*/
+
+
+/*=====  BEGINE  =====
+Section 06 page-proofs reviews "Отзывы ..."*/
+section.reviews {
+  background-image: url("../img/background_report02.png");
+  background-repeat: repeat;
+  padding: 0px 0px 22px 0px;
+}
+
+section.reviews .reviews-rubric {
+  font-weight: 700;
+  font-size: 48px;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 23px 0px 31px 0px;
+}
+
+section.reviews .reviews-card-left {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-image: url("../img/background_reviews01.png");
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  width: 510px;
+  height: 219px;
+  margin: 0px 0px 0px 25px;
+}
+
+section.reviews .reviews-card-left .conment {
+  font-family: "Decima Nova Pro";
+  position: absolute;
+  margin: 20px 0px 0px 10px;
+  line-height: 1.2;
+}
+
+section.reviews .reviews-card-left .card-text {
+  font-family: "Decima Nova Pro B";
+  font-size: 24px;
+  margin: 160px 0px 0px 10px;
+}
+
+section.reviews .reviews-card-left .card-text span {
+  font-family: "Decima Nova Pro";
+  font-size: 18px;
+}
+
+section.reviews .reviews-card-right {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-image: url("../img/background_reviews01.png");
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  width: 369px;
+  height: 219px;
+  margin: 0px 0px 0px 0px;
+}
+
+section.reviews .reviews-card-right .conment {
+  position: absolute;
+  margin: 20px 0px 0px 10px;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+section.reviews .reviews-card-right .card-text {
+  font-family: Decima Nova Pro B;
+  font-size: 24px;
+  margin: 160px 0px 0px 10px;
+}
+
+section.reviews .reviews-card-right .card-text span {
+  font-family: "Decima Nova Pro";
+  font-size: 18px;
+}
+
+section.reviews .reviews-line {
+  margin: 0px 0px 53px 0px;
+}
+/*=====  END  =====*/
+
+
+/*=====  BEGINE  =====
+Section 07 page-proofs our-group "Наша команда:"*/
+section.our-group {
+    padding: 0px 0px 20px 0px;
+}
+
+section.our-group .our-group-rubric {
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 42px 0px 24px 0px;
+}
+
+section.our-group .cards-all {
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+
+section.our-group .cards-all .card {
+  display: inline-block;
+  vertical-align: top;
+  width: 143px;
+  text-align: left;
+  margin: 0px 47px 25px;
+}
+
+section.our-group .cards-all .card .photo01,
+section.our-group .cards-all .card .photo02,
+section.our-group .cards-all .card .photo03,
+section.our-group .cards-all .card .photo04,
+section.our-group .cards-all .card .photo05,
+section.our-group .cards-all .card .photo06,
+section.our-group .cards-all .card .photo07 {
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  width: 100%;
+  height: 138px;
+}
+
+section.our-group .cards-all .card .photo01 {
+  background-image: url("../img/section07_person_01_02.png");
+}
+
+section.our-group .cards-all .card .photo02 {
+  background-image: url("../img/section07_person_02_02.png");
+}
+
+section.our-group .cards-all .card .photo03 {
+  background-image: url("../img/section07_person_03_02.png");
+}
+
+section.our-group .cards-all .card .photo04 {
+  background-image: url("../img/section07_person_04_02.png");
+}
+
+section.our-group .cards-all .card .photo05 {
+  background-image: url("../img/section07_person_05_02.png");
+}
+
+section.our-group .cards-all .card .photo06 {
+  background-image: url("../img/section07_person_06_02.png");
+}
+
+section.our-group .cards-all .card .photo07 {
+  background-image: url("../img/section07_person_07_02.png");
+}
+
+section.our-group .cards-all .card .name {
+  font-family: "Decima Nova Pro";
+  font-size: 30px;
+  line-height: 1;
+  width: 220px;
+  white-space: nowrap;
+  margin: 10px 0px 0px 0px;
+}
+
+section.our-group .cards-all .card .position {
+  width: 210px;
+  line-height: 1;
+}
+
+
+/*=====  BEGINE  =====*/
+/*Section 08 page-proofs questions "Остались вопросы?*/
+section.question {
+  background-image: url("../img/background_question21.png");
+  background-repeat: repeat;
+  height: 350px;
+}
+
+section.question .container {
+  white-space: nowrap;
+}
+
+section.question .question-left {
+    display: inline-block;
+    width: 626px;
+    padding: 0px 0px 0px 5px;
+}
+
+section.question .question-left .question-left-rubric {
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+    margin: 61px 0px 19px 0px;
+}
+
+section.question .question-left .question-form-all {
+}
+
+section.question .question-left .question-inline-left {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    height: 100px;
+}
+
+section.question .question-left .question-inline-right {
+    display: inline-block;
+    vertical-align: top;
+    width: 296px;
+    height: 100px;
+    margin: 0px 0px 0px 20px;
+}
+
+section.question .question-left .question-form {
+  display: inline-block;
+  vertical-align: top;
+  width: 352px;
+  margin: 20px 0px 16px 0px;
+}
+
+section.question .question-left .question-form-group {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.question .question-left .question-form-textarea:focus,
+section.question .question-left .question-form-textarea:hover {
+  font-size: 14px;
+}
+
+section.question .question-left .question-form-textarea {
+  display: block;
+  width: 100%;
+  height: 99px;
+  padding: 6px 12px;
+  font-size: 18px;
+  line-height: 1.428571429;
+  color: #555;
+  vertical-align: middle;
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  resize: none;
+}
+
+section.question .question-left .questions-form-input {
+}
+
+section.question .question-left .question-form-control {
+  display: block;
+  height: 42px;
+  padding: 6px 12px;
+  font-size: 18px;
+  line-height: 1.428571429;
+  color: #555;
+  vertical-align: middle;
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  resize: none;
+}
+
+section.question .question-left .question-btn {
+  float: right;
+  overflow: hidden;
+  display: inline-block;
+  padding: 10px 12px 7px;
+  margin: 16px 0px 10px 0px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  box-shadow: 0px 0px 0px 0px  #999933;
+  /* width: 100%; */
+}
+
+section.question .question-left .question-btn-warning {
+  background-image: url("../img/btn_yellow01.png");
+  background-repeat: repeat;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+  /*box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 1px rgba(153, 153, 51, 0.07);*/
+  box-shadow: 0px 2px 0px 0px #91792a;
+  color: #323232;
+}
+
+section.question .question-left .question-btn-warning:hover {
+  background-image: url("../img/btn_yellow_hover01.png");
+  background-repeat: repeat;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+  /*box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 1px rgba(0,0,0,0.075);*/
+  box-shadow: 0px 2px 0px 0px #91792a;
+}
+
+section.question .question-right {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 0px 0px 0px 51px;
+}
+
+section.question .question-right .question-right-rubric {
+    font-weight: 700;
+    font-size: 36px;
+    margin: 61px 0px 0px 0px;
+}
+
+section.question .question-right .question-telephone {
+    margin: 10px 0px 0px 0px;
+}
+
+section.question .question-right .question-telephone span {
+    font-size: 24px;
+}
+
+section.question .question-right .question-callback {
+  background-image: url("../img/phone02.png");
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  padding: 0px 0px 0px 30px;
+  margin: 0px 0px 0px 0px;
+}
+
+section.question .question-right .question-callback a {
+  font-weight: 700;
+  color: #003333;
+  border-style: none none dashed none;
+  border-width: 1px;
+  border-color: #003333;
+  text-decoration: none;
+}
+
+section.question .question-right .question-address span {
+    font-size: 24px;
+}
+
+section.question .question-right .question-address {
+    margin: 12px 0px 0px 0px;
+    line-height: 1.2;
+}
+/*=====  END  =====*/
+
+/*=====  BEGINE  =====
+Section 09 page-proofs map "Карта"*/
+section.map {
+    height: auto;
+}
+section.map iframe {
+  width: 100%;
+  height: 430px;
+}
+/*=====  END  =====*/
+
+
+/*=====  BEGINE  =====
+FOOTER"*/
+footer {
+  background-image: url('../img/background_footer01.png');
+  background-repeat: repeat;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  min-height: 127px;
+  padding: 6px 0px 0px 0px;
+  margin: -7px 0px 0px 0px;
+}
+
+.footer-container {
+  background-image: url('../img/footer_logo01.png');
+  background-repeat: no-repeat;
+  background-position: 1% 0%;
+  min-height: 127px;
+  padding: 19px 0px 0px 0px;
+  margin: -6px 0px 0px 0px;
+}
+
+.footer-container .footer-text1 {
+  font-size: 26px;
+  font-weight: 700;
+  /* margin: 13px 0px 0px 0px; */
+}
+
+.footer-container .footer-text2 {
+    font-size: 16px;
+    margin: 3px 0px 0px 0px;
+}
+
+/*==============================*/
+/*=====  ---  MODALS  ---  =====*/
+/*==============================*/
+/*Модальна форма: Заказать обратный звонок. Header page-proofs header "верх сайту"*/
+.my-modal-callback-dialog {
+  width: 780px;
+}
+
+.my-modal-callback-content {
+  border-radius: 0px;
+  padding: 10px 10px 73px 10px;
+}
+
+.my-modal-callback-rubric {
+  font-weight: 700;
+
+  font-size: 48px;
+  text-align: center;
+  margin: 7px 0px 0px 0px;
+}
+
+.my-modal-callback-rubric1 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #000;
+  text-align: center;
+  margin: -8px 0px 0px 0px;
+}
+
+/*---  Форма лінійна ---*/
+.my-modal-callback-form-all {
+  background-image: url('../img/my_modal_form_background01.png');
+  background-repeat: repeat;
+  background-position: center;
+  margin: 24px 0px 0px 0px;
+  padding: 16px 0px;
+}
+
+.my-modal-callback-form-inline {
+  margin: 0 3px;
+  white-space: nowrap;
+}
+
+.my-modal-callback-form-inline .my-modal-callback-form-group {
+  width: 210px;
+  margin-left: 10px;
+}
+
+.my-modal-callback-form-inline .my-modal-callback-form-group .my-modal-callback-form-control {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 6px 12px;
+  font-family: "Decima Nova Pro";
+  font-size: 18px;
+  font-variant: small-caps;
+  line-height: 1.428571429;
+  color: #555;
+  vertical-align: middle;
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.my-modal-callback-form-inline .my-modal-callback-btn {
+  /*---  btn-warning  ---*/
+  background-image: -webkit-gradient(linear,left 0,left 100%,from(#F0AD4E),to(#EC971F));
+  background-image: -webkit-linear-gradient(top,#f0ad4e,0%,#ec971f,100%);
+  background-image: -moz-linear-gradient(top,#f0ad4e 0,#ec971f 100%);
+  background-image: linear-gradient(to bottom,#F0AD4E 0,#EC971F 100%);
+  background-repeat: repeat-x;
+  border-color: #EB9316;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e',endColorstr='#ffec971f',GradientType=0);
+  background-repeat: repeat-x;
+  /*---*/
+  display: inline-block;
+  padding: 6px 12px;
+  font-family: "Decima Nova Pro";
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  text-transform: uppercase;
+  color: #000;
+  margin: 0px 0px 0px 12px;
+  height: 38px;
+  width: 260px;
+  background-image: url('../img/btn_yellow01.png');
+  background-repeat: repeat;
+  box-shadow: 0px 2px 0px 0px #76610F;
+}
+
+.my-modal-callback-form-inline .my-modal-callback-btn:hover {
+  /*---  btn-warning  ---*/
+  background-image: -webkit-gradient(linear,left 0,left 100%,from(#F0AD4E),to(#EC971F));
+  background-image: -webkit-linear-gradient(top,#f0ad4e,0%,#ec971f,100%);
+  background-image: -moz-linear-gradient(top,#f0ad4e 0,#ec971f 100%);
+  background-image: linear-gradient(to bottom,#F0AD4E 0,#EC971F 100%);
+  background-repeat: repeat-x;
+  border-color: #EB9316;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e',endColorstr='#ffec971f',GradientType=0);
+  background-repeat: repeat-x;
+  background-color: #ED9C28;
+  border-color: #D58512;
+  /*---*/
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-family: "Decima Nova Pro";
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  text-transform: uppercase;
+  color: #000;
+  margin-left: 12px;
+  width: 260px;
+  background-image: url('../img/btn_yellow_hover01.png');
+  background-repeat: repeat;
+  box-shadow: 0px 1px 0px 0px #64670C;
+}
+
+
+/*Модальна форма: Section 03 page-proofs training "Наши мастер-классы". Подробнее о мастер класах*/
+.my-modal-training-dialog {
+    width: 780px;
+}
+
+.my-modal-training-content {
+    border-radius: 0px;
+    padding: 10px 20px 80px 20px;
+}
+
+.my-modal-training-rubric {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    margin: 7px 0px 0px 0px;
+}
+
+.my-modal-training-price {
+  display: none;
+  font-weight: 700;
+  font-size: 36px;
+  color: #cc3333;
+  text-align: center;
+  margin: -8px 0px 0px 0px;
+}
+
+.my-modal-training-price span {
+  font-size: 24px;
+  color: #000;
+  text-decoration: line-through;
+}
+
+.my-modal-training-time {
+  font-size: 24px;
+  color: #663300;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+}
+
+.my-modal-training-content-all {
+    overflow: hidden;
+}
+
+.my-modal-training-content-all .my-modal-training-content-left {
+  float: left;
+  background-image: url("../img/modal-trainint01.png");
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  padding: 0px 0px 0px 30px;
+  margin: 30px 0px 0px 0px;
+  width: 389px;
+}
+
+.my-modal-training-content-all .my-modal-training-content-left span {
+    font-variant: normal;
+    line-height: 1.3;
+    overflow: hidden;
+}
+
+.my-modal-training-content-all .my-modal-training-content-left span div {
+    height: 213px;
+}
+
+.my-modal-action-timer-container {
+  width: 310px;
+  margin: 0px auto 0px;
+}
+
+.my-modal-training-timer-all {
+  display: none;
+  margin: 0px 0px 17px 0px;
+  margin-right: auto;
+  margin-left: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: left;
+  width: 100%;
+}
+
+.my-modal-training-timer-all .my-modal-training-timer-rubric {
+  display: inline-block !important;
+  float: left;
+  vertical-align: top;
+  font-family: "Decima Nova Pro";
+  font-weight: 400;
+  font-size: 18px;
+  font-variant: small-caps;
+  line-height: 22px;
+  margin: 3px 0px 0px 0px;
+  text-align: left;
+}
+
+.my-modal-training-timer-all .my-modal-training-timer {
+  display: inline-block !important;
+  float: right;
+  vertical-align: top;
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+.my-modal-training-timer-all .my-modal-training-timer .my-modal-training-timer-section {
+  display: inline-block;
+  vertical-align: top;
+  width: 65px;
+  margin: 0px -9px 0px 0px;
+  text-align: center;
+}
+
+.my-modal-training-timer-all .my-modal-training-timer .my-modal-training-timer-section .my-modal-training-timer-element {
+  background-image: url("../img/timer_background01.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Decima Nova Pro";
+  font-weight: 700;
+  font-size: 30px;
+  font-variant: small-caps;
+  color: #fff;
+  width: 65px;
+  height: 48px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: bottom;
+  /* margin-left: 1px; */
+  margin-right: 1px;
+  margin-left: auto;
+}
+
+.my-modal-training-timer-all .my-modal-training-timer .my-modal-training-timer-section .my-modal-training-timer-section-lable {
+  font-family: "Decima Nova Pro";
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+.my-modal-training-content-right {
+  float: right;
+  background-image: url("../img/background_my-modal01.png");
+  background-repeat: repeat;
+  padding: 0px 0px 20px 0px;
+  margin: 20px 0px 0px 0px;
+  width: 323px;
+}
+
+.my-modal-training-content-right .my-modal-training-content-right-rubric {
+  font-size: 30px;
+  font-variant: normal;
+  text-align: center;
+  line-height: 1.2;
+  color: #000000;
+  margin: 17px 0px 16px 0px;
+}
+
+.my-modal-training-form {
+  width: 90%;
+  margin: 0px auto 0px;
+}
+
+.my-modal-training-form-rubric {
+  font-weight: 400;
+  font-size: 30px;
+  font-variant: normal;
+  line-height: 1.2;
+  margin: 32px 0px 20px 0px;
+}
+
+.my-modal-training-form .my-modal-training-form-group {
+  margin: 0px 0px 18px 0px;
+}
+
+.my-modal-training-form .my-modal-training-form-control {
+  display: block;
+  width: 100%;
+  height: 41px;
+  padding: 6px 12px;
+  font-size: 18px;
+  line-height: 1.428571429;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.my-modal-training-form .my-modal-training-btn {
+  display: inline-block;
+  padding: 14px 12px 10px;
+  margin: -1px 0px 10px 0px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  box-shadow: 0px 0px 0px 0px  #999933;
+  width: 100%;
+}
+
+.my-modal-training-form .my-modal-training-btn-warning {
+  background-image: url("../img/btn_yellow01.png");
+  background-repeat: repeat;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+  /*box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 1px rgba(153, 153, 51, 0.07);*/
+  box-shadow: 0px 2px 0px 0px rgba(188, 174, 37, 0.85);
+  color: #000;
+}
+
+.my-modal-training-form .my-modal-training-btn-warning:hover {
+  background-image: url("../img/btn_yellow_hover01.png");
+  background-repeat: repeat;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+  /*box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 1px rgba(0,0,0,0.075);*/
+  box-shadow: 0px 2px 0px 0px rgba(203, 189, 38, 0.85);
+}
+
+
+/*Модальна форма: Section 05 page-proofs report "Один день из жизни нашей студии". Получить скидку */
+.my-modal-action-dialog {
+    width: 780px;
+}
+
+.my-modal-action-content {
+    border-radius: 0px;
+    padding: 10px 20px 20px 20px;
+}
+
+.my-modal-action-rubric {
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  line-height: 1.2;
+  margin: 7px 0px 10px 0px;
+}
+
+.my-modal-action-rubric div {
+  font-size: 34px;
+  margin: 40px 0px 0px 0px;
+}
+
+.my-modal-action-rubric div span {
+  color: #993333;
+}
+
+.my-modal-action-content-all {
+    width: 714px;
+    margin: 0px auto 40px;
+}
+
+.my-modal-action-timer-all {
+  margin: 0px 0px 17px 0px;
+  margin-right: auto;
+  margin-left: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: left;
+  width: 100%;
+}
+
+.my-modal-action-timer-all .my-modal-action-timer-rubric {
+  display: inline-block !important;
+  float: left;
+  vertical-align: top;
+  font-family: "Decima Nova Pro";
+  font-weight: 400;
+  font-size: 18px;
+  font-variant: small-caps;
+  line-height: 22px;
+  margin: 3px 0px 0px 0px;
+  text-align: left;
+}
+
+.my-modal-action-timer-all .my-modal-action-timer {
+  display: inline-block !important;
+  float: right;
+  vertical-align: top;
+  margin-top: 0px;
+  margin-left: -5px;
+}
+
+.my-modal-action-timer-all .my-modal-action-timer .my-modal-action-timer-section {
+  display: inline-block;
+  vertical-align: top;
+  width: 65px;
+  margin: 0px -9px 0px 0px;
+  text-align: center;
+}
+
+.my-modal-action-timer-all .my-modal-action-timer .my-modal-action-timer-section .my-modal-action-timer-element {
+  background-image: url("../img/timer_background01.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Decima Nova Pro";
+  font-weight: 700;
+  font-size: 30px;
+  font-variant: small-caps;
+  color: #fff;
+  width: 65px;
+  height: 48px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: bottom;
+  /* margin-left: 1px; */
+  margin-right: 1px;
+  margin-left: auto;
+}
+
+.my-modal-action-timer-all .my-modal-action-timer .my-modal-action-timer-section .my-modal-action-timer-section-lable {
+  font-family: "Decima Nova Pro";
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+.my-modal-action-form {
+  width: 100%;
+  margin: 0px auto 0px;
+}
+
+.my-modal-action-form-rubric {
+  font-weight: 400;
+  font-size: 30px;
+  font-variant: normal;
+  line-height: 1.2;
+  margin: 32px 0px 20px 0px;
+}
+
+.my-modal-action-form .my-modal-action-form-group {
+  display: inline-block;
+  margin: 0px 7px 0px;
+  width: 31%;
+}
+
+.my-modal-action-form .my-modal-action-form-control {
+  display: block;
+  width: 100%;
+  height: 41px;
+  padding: 6px 12px;
+  font-size: 18px;
+  line-height: 1.428571429;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.my-modal-action-form .my-modal-action-btn {
+  display: inline-block;
+  padding: 14px 12px 10px;
+  margin: -4px 0px 0px 0px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  box-shadow: 0px 0px 0px 0px  #999933;
+  width: 100%;
+}
+
+.my-modal-action-form .my-modal-action-btn-warning {
+  background-image: url("../img/btn_yellow01.png");
+  background-repeat: repeat;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+  /*box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 1px rgba(153, 153, 51, 0.07);*/
+  box-shadow: 0px 2px 0px 0px #91792A;
+  color: #323232;
+}
+
+.my-modal-action-form .my-modal-action-btn-warning:hover {
+  background-image: url("../img/btn_yellow_hover01.png");
+  background-repeat: repeat;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+  /*box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 1px rgba(0,0,0,0.075);*/
+  box-shadow: 0px 2px 0px 0px #91792A;
+}

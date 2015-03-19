@@ -1,0 +1,447 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+/*=====  Header  =====*/
+header {
+	white-space: nowrap;
+	font-size: 18px;
+	font-weight: 400;
+	min-height: 153px;
+}
+
+.img-point {
+	margin-left: 8px;
+	vertical-align: inherit;
+}
+
+.img-phone {
+	margin-left: 5px;;
+}
+
+header.header-position {
+	background-color: #fff;
+	background-position: center;
+	background-repeat: repeat-x;
+}
+
+header.header-position .top-ribbon {
+	background-image: url('../img/header_top_ribbon01.png');
+	background-color: #fff;
+	background-position: center;
+	background-repeat: repeat-x;
+	height: 5px;
+}
+
+header.header-position .left-text {
+	margin-top: 18px;
+	text-align: left;
+}
+
+.callback-all {
+	margin-left: -70px;
+}
+
+header.header-position .center-text {
+	margin-top: 13px;
+	line-height: 30px;
+}
+
+header.header-position .right-text {
+	float: right;
+}
+
+header.header-position .address-text {
+	margin-left: 10px;
+	letter-spacing: -1px;
+}
+
+header.header-position .callback-link-all {
+	margin-left: 5px;
+	text-decoration: none;
+}
+
+header.header-position .question {
+	margin-top: 3px;
+	letter-spacing: -2px;
+}
+
+header.header-position .text-num01 {
+	line-height: 26px;
+}
+
+header.header-position .callback-text {
+	border-style: none none dashed none;
+	border-color: #d14d53;
+	border-width: 1px;
+	margin-left: 6px;
+	color: #000;
+	line-height: 18px;
+	letter-spacing: 1px;
+	margin-top: 6px;
+}
+
+/*=====  Section 01 Говорящие хомяки  =====*/
+section.talking-hanter {
+	background-image: url('../img/talking_hamster_background01.png');
+	background-repeat: repeat-x;
+	background-position: center;
+	background-color: #fff;
+	min-height: 479px;
+}
+
+section.talking-hanter .ribbon {
+	margin-top: -26px;
+}
+
+/*=====  FORM  =====  BEGIN  =====*/
+section.talking-hanter .form-all {
+	position: relative;
+	margin-right: 10px;
+}
+
+section.talking-hanter .form {
+	position: absolute;
+	background-color: #fff;
+	height: 370px;
+	width: 460px;
+	margin-top: 30px;
+	margin-left: 493px;
+	border-radius: 10px;
+	box-shadow: -3px 3px 8px 0px #a2a2a3;
+}
+
+section.talking-hanter .talking-action {
+	margin-top: 17px;
+	background-image: url('../img/img_text_action01.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	color: transparent;
+}
+
+section.talking-hanter .action-text {
+	margin-top: -8px;
+	line-height: 36px;
+}
+
+section.talking-hanter .form-select {
+	margin-top: 17px;
+}
+
+section.talking-hanter select.form-control {
+	display: inline-block;
+	width: 209px;
+	margin-left: 16px;
+	float: left;
+	font-family: Open Sans;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+/*=====  TIMER-FORM  =====  BEGIN  =====*/
+section.talking-hanter .countdonw-text {
+	width: 133px;
+	margin-top: -8px;
+	vertical-align: middle;
+	line-height: 21px;
+	text-align: left;
+}
+
+section.talking-hanter .timer {
+  vertical-align: middle;
+
+  margin-top: 15px;
+  /* margin-left: -15px; */
+}
+
+section.talking-hanter .timer-section {
+  background: url('../img/talking_hamster_time_background01.png') center;
+  background-repeat: no-repeat;
+  width: 63px;
+  color: #fff;
+  margin-right: 0px;
+  text-align: center;
+  /* font-weight: bold; */
+}
+
+section.talking-hanter .timer-container {
+	margin-left: 202px;
+	margin-top: -3px;
+}
+
+section.talking-hanter .timer-lable {
+	text-align: center;
+}
+
+section.talking-hanter .btn {
+	color: #000;
+}
+
+/*=====  TIMER-FORM  =====  ENG  ===== */
+/*=====  FORM  =====  END  =====*/
+
+/*=====  ADVANTAGE  =====  BEGIN  =====*/
+section.advantage {
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 272px;
+}
+
+section.advantage .advantage-left {
+	width: 464px;
+	margin-top: 69px;
+	margin-left: 26px;
+}
+
+section.advantage .advantage-right {
+	width: 400px;
+	margin-left: 21px;
+}
+
+section.advantage .advantage-text {
+	width: 370px;
+	vertical-align: middle;
+	margin-left: 7px;
+	line-height: 28px;
+}
+
+section.advantage .advantage-line1 {
+	margin-top: 0px;}
+
+section.advantage .advantage-line2 {
+	margin-top: 20px;}
+
+section.advantage .advantage-img {
+	width: 57px;
+	height: 52px;
+}
+
+/*=====  ADVANTAGE  =====  END  =====*/
+
+/*=====  CARET  =====  BEGIN  =====*/
+section.caret-section {
+	background-color: #e5e5e5;
+	min-height: 88px;
+}
+/*=====  CARET  =====  END  =====*/
+
+/*=====  ORIGINAL  =====  BEGIN  =====*/
+section.original {
+}
+
+section.original .youtube {
+	background-color: #000;
+	width: 456px;
+	margin-left: 16px;
+	margin-top: 25px;
+}
+
+section.original .text-all {
+	background-color: #fff;
+	min-height: 280px;
+	width: 474px;
+	float: right;
+	margin-top: 32px;
+}
+
+section.original .text-one {
+	letter-spacing: -2px;
+	line-height: 1.2;
+}
+
+section.original .text-two {
+	margin-top: 3px;
+	margin-left: 46px;
+	line-height: 1.3;
+}
+
+section.original .see-img {
+	margin-top: 23px;
+	margin-left: 48px;
+}
+
+section.conditions-work {
+	min-height: 366px;
+	margin-top: -5px;
+}
+
+section.conditions-work .rubric {
+	margin-top: 51px;
+}
+
+section.conditions-work .conditions-work-img {
+	margin-left: 21px;
+	margin-top: 21px;
+}
+/*=====  ORIGINAL  =====  END  =====*/
+/*=====  Section 01 Оригинальный Woody  =====  END  =====*/
+
+
+/*=====  Section 02 Отзыви  =====  BEGIN  =====*/
+section.reviews {
+	background-image: url('../img/img_background_reviews01.png');
+	background-repeat: repeat;
+	min-height: 480px;
+}
+
+section.reviews .reviews-rubric {
+	text-shadow: -2px 2px 6px #3b5d46;
+	margin-top: 33px;
+	color: #fff;
+}
+
+section.reviews .photograph-all {
+	background-image: url('../img/reviews_photogrash01.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	width: 301px;
+	min-height: 314px;
+	margin-top: 33px;
+}
+
+section.reviews .photo-description {
+
+}
+
+section.reviews .photo {
+	margin-top: 14px;
+	margin-left: 24px;
+	float: left;
+}
+
+section.reviews .description {
+	margin-top: 41px;
+	margin-left: 22px;
+	line-height: 1.3;
+}
+
+section.reviews .photograph-center {
+	margin-left: 28px;
+}
+section.reviews .review-text {
+	width: 274px;
+	max-height: 150px;
+	margin-top: 30px;
+	margin-left: 22px;
+	line-height: 22px;
+	overflow-y: hidden;
+}
+/*=====  Section 02 Отзыви  =====  END  =====*/
+
+
+/*=====  Section 03 BEST GIFT Лучший подарок...  =====  BEGIN  =====*/
+section.best-gift {
+	min-height: 582px;
+}
+
+section.best-gift .best-gift-rubric {
+	margin-top: 55px;
+}
+
+section.best-gift .best-gift-position-pic {
+	position: absolute;
+	margin-top: 83px;
+	margin-left: 42px;
+}
+
+/*=====  FORM  =====  BEGIN  =====*/
+section.best-gift .form-all {
+	position: relative;
+	margin-right: 10px;
+}
+
+section.best-gift .form {
+	position: absolute;
+	background-image: url('../img/img_background_best_gift01.png');
+	height: 335px;
+	width: 460px;
+	margin-top: 40px;
+	margin-left: 458px;
+	border-radius: 10px;
+	box-shadow: -3px 3px 8px 0px #a2a2a3;
+}
+
+section.best-gift .talking-action {
+	margin-top: 17px;
+	letter-spacing: 5px;
+	background-image: url('../img/img_text_action01.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	color: transparent;
+}
+
+section.best-gift .action-text {
+	margin-top: -7px;
+	line-height: 1.17;
+}
+
+section.best-gift .form-select {
+	margin-top: 18px;;
+}
+
+section.best-gift select.form-control {
+	display: inline-block;
+	width: 200px;
+	margin-left: 16px;
+	height: 40px;
+	width: 209px;
+	font-family: Open Sans;
+	font-weight: 400;
+	font-size: 18px;
+	float: left;
+}
+
+/*=====  TIMER-FORM  =====  BEGIN  =====*/
+section.best-gift .countdonw-text {
+	width: 133px;
+	margin-left: 73px;
+	margin-top: 15px;
+	vertical-align: middle;
+}
+
+section.best-gift .timer {
+  vertical-align: middle;
+	margin-top: 10px;
+}
+
+section.best-gift .timer-section {
+  background: url('../img/best_gift_time_background01.png') center;
+  background-repeat: no-repeat;
+  width: 48px;
+  color: #fff;
+  margin-right: 14px;
+}
+
+section.best-gift .timer-container {
+	margin-left: 212px;
+	margin-top: -3px;
+}
+
+section.best-gift .timer-lable {
+	margin-right: 19px;
+}
+/*=====  TIMER-FORM  =====  ENG  ===== */
+/*=====  FORM  =====  END  =====*/
+/*=====  Section 03 BEST GIFT Лучший подарок...  =====  END  =====*/
+
+
+/*=====  FOOTER  =====*/
+footer {
+	background-color: #232323;
+	background-repeat: repeat-x;
+	min-height: 94px;
+}
+
+footer .footer-left {
+	margin-right: 130px;
+	margin-top: 20px;
+}
+
+footer .footer-right {
+	margin-top: 20px;
+}
+

@@ -1,0 +1,97 @@
+section {
+	background-image: url(../img/thank_background0101.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+	padding-top: 25px;
+	height: 100%;
+	background-size: cover;
+}
+
+img {
+	display: block;
+	margin: 0px auto 0px;
+}
+
+.rubric {
+	font-family: PFDin TextCondPro L;
+	font-size: 1.125rem;
+	margin: 6px auto 0px;
+	text-align: center;
+	color: #fff;
+}
+
+.rubric-thank,
+.rubric-text {
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.rubric-thank {
+	font-family: PFDin TextCompPro M;
+	font-size: 3.75rem;
+	margin: 124px 0px 0px;
+}
+
+.rubric-text {
+	font-family: PFDin TextCondPro L;
+	font-size: 1.5rem;
+	margin: 12px 0px 0px;
+	line-height: 28px;
+	line-height: 117%;
+}
+
+.button-border {
+	width: 26rem;
+	margin: 17px auto 25px;
+	border: solid;
+	border-radius: 6px;
+	background-color: #dee7e9;
+	border: solid 4px #dee7e9;
+}
+
+.button-tour-choice {
+	font-size: 1.25rem;
+	font-family: PFDin TextCompPro R;
+	font-size: 1.875rem;
+	line-height: 55%;
+	width: 26rem;
+	width: 100%;
+	padding-top: 19px;
+	padding-bottom: 15px;
+  margin-bottom: 4px;
+}
+
+.alert-tour-choice {
+	background-image: url(../img/button_red_0101.png);
+	background-repeat: repeat;
+	box-shadow: 0rem 0.25rem 0rem #8e3637;
+	text-transform: uppercase;
+  color: #fff;
+}
+
+.alert-tour-choice:hover,
+.alert-tour-choice:active {
+	background-image: url(../img/button_red_hover0101.png);
+	background-repeat: repeat;
+	box-shadow: 0rem 0.25rem 0rem #8e3637;
+
+}
+
+.footnote {
+	font-family: PFDin TextCondPro L-I;
+	font-size: 1.25rem;
+	color: #fff;
+	text-align: center;
+}
+
+footer {
+	right: 0;
+	left: 0;
+	position: absolute;
+	bottom: 20px;
+	font-family: PFDin TextCondPro L;
+	font-size: 1.25rem;
+	text-align: center;
+	color: #fff;
+}

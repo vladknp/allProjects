@@ -1,0 +1,168 @@
+/*=====  BODY  =====*/
+body {
+  min-width: 960px !important;
+  font-family: "Decima Nova Pro";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 960px !important;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+/*=====  Header  =====*/
+header {
+  min-height: 91px;
+}
+
+.header-logo {
+  margin-top: 24px;
+  margin-left: -3px;
+  display: inline-block;
+  float: left;
+}
+
+.header-col-1 {
+  margin-top: 21px;
+  margin-left: 3px;
+  display: inline-block;
+}
+
+.header-text-1 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.header-text-2 {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: -3px;
+}
+
+.header-col-2 {
+  display: inline-block;
+  float: right;
+  text-align: center;
+  margin-top: 6px;
+  margin-right: 2px;
+}
+
+.header-text-question {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.header-text-number {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.header-img-phone {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.header-link-callback {
+  text-decoration: none;
+}
+
+.header-text-callback {
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+  float: left;
+  margin-left: 12px;
+  border-style: none none dashed none;
+  border-color: #d14d53;
+  border-width: 1px;
+  line-height: 17px; margin-top: 6px;
+}
+
+
+/*=====  BEGINE  =====
+Step 3 page-proofs Thank.html*/
+section.thank {
+  background-image: url('../img/profi02.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 513px;
+  text-align: center;
+}
+
+section.thank .thank-content {
+    font-weight: 700;
+    font-size: 48px;
+    font-variant: small-caps;
+    margin-top: 140px;
+    color: #fff;
+    text-shadow: 0px 0px 3px #333;
+}
+
+section.thank .thank-content .thank-manage {
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: -10px;
+}
+
+section.thank .back {
+  background-image: -webkit-gradient(linear,left 0,left 100%,from(#D9534F),to(#C9302C));
+  background-image: -webkit-linear-gradient(top,#d9534f,0%,#c9302c,100%);
+  background-image: -moz-linear-gradient(top,#d9534f 0,#c9302c 100%);
+  background-image: linear-gradient(to bottom,#D9534F 0,#C9302C 100%);
+  background-repeat: repeat-x;
+  border-color: transparent;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc3333',endColorstr='#cc3333',GradientType=0);
+  background-image: url('../img/profi_btn01.png');
+  background-repeat: repeat;
+  border-radius: 0px;
+  box-shadow: 0px 3px 0px 0px #933;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 9px;
+  height: 47px;
+}
+
+section.thank .back:hover {
+  background-image: -webkit-gradient(linear,left 0,left 100%,from(#D9534F),to(#C9302C));
+  background-image: -webkit-linear-gradient(top,#d9534f,0%,#c9302c,100%);
+  background-image: -moz-linear-gradient(top,#d9534f 0,#c9302c 100%);
+  background-image: linear-gradient(to bottom,#D9534F 0,#C9302C 100%);
+  background-repeat: repeat-x;
+  border-color: transparent;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f',endColorstr='#ffc9302c',GradientType=0);
+  background-image: url('../img/profi_btn_active01.png');
+  background-repeat: repeat;
+  border-radius: 0px;
+  box-shadow: 0px 2px 0px 0px #993333;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 9px;
+  height: 47px;
+}
+
+
+/*=====  BEGINE  =====
+footer*/
+footer.footer-all {
+  background-image: url('../img/footer_background01.png'); 
+  background-repeat: repeat;
+  min-height: 84px;
+}
+
+footer.footer-all .content {
+    font-weight: 700;
+    font-size: 18px;
+    font-variant: small-caps;
+    color: #fff;
+    text-align: center;
+    padding-top: 31px;
+    min-height: 84px;
+}

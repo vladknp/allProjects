@@ -1,0 +1,111 @@
+/*
+
+	The following chart describes the possible mappings of weights to the numeric definitions.
+	More details at http://www.webtype.com/info/articles/fonts-weights/.
+
+	100    Extra Light or Ultra Light
+	200    Light or Thin
+	300    Book or Demi
+	400    Normal or Regular
+	500    Medium
+	600    Semibold, Demibold
+	700    Bold
+	800    Black, Extra Bold or Heavy
+	900    Extra Black, Fat, Poster or Ultra Black
+
+*/
+
+@font-face {
+		font-family: "Decima Nova Pro";
+		font-weight: 400;
+		src: url("../fonts/Decimanovapro-R.ttf"),
+		 		 url("../fonts/Decimanovapro-R.eot"); /* IE9 */
+}
+
+@font-face {
+		font-family: "Decima Nova Pro";
+		font-weight: 700;
+		src: url("../fonts/Decimanovapro-B.ttf"),
+		 		 url("../fonts/Decimanovapro-B.eot"); /* IE9 */
+}
+
+@font-face {
+		font-family: "IKEA Script";
+		font-weight: 400;
+		font-style: italic;
+		src: url("../fonts/IKEAScript-I.ttf"),
+		 		 url("../fonts/IKEAScript-I.eot"); /* IE9 */
+}
+
+@font-face {
+		font-family: "IKEA Script";
+		font-weight: 700;
+		font-style: italic;
+		src: url("../fonts/IKEAScript-B-I.ttf"),
+		 		 url("../fonts/IKEAScript-B-I.eot"); /* IE9 */
+}
+
+@font-face {
+		font-family: "Open Sans";
+		font-weight: 200;
+		src: url("../fonts/OpenSans-R-light.ttf"),
+		 		 url("../fonts/OpenSans-R-light.eot"); /* IE9 */
+}
+
+@font-face {
+		font-family: "Open Sans";
+		font-weight: 400;
+		src: url("../fonts/OpenSans-R.ttf"),
+		 		 url("../fonts/OpenSans-R.eot"); /* IE9 */
+}
+
+@font-face {
+		font-family: "Open Sans";
+		font-weight: 600;
+		src: url("../fonts/OpenSans-S-D.ttf"),
+		 		 url("../fonts/OpenSans-S-D.eot"); /* IE9 */
+}
+
+@font-face {
+		font-family: "Open Sans";
+		font-weight: 700;
+		src: url("../fonts/OpenSans-B.ttf"),
+		 		 url("../fonts/OpenSans-B.eot"); /* IE9 */
+}
+
+@font-face {
+		font-family: "PT Sans";
+		font-weight: 700;
+		src: url("../fonts/PTSans-B.ttf"),
+		 		 url("../fonts/PTSans-B.eot"); /* IE9 */
+}
+
+@font-face {
+		font-family: "Tahoma";
+		font-weight: 400;
+		font-style: italic;
+		src: url("../fonts/Tahoma-R.ttf"),
+		 		 url("../fonts/Tahoma-R.eot"); /* IE9 */
+}
+
+@font-face {
+		font-family: "Tahoma";
+		font-weight: 700;
+		font-style: italic;
+		src: url("../fonts/Tahoma-B.ttf"),
+		 		 url("../fonts/Tahoma-B.eot"); /* IE9 */
+}
+
+@font-face {
+		font-family: "GLYPHICONS Halflings";
+		font-weight: 400;
+		src: url("../fonts/GLYPHICONS-Halflings-R.ttf"),
+		 		 url("../fonts/GLYPHICONS-Halflings-R.eot"); /* IE9 */
+}
+
+@font-face {
+		font-family: "GLYPHICONS Halflings";
+		font-weight: 700;
+		src: url("../fonts/GLYPHICONS-Halflings-R.ttf"),
+		 		 url("../fonts/GLYPHICONS-Halflings-R.eot"); /* IE9 */
+}

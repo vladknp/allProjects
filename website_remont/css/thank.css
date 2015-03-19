@@ -1,0 +1,150 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.container {
+  max-width: 960px !important;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+body {
+  min-width: 960px !important;
+  font-family: "IKEA Script";
+  font-size: 18px;
+  color: #000;
+  margin: 0px 0px 0px 0px;
+}
+
+header {
+  min-height: 97px;
+  white-space: nowrap;
+}
+
+header div div {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+header .left {
+  font-family: "PFDin TextCondPro M";
+  font-size: 24px;
+  width: 205px;
+  margin: 41px 0px 0px 0px;
+}
+
+header .center {
+  font-family: "PFDin TextCondPro L-I";
+  font-size: 20px;
+  color: #666666;
+  width: 520px;
+  margin: 41px 0px 0px 0px;
+}
+
+header .right {
+  margin: 20px 0px 0px 0px;
+}
+
+header .right span {
+  font-family: "PFDin TextCondPro L";
+  font-size: 18px;
+}
+
+header .right div {
+  font-family: "PFDin TextCondPro M";
+  font-size: 30px;
+}
+
+/*============*/
+/*=  BEGINE  =*/ /*Section 01 page-proofs remont "Качественный ремонт квартир"*/
+/*============*/
+section.remont {
+}
+
+section.remont .background-img {
+  background-image: url("../img/section01_background01.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% -2px;
+  height: 556px;
+}
+
+section.remont .background-img .text-all {
+  float: right;
+  color: #ffffff;
+  text-shadow: 0px 0px 0px #333;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.1;
+  width: 580px;
+  margin: 130px 240px 0px 0px;
+}
+
+section.remont .background-img .rubric {
+  font-family: "PFDin TextCondPro B";
+  font-size: 36px;
+}
+
+section.remont .background-img .text {
+  font-family: "PFDin TextCondPro B";
+  font-size: 24px;
+}
+
+section.remont .background-top-line {
+  background-image: url("../img/section01_background_line_top_01.png");
+  background-repeat: repeat;
+  height: 13px;
+}
+
+section.remont .background-bottom-line {
+  background-image: url("../img/thank_background_bottom_01.png");
+  background-repeat: repeat;
+  font-family: "PFDin TextCondPro L";
+  font-size: 18px;
+  text-align: center;
+  height: 66px;
+  color: #ffffff;
+  padding: 20px 0px 0px;
+}
+
+
+section.remont .btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 2px 50px;
+  font-family: "PFDin TextCondPro M";
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #663300;
+  line-height: 1;
+  border-radius: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  margin: 25px 0px 0px;
+}
+
+section.remont .btn-warning {
+  background-image: url("../img/section01_background_btn_yellow_01.png");
+  background-repeat: repeat;
+  box-shadow: 0px 3px 0px 0px #cc9933;
+}
+
+section.remont .btn-warning:hover {
+  background-image: url("../img/section01_background_btn_yellow_hover_01.png");
+  background-repeat: repeat;
+  box-shadow: 0px 3px 0px 0px #cc9933;
+}
+/*============*/
+/*=    END   =*/ /*Section 01 page-proofs remont "Качественный ремонт квартир"*/
+/*============*/

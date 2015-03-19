@@ -1,0 +1,21 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Compeled ide files
+*.idea
+.idea
+
+#Compeled git files
+*.git
+.git

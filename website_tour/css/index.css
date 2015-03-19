@@ -1,0 +1,1124 @@
+.test {
+	position: absolute;
+	margin-top: -400px;
+}
+
+/*-284*//*1366x768*/
+/*-7*//*1920*/
+.clr {
+	overflow: hidden;
+}
+
+header img {
+	position: absolute;
+	margin: 0.1rem 0rem 0rem -0.15rem;
+	float: left;
+}
+
+header .rubric {
+	font-family: PFDin TextCondPro L-I;
+	font-size: 1.3rem;
+	margin: 1.2rem 0rem 0rem 10.8rem;
+}
+
+/*Section 01 page-proofs tour choice*/
+section.tour-choice {
+	background-image: url(../img/section01_background_body0101.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 6px;
+	min-height: 571px;
+	background-size: cover;
+	padding-bottom: 10px;
+}
+
+section.tour-choice .rubric {
+	margin: 43px 0rem 0rem 0rem;
+	font-family: PFDin TextCondPro M;
+	font-size: 3.4rem;
+	font-variant: small-caps;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 0px 0px 4px #336275;
+	white-space: nowrap;
+	transform: scale(0.9, 1.2);
+	-webkit-transform: scale(0.9, 1.2);
+	-moz-transform: scale(0.9, 1.2);
+	-o-transform: scale(0.9, 1.2);
+	-ms-transform: scale(0.9, 1.2);
+}
+
+section.tour-choice .question {
+	background-image: url(../img/section01_question_background0101.png);
+	background-repeat: repeat;
+	width: 258px;
+	height: 36px;
+	margin: 4px auto 0;
+	padding: 0rem 0rem 0rem 24px;
+	font-size: 1.5rem;
+	font-family: PFDin TextCondPro L-I;
+	color: #fff;
+	text-decoration: underline;
+}
+
+section.tour-choice .opacity-all {
+	position: relative;
+	border-image: url(../img/section01_border_form0101.png) 1 1 1 1 stretch;
+	width: 72.5%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+}
+
+section.tour-choice .opacity-all .footnote {
+	padding-top: 5px;
+	padding-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-family: PFDin TextCondPro L-I;
+	font-size: 1.125rem;
+	color: #333333;
+	opacity: initial;
+}
+
+section.tour-choice .opacity-all .opacity {
+	/* position: absolute; */
+	margin: 0px auto 0;
+	/* width: 72.5%; */
+	min-height: 416px;
+	background-image: url(../img/section01_background_form0101.png);
+	background-repeat: repeat;
+	/* border-image: url(../img/section01_border_form0101.png) 1 1 1 1 stretch; */
+	opacity: 0.7;
+}
+
+
+section.tour-choice .form-all {
+	margin: 0px auto 0;
+	/* width: 72.5%; */
+	min-height: 416px;
+	background-repeat: repeat;
+	/*border-image: url(../img/section01_border_form0101.png) 1 1 1 1 stretch;*/
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+section.tour-choice .form-rubric {
+	margin: 11px 0rem 0rem 0rem;
+	font-size: 1.875rem;
+	font-family: PFDin TextCondPro L;
+	text-align: center;
+	line-height: 120%;
+}
+
+section.tour-choice .dash {
+	margin: 5px auto 0;
+	max-width: 90%;
+	height: 1px;
+	background-image: url(../img/section01_dash0101.png);
+	background-repeat: repeat-x;
+}
+
+section.tour-choice .content-all {
+	margin-top: 7px;
+	
+}
+
+section.tour-choice ul {
+	margin-left: 3%;
+}
+
+section.tour-choice .content-item {
+	display: inline-block;
+	vertical-align: top;
+	width: calc(100% / 3.05);
+	margin: 0rem 0rem 6px 0rem;
+	height: 4.3rem;
+}
+
+section.tour-choice .content-item .columns {
+	padding-left: 0rem;
+	padding-right: 0rem; 
+}
+
+section.tour-choice .content-item label {
+	width: 87%;
+	font-size: 1.26rem;
+	font-family: PFDin TextCondPro L;
+	padding: 0;
+	color: #000;
+}
+
+section.tour-choice .content-item input {
+	margin-top: -0.2rem
+}
+
+section.tour-choice .content-item select {
+	font-size: 1rem;
+	/* margin-bottom: 0.5rem; */
+	margin-top: -2px;
+}
+
+section.tour-choice .form-all .form-button {
+	text-align: center;
+	margin: -10px 0px -11px 0px;
+}
+
+section.tour-choice .form-all .form-button .button-border {
+	width: 26rem;
+	margin: 0 auto 12px;
+	border: solid;
+	border-radius: 6px;
+	background-color: #f8eac5;
+	border: solid 4px #f8eac5;
+}
+
+section.tour-choice .form-all .form-button .button-tour-choice {
+	font-size: 1.25rem;
+	font-family: PFDin TextCompPro R;
+	width: 26rem;
+	width: 100%;
+	font-size: 1.875rem;
+	/*-webkit-transform: scale(0.6, 1);*/
+	line-height: 55%;
+	padding-top: 19px;
+	padding-bottom: 15px;
+    margin-bottom: 4px;
+}
+
+section.tour-choice .form-all .form-button .alert-tour-choice {
+	background-image: url(../img/button_red_0101.png);
+	background-repeat: repeat;
+	box-shadow: 0rem 0.25rem 0rem #8e3637;
+	text-transform: uppercase;
+}
+
+section.tour-choice .form-all .form-button .alert-tour-choice:hover,
+section.tour-choice .form-all .form-button .alert-tour-choice:active {
+	background-image: url(../img/button_red_hover0101.png);
+	background-repeat: repeat;
+	box-shadow: 0rem 0.25rem 0rem #8e3637;
+}
+
+section.banner-tour-choice {
+	min-height: 125px;
+	background-color: #76a6ba;
+	background-image: url(../img/section02_decision_banner_background0101.png);
+	background-repeat: repeat-x;
+	background-position: 0% 0%;
+}
+
+section.banner-tour-choice .rubric,
+section.banner-tour-choice .pic {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 40px;
+}
+
+section.banner-tour-choice .rubric,
+section.banner-tour-choice img {
+	margin-left: 2.5rem;
+}
+
+
+section.banner-tour-choice .rubric {
+	font-size: 1.47375rem;
+	font-family: PFDin TextCondPro L-I;
+	color: #fff;
+}
+
+
+/*Section 02 page-proofs decision "...отличное решение..."*/
+section.decision {
+	background-color: #f3f2f2;
+}
+
+section.decision .rubric div,
+section.decision .rubric img {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 4.0625rem;
+	font-family: PFDin TextCondPro M;
+	text-transform: uppercase;
+}
+
+section.decision .rubric {
+	text-align: center;
+	margin: 36px 0rem 0rem 0rem;
+	line-height: 215%;
+}
+
+section.decision .rubric div {
+	margin: 16px 0px;
+	transform: scale(0.8, 1);
+	-webkit-transform: scale(0.8, 1);
+	-moz-transform: scale(0.8, 1);
+	-o-transform: scale(0.8, 1);
+	-ms-transform: scale(0.8, 1);
+}
+
+section.decision .toptour24 {
+	text-align: center;
+	font-size: 1.875rem;
+	font-family: PFDin TextCompPro R;
+	text-transform: uppercase;
+/*	transform: scale(0.8, 1);
+	-webkit-transform: scale(0.8, 1);
+	-moz-transform: scale(0.8, 1);
+	-o-transform: scale(0.8, 1);
+	-ms-transform: scale(0.8, 1);*/
+}
+
+section.decision .toptour24 div {
+	display: inline-block;
+	vertical-align: top;
+	transform: scale(0.6, 1);
+	-webkit-transform: scale(0.6, 1);
+	-moz-transform: scale(0.6, 1);
+	-o-transform: scale(0.6, 1);
+	-ms-transform: scale(0.6, 1);	
+}
+
+section.decision .toptour24 .trans {
+}
+
+section.decision ul {
+	margin-left: 0rem;
+	margin-top: 32px;
+}
+
+section.decision li {
+	list-style: none;
+	display: inline-block;
+	vertical-align: top;
+	width: 20rem;
+	width: calc(100% / 3);
+}
+
+section.decision .block {
+	position: relative;
+	/*width: 16.875rem;*/
+	margin: 0 auto 0;
+}
+
+section.decision .block img {
+	display: block;
+	margin: 0 auto;
+	clear: right;
+	width: 76.255%;
+}
+
+section.decision .block .comment {
+	margin-top: 9px;
+	font-size: 1.5rem;
+	font-family: PFDin TextCondPro L;
+	padding-left: 2rem;
+	line-height: 1.8rem;
+}
+
+section.decision .block .comment span {
+	font-weight: bold;
+}
+
+section.decision .decision-banner {
+	margin-top: 3.42rem;
+	height: 420px;
+	background-image: url(../img/section02_decision_banner_background0101.png);
+	background-repeat: repeat-x;
+	background-position: 0% 0%;
+	padding-top: 2rem;
+}
+
+section.decision .decision-banner img {
+	display: block;
+	margin: 0 auto 0;
+}
+
+
+/*Section03 page-proofs problems "Три основные проблемы"*/
+section.problems {
+	position: relative;
+	padding-top: 84px;
+	padding-bottom: 31px;
+}
+
+section.problems .topribbon {
+	position: absolute;
+	top: 0;
+	height: 15px;
+	width: 100%;
+	background-image: url(../img/section03_top_ribbon0101.png);
+	background-repeat: repeat;
+
+}
+
+section.problems .rubric {
+	font-size: 3.75rem;
+	font-family: PFDin TextCompPro M;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 57%;
+	transform: scale(0.8, 1);
+	-webkit-transform: scale(0.8, 1);
+	-moz-transform: scale(0.8, 1);
+	-o-transform: scale(0.8, 1);
+	-ms-transform: scale(0.8, 1);
+}
+
+section.problems .rubric span {
+	font-size: 1.875rem;
+	font-family: PFDin TextCompPro R;
+	font-weight: 400;
+}
+
+section.problems .rubric img {
+	margin: 0 1.5rem;
+}
+
+section.problems .box {
+	margin-top: 56px;
+	margin-left: 0rem;
+}
+
+section.problems .box li {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	list-style: none;
+	width: calc(100% / 3.36);
+	min-height: 15.75rem;
+	border: dashed 0.1875rem #e0e0e0;
+	margin-left: 3.1875rem;
+	color: #666;
+}
+
+section.problems .box .block-left {
+	margin-left: 0rem;
+}
+
+section.problems .box img {
+	/*position: absolute;
+	top: -2rem;
+	left: 7rem;*/
+	display: block;
+	margin: -32px auto 0;
+}
+
+section.problems .box .block-rubrick {
+	font-size: 1.875rem;
+	font-family: PFDin TextCondPro M;
+	text-align: center;
+	margin-top: 10px;
+	line-height: 105%;
+}
+
+section.problems .box .block-content {
+	font-size: 1.25rem;
+	font-family: PFDin TextCondPro L;
+	text-align: left;
+	margin: 0rem 21px 0rem;
+	line-height: 1.5rem;
+}
+
+
+/*Section04 page-proofs profit "Путешествовать с нами выгодно"*/
+section.profit {
+	position: relative;
+	min-height: 548px;
+	background-image: url(../img/section4_profit_background0101.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+	padding-top: 80px;
+}
+
+section.profit .rubric {
+	font-size: 4.0625rem;
+	font-family: PFDin TextCondPro M;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 0rem 0rem 0.3rem #000000;
+	color: #ffffff;
+	line-height: 112%;
+	transform: scale(0.8, 1);
+	-webkit-transform: scale(0.8, 1);
+	-moz-transform: scale(0.8, 1);
+	-o-transform: scale(0.8, 1);
+	-ms-transform: scale(0.8, 1);
+	margin: -34px 0rem 0rem 0rem;
+}
+
+section.profit .rubric img {
+	margin: 0 1.5rem;
+}
+
+section.profit .rubric span {
+	font-size: 1.875rem;
+	font-family: PFDin TextCondPro R;
+	font-weight: 400;
+}
+
+section.profit ul {
+	margin-left: 0rem;
+	margin-top: 48px;
+}
+
+section.profit ul li {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	list-style: none;
+	margin-left: calc((100% - (282 * 100% / 960) * 3) / 2);
+	width: calc(282 * 100% / 960);
+	min-height: 284px;
+	background-image: url(../img/section04_background_card0201.png);
+	background-repeat: repeat;
+	border-radius: 2%;
+}
+
+section.profit ul .block-left {
+	margin-left: 0rem;
+}
+
+section.profit ul img {
+	position: absolute;
+	top: -40px;
+	left: calc((100% - 86px) / 2);
+}
+
+section.profit ul .block-rubrick {
+	font-size: 1.875rem;
+	font-family: PFDin TextCondPro M;
+	text-align: center;
+	color: #fff;
+	margin-top: 40px;
+	line-height: 97%;
+}
+
+section.profit ul .block-content {
+	font-size: 1.25rem;
+	font-family: PFDin TextCondPro L;
+	color: #fff;
+	margin: 14px 5px 0rem 16px;
+	line-height: 120%;
+}
+
+section.profit .bottom-ribbon {
+	position: absolute;
+	height: 1rem;
+	width: 100%;
+	background-color: #dad7d7;
+	bottom: 0;
+}
+
+
+/*Section05 page-proofs price "Как формируется цена на тур?"*/
+section.price {
+    background-image: url("../img/section05_price_background0103.png");
+    background-repeat: repeat;
+    background-position: 50% 0%;
+}
+
+/*section.price .background-gradients {
+	background: -webkit-radial-gradient(50% 525px, circle, #fff -1%, #efefef 16%) 0 0 no-repeat;
+	background: -moz-radial-gradient(50% 525px, circle, #fff -1%, #efefef 16%) 0 0 no-repeat;
+	background: -ms-radial-gradient(50% 525px, circle, #fff -1%, #efefef 16%) no-repeat;
+}*/
+
+section.price .rubric {
+	font-size: 4.0625rem;
+	font-family: PFDin TextCondPro M;
+	text-transform: uppercase;
+	text-align: center;
+	color: #333333;
+	line-height: 100%;
+	transform: scale(0.8, 1);
+	-webkit-transform: scale(0.8, 1);
+	-moz-transform: scale(0.8, 1);
+	-o-transform: scale(0.8, 1);
+	-ms-transform: scale(0.8, 1);
+	margin: 57px 0rem 0rem 0rem;
+}
+
+section.price .rubric img {
+	margin: 0 1.5rem;
+}
+
+section.price .decor {
+	display: block;
+	margin: 9px auto 0;
+}
+
+section.price .box {
+	margin: 9px 0rem 0rem 0rem;
+}
+
+section.price .box ul {
+	margin-left: 0rem;
+}
+
+section.price .box li {
+	list-style: none;
+}
+
+section.price .box .block-left,
+section.price .box .block-center,
+section.price .box .block-right {
+	display: inline-block;
+	vertical-align: top;
+}
+
+section.price .box .block-left {
+	/*margin-left: -3.7rem;*/
+	margin-left: -6%;
+}
+/*
+section.price .box .block-center {
+}
+
+section.price .box .block-center img {
+	display: block;
+	margin-right: 0;
+}
+*/
+section.price .box .block-right {
+	float: right;
+}
+
+section.price .box .block-text {
+	color: #000000;
+	width: 20rem;
+	white-space: nowrap;
+}
+
+section.price .box .block-right .vertical-going,
+section.price .box .block-right .block-text {
+	display: inline-block;
+	vertical-align: top;
+}
+
+section.price .box .block-right .vertical-going {
+	margin: 40px 0rem 0rem 0rem;
+}
+
+section.price .box .block-text .middle {
+	margin-top: 6rem;
+	margin-top: 95px;
+}
+
+section.price .box .block-text .bottom {
+	margin-top: 117px;
+}
+
+
+section.price .box .block-text .box-rubric {
+	font-size: 1.875rem;
+	font-family: PFDin TextCondPro M;
+	text-transform: none;
+	text-align: left;
+	line-height: 95%;
+	margin-top: 60px;
+}
+
+section.price .box .block-text .content {
+	font-size: 1.25rem;
+	font-family: PFDin TextCondPro L;
+	text-align: left;
+	line-height: 120%;
+}
+
+
+/*Section06 page-proofs diferences "почему цены могут отличатся"*/
+section.differences {
+	background-image: url(../img/section06_background0101.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 15px;
+	height: 802px;;
+	/* height: 100%; */
+	margin-top: 0px;
+}
+
+section.differences .top-line {
+	height: 15px;
+	width: 100%;
+	background-color: #adc1d5;
+	margin-bottom: 77px;
+}
+
+section.differences .rubric {
+	font-size: 390%;
+	font-family: PFDin TextCondPro M;
+	text-transform: uppercase;
+	text-align: center;
+	color: #ffffff;
+	line-height: 79%;
+	line-height: 49px;
+	transform: scale(0.8, 1);
+	-webkit-transform: scale(0.8, 1);
+	-moz-transform: scale(0.8, 1);
+	-o-transform: scale(0.8, 1);
+	-ms-transform: scale(0.8, 1);
+}
+
+section.differences .rubric img {
+	margin: 0 1.5rem;
+}
+
+section.differences .rubric span {
+	font-size: 1.875rem;
+	font-family: PFDin TextCondPro R;
+}	
+
+section.differences .box {
+	overflow: hidden;
+	margin: -2.1% 0% 0%;
+}
+
+section.differences .box .opacity-all {
+	position: relative;
+	overflow: hidden;
+}
+
+section.differences .box .opacity-all .opacity-left{
+	margin-left: 1.25%;
+}
+section.differences .box .opacity-all .opacity-right {
+	right: 0;
+	margin-right: 1.25%;
+}
+
+section.differences .box .opacity-all .opacity-left,
+section.differences .box .opacity-all .opacity-right {
+	position: absolute;
+	display: inline-block;
+	vertical-align: top;
+	width: 45.2083333333%;
+	height: 162px;
+	margin-top: 76px;
+	background-color: #c3cdd7;
+	background-color: #ffffff;
+	-webkit-transform: skew(-8.5deg);
+	-webkit-perspective: 1000;
+	outline: 1px solid transparent;
+	-webkit-backface-visibility: hidden;
+	-moz-transform: skew(-8.5deg);
+	-o-transform: skew(-8.5deg);
+	opacity: 0.8;
+}
+
+section.differences .box ul,
+section.differences .box li {
+	list-style: none;
+}
+
+section.differences .box .block-left,
+section.differences .box .block-right {
+	display: inline-block;
+	vertical-align: top;
+	width: 45.2083333333%;
+	height: 162px;
+	margin-top: 76px;
+	/* background-color: #c3cdd7; */
+	-webkit-transform: skew(-8.5deg);
+	-moz-transform: skew(-8.5deg);
+	-o-transform: skew(-8.5deg);
+}
+
+section.differences .box .block-left {
+	/* float: left; */
+	margin-left: 1.25%;
+}
+
+section.differences .box .block-right {
+	float: right;
+	margin-right: 1.25%;
+}
+
+section.differences .box .people {
+	background-image: url(../img/section06_people0101.png);
+}
+
+section.differences .box .hotel {
+	background-image: url(../img/section06_hotel0101.png);
+}
+
+section.differences .box .air {
+	background-image: url(../img/section06_air0101.png);
+}
+
+section.differences .box .brend {
+	background-image: url(../img/section06_brend0101.png);
+}
+
+section.differences .box .people,
+section.differences .box .hotel,
+section.differences .box .air,
+section.differences .box .brend {
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	width: 94%;
+	height: 79%;
+	-webkit-transform: skew(8.5deg);
+	-moz-transform: skew(8.5deg);
+	-o-transform: skew(8.5deg);
+	padding-left: 17%;
+	padding-right: 0%;
+	margin-left: 4%;
+}
+
+section.differences .block-rubrick {
+	font-size: 187.5%;
+	font-family: PFDin TextCondPro M;
+	/*transform: scale(0.8, 1);
+	 -webkit-transform: scale(0.8, 1); 
+	 	-moz-transform: scale(0.8, 1);
+	 	-o-transform: scale(0.8, 1);
+	 	-ms-transform: scale(0.8, 1);*/
+	margin-top: 7%;
+	margin-left: 0%;
+	line-height: 90%;
+}
+
+section.differences .block-content {
+	font-size: 1.25rem;;
+	 font-family: PFDin TextCondPro L; 
+	font-weight: 500;
+	line-height: 120%;
+	margin-left: 0%;
+	/*transform: scale(0.8, 1);
+	-webkit-transform: scale(0.8, 1);
+	-moz-transform: scale(0.8, 1);
+	-o-transform: scale(0.8, 1);
+	-ms-transform: scale(0.8, 1);*/
+}
+
+section.differences .button-border {
+	width: 506px;
+	margin: 47px auto 12px;
+	border: solid;
+	border-radius: 6px;
+	background-color: #f8eac5;
+	border: solid 4px #f8eac5;
+}
+
+section.differences .button-differences {
+	display: table;
+	margin: 0px auto 4px;
+	font-size: 225%;
+	font-family: PFDin TextCompPro R;
+	/*-webkit-transform: scale(0.6, 1);*/
+	line-height: 100%;
+	padding: 0.7% 100px;
+	padding: 10px 40px;
+    width: 100%;
+}
+
+section.differences .warning-differences {
+	background-image: url(../img/button_yelow_0101.png);
+	background-repeat: repeat;
+	box-shadow: 0rem 0.25rem 0rem #c9ad3d;
+	text-transform: uppercase;
+}
+
+section.differences .warning-differences:hover,
+section.differences .warning-differences:active {
+	background-image: url(../img/button_yellow_hover0101.png);
+	background-repeat: repeat;
+	background-color: #f4d96b;
+	text-transform: uppercase;
+}
+
+
+/*Section07 page-proofs reviews "Отзывы"*/
+section.reviews {
+	position: relative;
+	background-color: #ffffff;
+	background-position: 0% 0%;
+	padding-bottom: 0px;
+}
+
+section.reviews .top-ribbon {
+	width: 100%;
+	height: 16px;
+	background-color: #adc1d5;
+}
+
+section.reviews .rubric {
+	font-size: 4.0625rem;
+	font-family: PFDin TextCondPro M;
+	text-transform: uppercase;
+	text-align: center;
+	color: #333333;
+	line-height: 115%;
+	transform: scale(0.8, 1);
+	-webkit-transform: scale(0.8, 1);
+	-moz-transform: scale(0.8, 1);
+	-o-transform: scale(0.8, 1);
+	-ms-transform: scale(0.8, 1);
+	margin: 68px 0px 0px 0px;
+}
+
+section.reviews .rubric img {
+	margin: 0 1.5rem;
+}
+
+section.reviews .rubric-second {
+	font-size: 1.875rem;
+	font-family: PFDin TextCondPro R;
+	font-weight: 400;
+	line-height: 100%;
+}
+
+section.reviews .slider {
+	margin: 44px 0px 0px 0px;
+	height: 348px;
+	height: 21.75rem;
+}
+
+section.reviews .slider .box {
+	overflow: hidden;
+	width: 100%;
+	height: 293px;
+	height: 18.3125rem;
+	background-image: url(../img/section07_orbite_slider0102.png);
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	/* background-size: cover; */
+}
+
+section.reviews .slider .foto1,
+section.reviews .slider .foto2,
+section.reviews .slider .foto3,
+section.reviews .slider .foto4,
+section.reviews .slider .foto5,
+section.reviews .slider .content {
+	display: inline-block;
+	vertical-align: top;
+}
+
+section.reviews .slider .foto1,
+section.reviews .slider .foto2,
+section.reviews .slider .foto3,
+section.reviews .slider .foto4,
+section.reviews .slider .foto5 {
+	float: left;
+	width: 300px;
+	width: 32%;
+	height: 285px;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position: 50% 45%;
+	background-size: 80%;
+}
+
+section.reviews .slider .foto1 {
+	background-image: url(../img/section07_foto0101.jpg);
+}
+
+section.reviews .slider .foto2 {
+	background-image: url(../img/section07_foto0201.jpg);
+}
+
+section.reviews .slider .foto3 {
+	background-image: url(../img/section07_foto0301.jpg);
+}
+
+section.reviews .slider .foto4 {
+	background-image: url(../img/section07_foto0401.jpg);
+}
+
+section.reviews .slider .foto5 {
+	background-image: url(../img/section07_foto0501.jpg);
+}
+
+section.reviews .slider .content {
+	float: right;
+	width: 68%;
+	height: 100%;
+	padding: 20px 10px;
+	padding: 4.5% 1.1%;
+}
+
+section.reviews .content .content-rubric {
+	font-size: 1.5rem;
+	font-family: PFDin TextCondPro M;
+	margin-bottom: 10px;
+}
+
+section.reviews .content .content-text {
+	font-size: 1.25rem;
+	font-family: PFDin TextCondPro L;
+	line-height: 22px;
+}
+
+
+/*Section08 page-proofs fight "Борьба за клиента"*/
+section.fight {
+	background-image: url(../img/section08_background0101.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+	height: 577px;
+}
+
+section.fight .rubric {
+	font-size: 4.0625rem;
+	font-family: PFDin TextCondPro M;
+	text-transform: uppercase;
+	text-shadow: 0rem 0rem 0.3rem #000000;
+	color: #ffffff;
+	line-height: inherit;
+	transform: scale(0.8, 1);
+	-webkit-transform: scale(0.8, 1);
+	-moz-transform: scale(0.8, 1);
+	-o-transform: scale(0.8, 1);
+	-ms-transform: scale(0.8, 1);
+	margin: 170px 0px 0px -110px;
+}
+
+section.fight .box {
+	position: relative;
+  font-size: 1.5rem;
+	font-family: PFDin TextCondPro L-I;
+	margin-top: 9px;
+}
+
+section.fight .box,
+section.fight .box-background {
+  width: 534px;
+}
+
+section.fight .box-background {
+	border-bottom: 200px solid #ffffff;
+	border-left: 36px solid transparent;
+  border-right: -50px solid transparent;
+  -moz-transform:    rotate(180deg);
+   -webkit-transform: rotate(180deg);
+   -ms-transform:     rotate(180deg);
+   -o-transform:      rotate(180deg);
+  opacity: 0.5;
+  height: 0;
+}
+
+section.fight .box .content {
+	position: absolute;
+  top: 0;
+	padding-top: 11px;
+	padding-left: 0px;
+	display: inline-block;
+}
+
+section.fight .button-border {
+	width: 188px;
+	margin: 5px auto -2px;
+	margin-right: 10px;
+	border: solid;
+	border-radius: 6px;
+	background-color: #f8eac5;
+	border: solid 4px #f8eac5;
+	height: 48px;
+	float: left;
+}
+
+section.fight .content .button-fight {
+	/* float: left; */
+	line-height: 100%;
+	padding: 6px 10px;
+  font-size: 1.5rem;
+	font-family: PFDin TextCondPro L-I;
+	margin: 0px 0px 0px 0px;
+}
+
+section.fight .content .alert-fight {
+	background-color: #d44748;
+	box-shadow: 0rem 0.25rem 0rem #8e3637;
+}
+
+section.fight .content .alert-fight:hover,
+section.fight .content .alert-fight:active {
+	background-color: #e26b6b;
+}
+
+section.fight .box .content p {
+  font-size: 1.5rem;
+	font-family: PFDin TextCondPro L-I;
+	line-height: 130%;
+  margin-top: 25px;
+}
+
+
+/*Page-proofs Footer*/
+footer {
+	min-height: 114px;
+	font-size: 1.125rem;
+	font-family: PFDin TextCondPro L;
+	color: #ffffff;
+	text-shadow: 0rem 0rem 0.3rem #000000;
+	background-color: #5b5b5b;
+}
+
+footer ul {
+	list-style: none;
+	margin-top: 30px;
+	margin-left: 0;
+}
+
+footer li {
+	display: inline-block;
+	vertical-align: bottom;
+	width: calc(100% / 3);
+}
+
+footer img {
+	display: block;
+	margin: 0 auto 0;
+}
+
+footer .footer-left {
+	text-align: left;
+}
+
+footer .footer-center {
+	overflow: hidden;
+	text-align: center;
+}
+
+footer .footer-right {
+	text-align: right;
+}
+
+
+/*
+//////////
+//Modals//
+//////////
+*/
+
+.reveal-modal .tour-choice {
+	background-image: none;
+	background-repeat: none;
+	min-height: 0px;
+	padding-bottom: 0px;
+}
+
+.tour-revel-modal {
+	background-image: url(../img/section01_background_body0101.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+	min-height: 510px;
+	background-size: cover;
+	padding-bottom: 0px;
+}
+
+
+/*
+///////////////
+//	Magelan  //
+///////////////
+*/
+[data-magellan-expedition] {
+	background: none;
+}

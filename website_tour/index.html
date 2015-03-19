@@ -1,0 +1,568 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Онлайн-сервис для подбора туров</title>
+
+    <link rel="stylesheet" href="css/foundation.min.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/index.css" />
+
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <a name="tourForm"></a>
+      <div class="row">
+          <img src="img/header_logo0101.png" alt="Logo">
+          <div class="rubric">Онлайн-сервис для подбора туров. Более 130 лучших турагенств Киева теперь на одном сайте</div>
+      </div>
+    </header>
+
+    <!-- Section 01 page-proofs tour choice -->
+    <section class="tour-choice">
+      <div class="row">
+        <div class="rubric">Туры в египет на 20% ниже рыночных</div>
+        <div class="question">как это возможно?</div>
+
+        <div class="opacity-all">
+          <div class="opacity"></div>
+          <div class="form-all">
+            <div class="form-rubric">
+              Заполните форму, и минимум 5 турфирм сами
+              <br>пришлют Вам свои  предложения - выбирайте лучшее
+            </div>
+
+            <div class="dash"></div>
+
+            <form>
+              <input type="hidden" name="subject" value="Заявка: Подобрать тур" />
+              <input type="hidden" name="sender" value="info@toplanding.com.ua" />
+              <input type="hidden" name="recipient" />
+              <input type="hidden" name="name" />
+
+
+              <ul class="content-all">
+                <li class="content-item">
+                  <label>Курорт
+                    <select name="message" required />
+                      <option value=" Курорт: Не важно">Не важно</option>
+                      <option value=" Курорт: Хургада">Хургада</option>
+                      <option value=" Курорт: EL QUSEIR">EL QUSEIR</option>
+                      <option value=" Курорт: MAKADI">MAKADI</option>
+                      <option value=" Курорт: MARSA ALAM">MARSA ALAM</option>
+                      <option value=" Курорт: SAFAGA">SAFAGA</option>
+                      <option value=" Курорт: Шарм Эль Шейх">Шарм Эль Шейх</option>
+                      <option value=" Курорт: DAHAB">DAHAB</option>
+                      <option value=" Курорт: NUWEIBA">NUWEIBA</option>
+                      <option value=" Курорт: Таба">Таба</option>
+                    </select>
+                  </label>
+                </li>
+
+                <li class="content-item">
+                  <label>Взрослых
+                    <select name="message" required />
+                      <option value=" Взрослых: 1">1</option>
+                      <option value=" Взрослых: 2">2</option>
+                      <option value=" Взрослых: 3">3</option>
+                      <option value=" Взрослых: 4">4</option>
+                      <option value=" Взрослых: 5">5</option>
+                      <option value=" Взрослых: 6">6</option>
+                      <option value=" Взрослых: 7">7</option>
+                      <option value=" Взрослых: 8">8</option>
+                      <option value=" Взрослых: 9">9</option>
+                      <option value=" Взрослых: 10">10</option>
+                    </select>
+                  </label>
+                </li>
+
+                <li class="content-item">
+                  <label>Вылет из
+                    <select name="message" required/>
+                      <option></option>
+                      <option value=" Вылет из: Не важно">Не важно</option>
+                      <option value=" Вылет из: Киев">Киев</option>
+                      <!-- <option value=" Вылет из: Lviv">Lviv</option> -->
+                    </select>
+                  </label>
+                </li>
+
+                <li class="content-item" required />
+                  <label>Категория отеля
+                    <select>
+                      <option value=" Категория отеля: Не важно">Не важно</option>
+                      <option value=" Категория отеля: ***">***</option>
+                      <option value=" Категория отеля: ****">****</option>
+                      <option value=" Категория отеля: *****">*****</option>
+                    </select>
+                  </label>
+                </li>
+
+                <li class="content-item">
+                  <label>Детей
+                    <select name="message" required />
+                      <option value=" Детей: 0">0</option>
+                      <option value=" Детей: 1">1</option>
+                      <option value=" Детей: 2">2</option>
+                      <option value=" Детей: 3">3</option>
+                      <option value=" Детей: 4">4</option>
+                    </select>
+                  </label>
+                </li>
+
+                <li class="content-item">
+                  <label>Контактный телефон
+                    <input type="text" name="phone" placeholder="Контактный телефон" required />
+                  </label>
+                </li>
+
+                <li class="content-item">
+                  <label>Питание
+                    <select name="message" required />
+                      <option value=" Питание: Не важно">Не важно</option>
+                      <option value=" Питание: ВВ (Завтраки)">ВВ (Завтраки)</option>
+                      <option value=" Питание: НВ (Полупансион)">НВ (Полупансион)</option>
+                      <option value=" Питание: FB (Полный пансион)">FB (Полный пансион)</option>
+                      <option value=" Питание: AI (Все включено)">AI (Все включено)</option>
+                      <option value=" Питание: UAI (Ультра все включено)">UAI (Ультра все включено)</option>
+                    </select>
+                  </label>
+                </li>
+
+                <li class="content-item">
+                  <label>Дата вылета
+                    <div>
+                      <div class="large-1 columns">
+                        <label class="left inline" />c</label>
+                      </div>
+                      <div class="large-4 columns">
+                        <input type="text" placeholder name="message" required />
+                      </div>
+
+                      <div class="large-1 columns">
+                        <br>
+                      </div>
+
+                      <div class="large-1 columns">
+                        <label class="left inline">по</label>
+                      </div>
+                      <div class="large-4 columns">
+                        <input type="text" placeholder name="message" required />
+                      </div>
+                    </div>
+                  </label>
+                </li>
+
+                <li class="content-item">
+                  <label>Email
+                    <input type="text" name="email" placeholder="Электронная почта адресс" required />
+                  </label>
+                </li>
+              </ul>
+
+              <div class="form-button">
+                <div class="button-border">
+                  <button type="submit" class="button alert radius button-tour-choice alert-tour-choice">Подобрать тур</button>
+                </div>
+              </div>
+
+              <div class="footnote">*заявка на сайте бесплатная, и ни к чему Вас не обязывает</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner-tour-choice">
+      <div class="row">
+        <div class="rubric">
+          Только проверенные
+          <br>туроператоры
+        </div>
+
+        <div class="pic">
+          <img src="img/section01_tez_tour0101.png" alt="TezTour">
+          <img src="img/section01_tui0101.png" alt="Tui">
+          <img src="img/section01_pegas0101.png" alt="Pegas">
+          <img src="img/section01_coral_travel0101.png" alt="CoralTravel">
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Section 02 page-proofs decision "...отличное решение..." -->
+    <section class="decision">
+      <div class="row">
+        <div class="rubric">
+          <img src="img/section02_line0101.png" alt="line">
+          <div>Для кого?</div>
+          <img src="img/section02_line0101.png" alt="line">
+        </div>
+
+        <div class="toptour24">
+          <img src="img/section02_toptour0101.png" alt="TopTour">
+          <!-- TopTour24 <div>отличное решение</div> ... -->
+        </div>
+
+        <ul>
+          <li>
+            <div class="block">
+              <img src="img/section02_oneimg_0101.png" alt="One">
+              <div class="comment"><span>Для тех,  у кого нет времени</span> <br>и нервов обзванивать все <br>турфирмы самостоятельно</div>
+            </div>
+          <!-- </li> -->
+          <li>
+            <div class="block">
+              <img src="img/section02_twoimg0101.png" alt="Two">
+              <div class="comment"><span>Для туристов, которые <br>хотят сэкономить</span> до 20% <br>на стоимости тура</div>
+            </div>
+          <!-- </li> -->
+          <li>
+            <div class="block">
+              <img src="img/section02_threeimg0101.png" alt="Three">
+              <div class="comment">Для тех, <span>кто хочет получить <br>надежного турагента</span> и отдых <br>без лишних хлопот</div>
+            </div>
+          <!-- </li> -->
+        </ul>
+      </div>
+
+      <div class="decision-banner">
+        <img src="img/section02_decision_banner0102.png" alt="Decision">
+      </div>
+    </section>
+
+    <!-- Section03 page-proofs problems "Три основные проблемы" -->
+    <section class="problems">
+      <div class="topribbon"></div>
+      <div class="rubric"><img src="img/sectioin02_line0101.png" alt="Line">Три основные проблемы<img src="img/sectioin02_line0101.png" alt="Line"></div>
+      <div class="rubric"><span>с которыми обычно сталкиваются  туристы</span></div>
+
+      <div class="row">
+        <ul class="box">
+          <li class="block-left">
+            <img src="img/section03_cloud0101.png" alt="Cloud">
+            <div class="block-rubrick">Завышены цены</div>
+            <div class="block-content">90% предложений на рынке
+              состоят  из большой цепочки
+              посредников,  каждый делает
+              свою наценку,  в результате Вы
+              покупаете тур на 15-20% дороже</div>
+          <!-- </li> -->
+          <li class="block-center">
+            <img src="img/section03_cloud0101.png" alt="Cloud">
+            <div class="block-rubrick">Недобросовестные турфирмы</div>
+            <div class="block-content">Обещают клиенту роскошный
+              отель , но по приезду все
+              выглядит не так, как на картинках</div>
+          <!-- </li> -->
+          <li class="block-right">
+            <img src="img/section03_cloud0101.png" alt="Cloud">
+            <div class="block-rubrick">Изобилие туров</div>
+            <div class="block-content">В поисках лучшей цены Вам
+              приходиться самому обзванивать
+              все турфирмы,  что занимает
+              много времени и нервов</div>
+          <!-- </li> -->
+
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- Section04 page-proofs profit "Путешествовать с нами выгодно" -->
+    <section class="profit">
+      <div class="rubric"><img src="img/section04_line0101.png" alt="Line">Путешествовать с нами выгодно<img src="img/section04_line0101.png" alt="Line"></div>
+      <div class="rubric"><span>Вот почему туристы выбирают нас</span></div>
+
+      <div class="row">
+        <ul>
+          <li class="block-left">
+            <img src="img/section04_pig0101.png" alt="Pig">
+            <div class="block-rubrick">Экономия до 20%</div>
+            <div class="block-content">За счет удобного сравнения
+              ценовых предложений у разных
+              турфирм и туроператоров на один
+              и тот же вариант отдыха -
+              Вы всегда получаете лучшую цену
+            </div>
+            <!-- </li> -->
+            <li class="block-center">
+              <img src="img/section04_hart0101.png" alt="Hart">
+              <div class="block-rubrick">87% остаются довольны туром</div>
+              <div class="block-content">И обращаются к нашему
+                <br>сервису повторно,
+                <br>планируя свой отпуск
+              </div>
+              <!-- </li> -->
+              <li class="block-right">
+                <img src="img/section04_clock0101.png" alt="Clock">
+                <div class="block-rubrick">Быстро и удобно</div>
+                <div class="block-content">Оставьте заявку и уже через
+                  <br>20 минут турагентства сами
+                  <br>пришлют Вам свои
+                  <br>предложения с ценами
+                  <br>и условиями.  Вам остается
+                  <br>просто выбрать лучшее
+                </div>
+                <!-- </li> -->
+              </ul>
+            </div>
+
+      <div class="bottom-ribbon"></div>
+    </section>
+
+
+    <!-- Section05 page-proofs price "Как формируется цена на тур?" -->
+    <section class="price">
+      <div><br></div>
+      <div class="rubric"><img src="img/sectioin02_line0101.png" alt="Line">Как формируется цена на тур?<img src="img/sectioin02_line0101.png" alt="Line"></div>
+      <img src="img/section05_liene_decor0101.png" alt="Line_decor" class="decor">
+
+      <div class="row">
+        <ul class="box">
+          <li class="block-left"><img src="img/section05_girl0103.png" alt="Girl"><!-- </li> -->
+          <!-- <li class="block-center" style="display: none"><img src="img/section05_vertical_going0101.png" alt="Vertical going"> --><!-- </li> -->
+          <li class="block-right">
+            <img src="img/section05_vertical_going0101.png" alt="Vertical going" class="vertical-going">
+            <div class="block-text">
+              <div class="top">
+                <div class="box-rubric">Туроператоры</div>
+                <div class="content">организация которая комплектует
+                  <br>основную стоимость тура , работая
+                  <br>напрямую с отелями и авиакомпаниями</div>
+              </div>
+
+              <div class="middle">
+                <div class="box-rubric">Туристические агентства</div>
+                <div class="content">Фирмы , которые  занимаются
+                  <br>розничной продажей туров</div>
+              </div>
+
+              <div class="bottom">
+                <div class="box-rubric">Туристы</div>
+              </div>
+            </div>
+          <!-- </li> -->
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- Section06 page-proofs diferences "почему цены могут отличатся" -->
+    <section class="differences">
+      <div class="top-line"></div>
+      <div class="rubric">
+        <img src="img/section04_line0101.png" alt="Line">почему цены могут отличатся<img src="img/section04_line0101.png" alt="Line"></div>
+      <div class="rubric"><span>на 15-20% , в зависимости от туроператора?</span></div>
+
+      <div class="row">
+        <div class="box">
+          <div class="opacity-all">
+            <div class="opacity-left"></div>
+            <div class="block-left">
+              <div class="people">
+                <div class="block-rubrick">Не большие туроператоры</div>
+                <div class="block-content">которые не могут обеспечить отелю
+                  большие объемы продаж, поэтому
+                  у них Вы покупаете тур  «втридорога»</div>
+              </div>
+            </div>
+            <div class="opacity-right"></div>
+            <div class="block-right">
+              <div class="hotel">
+                <div class="block-rubrick">Закупка блоков мет</div>
+                <div class="block-content">Опытные туроператоры за счет покупки
+                  блоков мест в отеле на длительный
+                  период получают эксклюзивную стоимость
+                  от отеля часто ниже, чем у конкурентов</div>
+              </div>
+            </div>
+          </div>
+            <div class="opacity-all">
+              <div class="opacity-left"></div>
+              <div class="block-left">
+                <div class="air">
+                  <div class="block-rubrick">Авиакомпания и перелет</div>
+                  <div class="block-content">Одно дело когда туроператор запускают
+                    чартер раз в неделю, и другое если это
+                    семь раз в неделю. Естественно это
+                    сказываться на общей цене за тур</div>
+                </div>
+              </div>
+              <div class="opacity-right"></div>
+              <div class="block-right">
+                <div class="brend">
+                  <div class="block-rubrick">Бренд и имидж</div>
+                  <div class="block-content">часто Вы переплачиваете  именно за бренд
+                    туроператора, а не за дополнительные
+                    удобства самого тур</div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div data-magellan-expedition>
+        <div data-magellan-arrival="tourForm">
+          <div class="button-border">
+            <a href="#tourForm" class="button secondary radius button-differences warning-differences">Подобрать тур по выгодной цене</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Section07 page-proofs reviews "Отзывы" -->
+    <section class="reviews">
+      <div class="top-ribbon"></div>
+      <div class="rubric">
+        <img src="img/sectioin02_line0101.png" alt="Line">Отзывы:<img src="img/sectioin02_line0101.png" alt="Line">
+        <div class="rubric-second">более 1638 туристов ежемесячно ищут туры на toptour24.com</div>
+      </div>
+
+      <div class="row">
+        <div class="slider">
+          <ul class="example-orbit-content" data-orbit>
+            <li data-orbit-slide="headline-1">
+              <div class="box">
+                <div class="foto1"></div>
+                <div class="content">
+                  <div class="content-rubric">Виктория, отель Premier Le Reve Hotel 5*, Хугарда 20.06.13</div>
+                  <div class="content-text">Отдыхал в этом отеле всей семьей . Долго выбирали по описаниям и отзывам
+                    туристов. В итоге попали на toptour24, и в течении часа получили десяток
+                    отличных предложений. Что касается самого тура - отель компактный, все рядом.
+                    При приезде заселили ровно за 7 минут, ключи уже лежали в конвертике,
+                    браслетов нет. Обслуживание отличное, бармены очень хорошо говорят по русски.
+                    Много иностранцев. Анимации никакой нет, тишина и покой..
+                    Вечером в баре живая музыка. Рекомендую для тех кто решил отдохнуть от суеты.
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li data-orbit-slide="headline-2">
+              <div class="box">
+                <div class="foto2"></div>
+                <div class="content">
+                  <div class="content-rubric">Марина и Анна, отель  Dessole Nesco Joyous 4*, 14.10.13</div>
+                  <div class="content-text">Ездили отдыхать вместе с подругой. Специально подбирали для себя
+                    молодежный отель. Остановились на Dessole Nesco Joyous. Здесь есть своя
+                    дискотека. Она бесплатная и все напитки тоже бесплатные, + хорошая музыка
+                    Понравились тематические вечеринки...то египетская ночь то гавайский стиль
+                    в общем украшали и ресторан и дискотеку по тематике.  Кухня  в отеле очень
+                    хорошая. Фрукты, мороженное, выпечка и т.д. ) Поэтому на третий день у меня
+                    лично пропал интерес к еде  (из-за весов в номере :). Веселый получился отдых!
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li data-orbit-slide="headline-3">
+              <div class="box">
+                <div class="foto3"></div>
+                <div class="content">
+                  <div class="content-rubric">Жанна, отель sultan gardens, Шарм ель Шейх 15.05.13</div>
+                  <div class="content-text">Были в Египте первый раз.  Как положено перечитали кучу отзывов ,перед
+                    тем как выбрать подходящий тур.  Знакомые посоветовали посмотреть у вас
+                    на сайте.  Честно говоря не ожидали таких результатов. Подобрали тур на 15%
+                    ниже, чем нам предали в местной турфирме. В целом отдых очень понравился
+                    Заселили нас в течении 10 минут, без лишних доплат. До пляжа 1 минута, рядом
+                    бассейны лобби бар. Балкон с видом на море. Номер чистый, претензий нет.
+                    На территории очень много красивых деревьев. Спасибо большое!
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li data-orbit-slide="headline-4">
+              <div class="box">
+                <div class="foto4"></div>
+                <div class="content">
+                  <div class="content-rubric">Алина и Глеб, отель Serenity Fun City 5* Макади Бей 12.09.13</div>
+                  <div class="content-text">Отдыхали семьей - я, муж и ребёнок 10 лет. В отеле всё новое, современное
+                    интерьер, мебель - очень чисто и просторно. Персонал вежливый, старается.
+                    Рядом есть классный Аквапарк, как взрослый, так и детский. Пляж недалеко,
+                    ходили пешком через соседний отель. Рыбы, кораллы, морские звезды -
+                    в изобилии. Мы были просто в восторге! Понравилась пустыня: катались
+                    на верблюдах, квадроциклах, багги... Есть хорошие экскурсии, чего только стоит
+                    бедуинская деревня. Одним словом - отдых удался!
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li data-orbit-slide="headline-5">
+              <div class="box">
+                <div class="foto5"></div>
+                <div class="content">
+                  <div class="content-rubric">Петр и Елена, отель Sea Life Resort, Шарм ель Шейх 07.05.13</div>
+                  <div class="content-text">Ездили с женой в свадебное путешествие  в Sea Life.  Вылет без задержек,
+                    встреча в аэропорту -  все четко, никаких претензий.  Долго описывать не буду:
+                    Номер нам дали  с видом на море, до пляжа минуты 2-3 идти. Все убирается
+                    каждый день, полотенце и постель меняется по желанию отдыхающих.
+                    Недалеко есть бассейн. Пища хоть и однообразная, но качественная,
+                    всякие фрукты и мороженное. В общем, впечатления положительные.
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Section08 page-proofs fight "Борьба за клиента" -->
+    <section class="fight">
+      <div class="row">
+        <div class="rubric">Борьба за клиента...</div>
+        <div class="box">
+          <div class="box-background"></div>
+          <div data-magellan-expedition>
+        <div data-magellan-arrival="tourForm">
+          <div class="content">
+            <div class="button-border">
+              <a href="#tourForm" class="button alert radius button-fight alert-fight">Оставьте заявку</a>
+            </div>
+            <p>на TopTur24 - и Вы увидите как,
+              каждая турфирма будет стараться предложить
+              Вам лучшую цену, часто ниже чем у конкурентов.
+              Такая «борьба  за клиента» - всегда гарантирует
+              Вам стоимость тура  до 25% ниже рыночной
+            </p>
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer>
+      <div class="row">
+        <ul>
+          <li class="footer-left">
+            Copyright © 2014 TopTur24.com
+          <!-- </li> -->
+          <li class="footer-center">
+            <img src="img/footer_logo0101.png" alt="Logo">
+            <div class="rubric">Онлайн-сервис для подбора туров в Египет</div>
+          <!-- </li> -->
+          <li class="footer-right">
+            Разработка сайта - toplanding.biz
+          <!-- </li> -->
+        </ul>
+      </div>
+    </footer>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.orbit.js"></script>
+    <script src="js/foundation/foundation.magellan.js"></script>
+    <script src="js/index.js"></script>
+
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

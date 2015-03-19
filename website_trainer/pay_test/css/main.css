@@ -1,0 +1,1938 @@
+/*=====  BODY  =====*/
+body {
+  min-width: 960px !important;
+  font-family: "Decima Nova Pro";
+  font-size: 18px;
+  font-weight: 400;
+  font-variant: small-caps;
+}
+
+.container {
+  max-width: 960px !important;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+/*=====  Header  =====*/
+header {
+  min-height: 123px;
+  height: 77px;
+  white-space: nowrap;
+}
+
+header .header-left {
+  display: inline-block;
+  vertical-align: top;
+  background-image: url('../img/header_logo01.png');
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  color: #990000;
+  line-height: 22px;
+  width: 284px;
+  padding-left: 52px;
+  padding-top: 1px;
+  margin-top: 28px;
+  margin-left: 1px;
+}
+
+header .header-eye-trainer {
+  display: inline-block;
+  vertical-align: top;
+  background-image: url('../img/header_eye01.png');
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  min-height: 20px;
+  width: 180px;
+  padding-left: 28px;
+  margin-top: 40px;
+  margin-left: 20px;
+  color: #000;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+header .header-eye-trainer .header-eye-text {
+    width: 145px;;
+    border-style: none none dashed none;
+    border-width: 1px;
+    border-color: #c33;
+    text-decoration: none;
+    line-height: 18px;
+}
+
+header .header-callback {
+  display: inline-block;
+  vertical-align: top;
+  background-image: url('../img/header_callback01.png');
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  min-height: 25px;
+   
+  width: 160px; 
+  padding-left: 20px;
+  margin-top: 36px;
+  margin-left: 27px;
+  text-decoration: none;
+}
+
+header .header-callback .header-callback-text {
+  color: #000;
+  border-style: none none dashed none;
+  border-width: 1px;
+  border-color: #cc3333;
+  text-decoration: none;
+  min-width: 89px;
+  max-width: 120px;
+  line-height: 18px;
+  padding: 4px 0px 0px 0px;
+}
+
+
+header .header-right {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 12px;
+  margin-left: 3px;
+  line-height: 28px;
+  text-align: center;
+}
+
+header .header-right .header-questions-text {
+}
+
+header .header-right .header-questions-number {
+  font-size: 24px;
+}
+
+header .header-right .header-address {
+}
+
+
+/*=====  BEGINE  =====
+Section 01 page-proofs desire "Хотите действительно...?"*/
+section.desire {
+  position: relative;
+  background-image: url('../img/desire_background01.png');
+  background-repeat: repeat-x;
+  background-position: 50% 0%;
+  min-height: 447px;
+}
+
+section.desire .desire-model {
+  position: absolute;
+  background-image: url('../img/desire_model02.png');
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  min-width: 253px;
+  min-height: 472px;
+  margin-top: -16px;
+}
+
+section.desire .desire-content {
+  width: 740px;
+
+  float: right;
+  text-align: center;
+}
+
+section.desire .desire-rubric {
+
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: 115px;
+}
+
+section.desire .desire-warranty {
+  text-transform: uppercase;
+  text-align: center;
+  width: 660px;
+  margin-top: 9px;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.desire .desire-warranty .desire-warranty-sport {
+	font-weight: 700;
+}
+
+section.desire .desire-download,
+section.desire .desire-download:hover {
+	display: block;
+	width: 368px;
+	height: 50px;
+	margin: 16px auto;
+	padding: 13px 15px;
+}
+
+section.desire .desire-download {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  background-image: -webkit-gradient(linear,left 0,left 100%,from(#D9534F),to(#C9302C));
+  background-image: -webkit-linear-gradient(top,#d9534f,0%,#c9302c,100%);
+  background-image: -moz-linear-gradient(top,#d9534f 0,#c9302c 100%); 
+  background-image: linear-gradient(to bottom,#D9534F 0,#C9302C 100%);
+  background-repeat: repeat-x;
+  border-color: rgba(0, 0, 0, 0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc3333',endColorstr='#cc3333',GradientType=0); 
+  background-image: url('../img/desire_btn_red01.png');
+  background-repeat: repeat; 
+  border-radius: 4px; 
+  box-shadow: 0px 3px 0px 0px #933;     
+  line-height: 28px;
+}
+
+section.desire .desire-download:hover {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  background-image: -webkit-gradient(linear,left 0,left 100%,from(#FA411E),to(#C9302C));
+  background-image: -webkit-linear-gradient(top,#FA411E,0%,#c9302c,100%);
+  background-image: -moz-linear-gradient(top,#FA411E 0,#c9302c 100%); 
+  background-image: linear-gradient(to bottom,#FA411E 0,#C9302C 100%);
+  background-repeat: repeat-x;
+  border-color: rgba(0, 0, 0, 0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc3333',endColorstr='#cc3333',GradientType=0); 
+  background-image: url('../img/desire_btn_red_hover01.png');
+  background-repeat: repeat; 
+  border-radius: 4px; 
+  box-shadow: 0px 3px 0px 0px #933;
+}
+
+section.desire .desire-discount,
+section.desire .desire-discount:hover {
+	display: block;
+	width: 368px;
+	height: 50px;
+	margin: 23px auto;
+	padding: 13px 15px;
+}
+
+section.desire .desire-discount {
+	font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  
+  color: #000;
+  background-image: -webkit-gradient(linear,left 0,left 100%,from(#D9534F),to(#C9302C));
+  background-image: -webkit-linear-gradient(top,#d9534f,0%,#c9302c,100%);
+  background-image: -moz-linear-gradient(top,#d9534f 0,#c9302c 100%); 
+  background-image: linear-gradient(to bottom,#D9534F 0,#C9302C 100%);
+  background-repeat: repeat-x;
+  border-color: rgba(0, 0, 0, 0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc3333',endColorstr='#cc3333',GradientType=0); 
+  
+  background-image: url('../img/desire_btn_yellow01.png');
+  background-repeat: repeat; 
+  border-radius: 4px; 
+  
+  box-shadow: 0px 3px 0px 0px #666633;     
+  line-height: 28px;
+}
+
+section.desire .desire-discount:hover {	
+	font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000;
+  background-image: -webkit-gradient(linear,left 0,left 100%,from(#FA411E),to(#C9302C));
+  background-image: -webkit-linear-gradient(top,#FA411E,0%,#c9302c,100%);
+  background-image: -moz-linear-gradient(top,#FA411E 0,#c9302c 100%); 
+  background-image: linear-gradient(to bottom,#FA411E 0,#C9302C 100%);
+  background-repeat: repeat-x;
+  border-color: rgba(0, 0, 0, 0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc3333',endColorstr='#cc3333',GradientType=0); 
+  background-image: url('../img/desire_btn_yellow_hover01.png');
+  background-repeat: repeat; 
+  border-radius: 4px; 
+  
+  box-shadow: 0px 3px 0px 0px #999933;
+}
+
+section.desire .desire-action {
+  margin-top: 9px;
+}
+
+section.desire-ribbon-bottom {
+  background-image: url('../img/desire_ribbon_bottom01.png');
+  background-repeat: repeat;
+  height: 7px;
+}
+
+section.desire-bottom {
+  background-image: url('../img/desire_bottom_background01.png');
+  background-repeat: repeat;
+  min-height: 93px;
+}
+
+section.desire-bottom .desire-medal,
+section.desire-bottom .desire-car,
+section.desire-bottom .desire-two-arrow {
+  display: inline-block;
+  vertical-align: top;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  font-size: 24px;
+  color: #fff;
+  line-height: 29px;
+  padding-left: 49px;
+  margin-top: 23px;
+}
+
+section.desire-bottom .desire-medal {
+  background-image: url('../img/desire_medal01.png');
+  margin-left: 0px;
+}
+
+section.desire-bottom .desire-car {
+	background-image: url('../img/desire_car01.png');
+
+	margin-left: 0px;
+}
+
+section.desire-bottom .desire-two-arrow {
+	background-image: url('../img/desire_two_arrow01.png');
+
+	margin-left: 0px;
+}
+
+section.desire-bottom .desire-backslash {
+	display: inline-block;
+  vertical-align: top;
+  background-image: url('../img/desire_back_slash01.png');
+  background-repeat: no-repeat;
+  width: 56px;
+  height: 93px;
+  margin-left: 7px;
+}
+
+
+/*=====  BEGINE  =====
+Section 02 page-proofs trainer "Тренажеры"*/
+section.trainer {
+  background-image: url('../img/trainer_background01.png');
+  background-repeat: repeat;
+  background-position: center;
+  min-height: 717px;
+}
+
+section.trainer .trainer-rubric {
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 87px 0px;
+  line-height: 1.4;
+}
+
+section.trainer .trainer-cart-all {
+  width: 100%;
+
+  margin: -23px 0px;
+}
+
+section.trainer .trainer-cart-all .trainer-cart-left,
+section.trainer .trainer-cart-all .trainer-cart-center,
+section.trainer .trainer-cart-all .trainer-cart-right {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  box-shadow: 0px 1px 1px 0px #ccc;
+  width: 289px;
+  height: 424px;
+  text-align: center;
+}
+
+section.trainer .trainer-cart-all .trainer-cart-left {
+  background-image: url('../img/trainer_cart_left01.png');
+  margin: 0px 0px 0px 11px;
+}
+section.trainer .trainer-cart-all .trainer-cart-center {
+  background-image: url('../img/trainer_cart_center01.png');
+  margin: 0px 0px 0px 35px;
+}
+
+section.trainer .trainer-cart-all .trainer-cart-right {
+  background-image: url('../img/trainer_cart_right01.png');
+  margin: 0px 0px 0px 11px;
+  float: right;
+}
+
+section.trainer .trainer-cart-all .trainer-lable {
+  position: absolute;
+  margin: -26px 59px 0px;
+}
+
+section.trainer .trainer-cart-all .trainer-cart-rubric {
+  font-weight: 700;
+  font-size: 24px;
+  margin: 49px 0px;
+}
+
+section.trainer .trainer-cart-all .trainer-cart-price {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 219px 0px 0px;
+}
+
+section.trainer .trainer-cart-all .trainer-cart-price .price {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+section.trainer .trainer-cart-all .btn-trainer-detal {
+  background-image: url('../img/desire_btn_yellow01.png');
+  background-repeat: repeat;
+  background-position: center;
+  
+}
+
+section.trainer .trainer-cart-all .btn-trainer-detal,
+section.trainer .trainer-cart-all .btn-trainer-detal:hover {
+  font-weight: 400;
+  font-size: 24px;
+  color: #663300;
+  display: block;
+  width: 240px;
+  height: 37px;
+  margin: -2px auto 0px;
+  padding: 13px 15px;
+  line-height: 9px;
+  border-radius: 0px; 
+}
+
+section.trainer .trainer-cart-all .btn-trainer-detal {
+  background-image: url('../img/desire_btn_yellow01.png');
+  background-repeat: repeat; 
+  border-color: transparent;
+  box-shadow: 0px 2px 0px 0px #996;     
+}
+
+section.trainer .trainer-cart-all .btn-trainer-detal:hover {
+  background-image: url('../img/desire_btn_yellow_hover01.png');
+  background-repeat: repeat; 
+  border-color: transparent;
+  box-shadow: 0px 2px 0px 0px #996;
+}
+
+section.trainer .trainer-cart-all .trainer-price-action {
+  font-weight: 700;
+  color: #cc3333;
+  margin: 8px auto 0px;
+}
+
+
+/*=====  BEGINE  =====
+Section 03 page-proofs perfect "Идеальные тренажеры"*/
+section.perfect {
+  background-image: url('../img/perfect_background01.png');
+  background-repeat: repeat;
+  background-position: center;
+  min-height: 320px;
+}
+
+section.perfect .perfect-rubric {
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  margin-top: 32px;
+  line-height: 58px;
+}
+
+section.perfect .perfect-man,
+section.perfect .perfect-woman {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 36px;
+  color: #fff;
+  line-height: 35px;
+  width: 395px;
+  height: 103px;
+  padding: 23px 0px 0px 80px;
+  margin-top: 27px;
+}
+
+section.perfect .perfect-man {
+  background-image: url('../img/perfect_man01.png');
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+
+  margin-left: 21px;
+}
+
+section.perfect .perfect-woman {
+  background-image: url('../img/perfect_woman01.png');
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  margin-left: 111px;
+}
+
+section.perfect .perfect-text {
+  font-size: 24px;
+}
+
+
+/*=====  BEGINE  =====
+Section 04 page-proofs problems "Проблемы"*/
+section.problems {
+  background-image: url('../img/problems_background01.png');
+  background-repeat: no-repeat;
+  background-position: 50% 83%;
+  min-height: 649px;
+  white-space: nowrap;
+}
+
+section.problems .problems-rubric {
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 73px;
+}
+
+section.problems .problems-row1-col-left,
+section.problems .problems-row1-col-right,
+section.problems .problems-row2-col-left,
+section.problems .problems-row2-col-right {
+  display: inline-block;
+  vertical-align: bottom;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+section.problems .problems-row1-col-left {
+  margin: 24px 0px 0px 21px;
+}
+
+section.problems .problems-row1-col-right {
+  margin: 0px 0px 0px 438px;
+}
+
+section.problems .problems-row2-col-left {
+  margin: 190px 0px 0px 15px;
+}
+
+section.problems .problems-row2-col-right {
+  margin: 0px 0px 0px 425px;
+}
+
+
+/*=====  BEGINE  =====
+Section 05 page-proofs offers "Предложение"*/
+section.offers {
+  white-space: nowrap;
+  background-image: url('../img/offers_background01.png');
+  background-repeat: repeat;
+  background-position: center;
+
+  min-height: 460px;
+}
+
+section.offers .offers-rubric {
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 41px;
+}
+
+section.offers .offers-row1-col-left,
+section.offers .offers-row1-col-right,
+section.offers .offers-row2-col-left,
+section.offers .offers-row2-col-right {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 125px;
+  height: 125px;
+}
+
+section.offers .offers-row1-col-left {
+  background-image: url('../img/offers_graf01.png');
+  background-repeat: no-repeat;
+  background-position: 3% 0%;
+  padding: auto 0px auto 2px;
+  margin: 34px 0px 0px -2px;
+}
+
+section.offers .offers-row1-col-right {
+  background-image: url('../img/offers_flower02.png');
+  background-repeat: no-repeat;
+  background-position: 3% 30%;
+  /* padding: 2px 0px 0px 2px; */
+  margin: 34px 0px 0px 137px;
+}
+
+section.offers .offers-row2-col-left {
+  background-image: url('../img/offers_video01.png');
+  background-repeat: no-repeat;
+  background-position: 1% 50%;
+  /* padding: 2px 0px 0px 2px; */
+  margin: 33px 0px 0px 0px;
+}
+
+section.offers .offers-row2-col-right {
+  background-image: url('../img/offers_medal01.png');
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  padding-top: 0px;
+  margin: 32px 0px 0px 137px;
+}
+
+section.offers .offers-text1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+section.offers .offers-text2 {
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: -10px;
+}
+
+
+/*=====  BEGINE  =====
+Section 06 page-proofs reviews "Отзывы ..."*/
+section.reviews {
+    min-height: 1200px;
+}
+
+section.reviews .reviews-rubric{
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 81px 0px 0px;
+}
+
+section.reviews .reviews-row-top {
+    margin: 60px 0px 0px 7px;
+}
+
+section.reviews .reviews-row-bottom {
+    margin: 88px 0px 0px 7px;
+}
+
+section.reviews .reviews-there {
+  display: inline-block;
+  background-image: url('../img/reviews_there01.png');
+
+  background-repeat: repeat;
+  background-position: center;
+  height: 72px;
+  font-size: 48px;
+  text-transform: uppercase;
+  padding: 6px 18px 0px;
+}
+
+section.reviews .reviews-there-content1 {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 180px;
+    margin: -30px 0px 0px;
+}
+
+section.reviews .reviews-there-content1-text1 {
+    border-style: none none dashed none;
+    border-width: 1px;
+    font-size: 30px;
+    color: #cccccc;
+}
+
+section.reviews .reviews-there-content1-text2 {
+    font-weight: 700;
+    margin: 10px 0px 0px;
+}
+
+section.reviews .reviews-img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: -28px -6px 0px;
+}
+
+section.reviews .reviews-there-content2 {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 180px;
+    margin: -30px 0px 0px;
+}
+
+section.reviews .reviews-there-content2-text1 {
+    border-style: none none dashed none;
+    border-width: 1px;
+    font-size: 30px;
+    color: #ccc;
+}
+
+section.reviews .reviews-height {
+  font-size: 24px;
+}
+
+section.reviews .reviews-there-content2-text2 {
+    font-weight: 700;
+    margin: 10px 0px 0px;
+}
+
+section.reviews .reviews-became {
+    display: inline-block; 
+    background-image: url('../img/reviews_became01.png');
+    background-repeat: repeat;
+    background-position: center; 
+    height: 72px; font-size: 48px;
+    text-transform: uppercase;  
+    color: #fff;
+    padding: 6px 11px 0px;
+}
+
+section.reviews .reviews-name {
+    font-weight: 700;
+    text-align: center;
+    margin: 12px 0px 0px;
+}
+
+section.reviews .reviews-foot {
+  display: inline-block;
+  vertical-align: top;
+  background-image: url('../img/reviews_foot01.png');
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  width: 100px;
+  height: 71px;
+}
+
+section.reviews .reviews-content {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 24px;
+  line-height: 29px;
+  background-image: url('../img/reviews_foot01.png'); background-repeat: no-repeat; 
+  background-position: 1% 3%;
+  padding: 0px 10px 0px 140px;
+  margin: 30px 0px 0px;
+}
+
+
+/*=====  BEGINE  =====
+Section 07 page-proofs now "Почему сейчас"*/
+section.now {
+    background-image: url('../img/now_girl01.png');
+    background-repeat: no-repeat;
+    background-position: 50% 107%;
+    min-height: 700px;
+}
+
+section.now .now-offers {
+    width: 609px;
+  
+    float: right;
+    overflow: hidden;
+}
+
+section.now .now-rubric {
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 104px 0px 0px;
+}
+
+section.now .now-check {
+    margin: -1px 0px 0px 0px;
+    white-space: nowrap;
+}
+
+section.now .now-check .now-number {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 72px;
+    text-align: end;
+    line-height: 84px;
+    width: 81px;
+    color: #99cccc;
+}
+
+section.now .now-check .now-content {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 8px 0px 0px 10px;
+}
+
+section.now .btn-now,
+section.now .btn-now:hover {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000;
+  display: block;
+  max-width: 366px;
+  margin: 11px 0px 0px 96px;
+  padding: 13px 15px;
+  line-height: 24px;
+  border-radius: 4px; 
+}
+
+section.now .btn-now {
+  background-image: url('../img/desire_btn_yellow01.png');
+  background-repeat: repeat; 
+  border-color: transparent;
+  box-shadow: 0px 2px 0px 0px #996;     
+  f
+}
+
+section.now .btn-now:hover {
+  background-image: url('../img/desire_btn_yellow_hover01.png');
+  background-repeat: repeat; 
+  border-color: transparent;
+  box-shadow: 0px 2px 0px 0px #996;
+}
+
+section.now .now-timer-all {
+  margin: 21px 0px 0px 117px;
+  margin-right: auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+section.now .now-timer-all .now-timer-rubric {
+  display: inline-block !important;
+  vertical-align: top;
+  font-family: "Decima Nova Pro";
+  font-weight: 400;
+  font-size: 18px;
+  font-variant: small-caps;
+  line-height: 22px;
+  margin: 10px 34px 0px 0px;
+}
+
+section.now .now-timer-all .now-timer {
+  display: inline-block !important;
+  vertical-align: top;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+section.now .now-timer-all .now-timer .now-timer-section {
+  display: inline-block;
+  vertical-align: top;
+  width: 65px;
+  margin: 0px 10px 0px 0px;
+}
+
+section.now .now-timer-all .now-timer .now-timer-section .now-timer-element {
+  background-image: url('../img/now_timer_section.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Decima Nova Pro";
+  font-weight: 700;
+  font-size: 40px;
+  font-variant: small-caps;
+  color: #fff;
+  width: 65px;
+  height: 63px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: bottom;
+  margin-left: 1px;
+}
+
+section.now .now-timer-all .now-timer .now-timer-section .now-timer-section-lable {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+/*=====  BEGINE  =====
+Section 08 page-proofs questions "Остались вопросы?"*/
+section.questions {
+    background-image: url('../img/questions_background01.png');
+    background-repeat: repeat;
+    min-height: 148px;
+    white-space: nowrap;
+}
+
+section.questions .questions-col-left {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 46px;
+}
+
+section.questions .questions-col-left .questions-content {
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    background-image: url('../img/questions_logo01.png');
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    min-height: 42px;
+    padding: 0px 0px 0px 46px;
+    margin: 0px 0px 0px 3px;
+}
+
+section.questions .questions-col-center {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 45px 0px 0px 76px;
+}
+
+section.questions .questions-col-center .questions-rubric {
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+    line-height: 29px;
+}
+
+section.questions .questions-col-center .questions-callback {
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: underline;
+    color: #ffcc33;
+}
+
+section.questions .questions-col-right {
+    display: inline-block;
+    vertical-align: top;
+    margin: 38px 0px 0px 50px;
+    white-space: nowrap;
+}
+
+section.questions .questions-col-right .questions-number {
+    background-image: url('../img/questions_phone01.png');
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    font-size: 24px;
+    color: #fff;
+    line-height: inherit;
+    padding: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
+}
+
+section.questions .questions-col-right .questions-number .questions-number-text {
+    font-size: 18px;
+}
+
+section.questions .questions-col-right .questions-address {
+    background-image: url('../img/questions_address01.png');
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    font-size: 14px;
+    color: #fff;
+    line-height: 41px;
+    padding: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
+}
+
+footer {
+    background-color: #000;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    min-height: 32px;
+    padding: 6px 0px 0px 0px;
+}
+
+
+/*==============================*/
+/*=====  ---  MODALS  ---  =====*/
+/*==============================*/
+/*Модальна форма: Заказать обратный звонок. Header page-proofs header "верх сайту"*/
+.my-modal-callback-dialog {
+    width: 780px;
+}
+
+.my-modal-callback-content {
+    border-radius: 0px;
+    padding: 10px 10px 73px 10px;
+}
+
+.my-modal-callback-rubric {
+    font-weight: 700;
+
+    font-size: 48px;
+    text-align: center;
+    margin: 7px 0px 0px 0px;
+}
+
+.my-modal-callback-rubric1 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+    margin: -8px 0px 0px 0px;
+}
+
+/*---  Форма лінійна ---*/
+.my-modal-callback-form-all {
+    background-image: url('../img/my_modal_form_background01.png');
+    background-repeat: repeat;
+    background-position: center;
+    margin: 24px 0px 0px 0px;
+    padding: 16px 0px;
+}
+
+.my-modal-callback-form-inline {
+  margin: 0 3px;
+  white-space: nowrap;
+}
+
+.my-modal-callback-form-inline .my-modal-callback-form-group {
+  width: 210px;
+  margin-left: 10px;
+}
+
+.my-modal-callback-form-inline .my-modal-callback-form-group .my-modal-callback-form-control {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 6px 12px; 
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-variant: small-caps;
+  line-height: 1.428571429;
+  color: #555;
+  vertical-align: middle;
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.my-modal-callback-form-inline .my-modal-callback-btn {
+  /*---  btn-warning  ---*/
+  background-image: -webkit-gradient(linear,left 0,left 100%,from(#F0AD4E),to(#EC971F));
+  background-image: -webkit-linear-gradient(top,#f0ad4e,0%,#ec971f,100%);
+  background-image: -moz-linear-gradient(top,#f0ad4e 0,#ec971f 100%);
+  background-image: linear-gradient(to bottom,#F0AD4E 0,#EC971F 100%);
+  background-repeat: repeat-x;
+  border-color: #EB9316;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e',endColorstr='#ffec971f',GradientType=0);
+  background-repeat: repeat-x;
+  /*---*/
+  display: inline-block;
+  padding: 6px 12px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  text-transform: uppercase;
+  color: #000;
+  margin: 0px 0px 0px 12px;
+  height: 38px;
+  width: 260px;
+  background-image: url('../img/desire_btn_yellow01.png');
+  background-repeat: repeat;
+  box-shadow: 0px 2px 0px 0px #76610F;
+}
+
+.my-modal-callback-form-inline .my-modal-callback-btn:hover {
+  /*---  btn-warning  ---*/
+  background-image: -webkit-gradient(linear,left 0,left 100%,from(#F0AD4E),to(#EC971F));
+  background-image: -webkit-linear-gradient(top,#f0ad4e,0%,#ec971f,100%);
+  background-image: -moz-linear-gradient(top,#f0ad4e 0,#ec971f 100%);
+  background-image: linear-gradient(to bottom,#F0AD4E 0,#EC971F 100%);
+  background-repeat: repeat-x;
+  border-color: #EB9316;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e',endColorstr='#ffec971f',GradientType=0);
+  background-repeat: repeat-x;
+  background-color: #ED9C28;
+  border-c: ;olor: #D58512;
+  /*---*/
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  text-transform: uppercase;
+  color: #000;
+  margin-left: 12px;
+  width: 260px;
+  background-image: url('../img/desire_btn_yellow_hover01.png');
+  background-repeat: repeat;
+  box-shadow: 0px 1px 0px 0px #64670C;
+}
+
+
+/*<!-- Модальна форма: Скачать видео инструкцию. Section 01 page-proofs desire "Хотите действительно...?" -->*/
+.my-modal-desiredownload-dialog {
+    width: 780px;
+}
+
+.my-modal-desiredownload-content {
+    border-radius: 0px;
+    padding: 10px 10px 10px 10px;
+}
+
+.my-modal-desiredownload-rubric {
+    font-weight: 700;
+
+    font-size: 48px;
+    text-align: center;
+    margin: 7px 0px 0px 0px;
+}
+
+.my-modal-desiredownload-offers-rubric {
+    font-weight: 700;
+    font-size: 34px;
+    z-index: 1;
+    margin: 0px 0px 0px 7px;
+}
+
+.my-modal-desiredownload-offers-video {
+    background-image: url('../img/my_modal_play01.png');
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    font-size: 24px;
+    line-height: 21px;
+    padding: 0px 0px 0px 53px;
+    margin: 0 auto;
+    min-height: 46px;
+    width: 88%;
+}
+
+/*---  Форма лінійна ---*/
+.my-modal-desiredownload-form-all {
+    background-image: url('../img/my_modal_form_background01.png');
+    background-repeat: repeat;
+    background-position: center;
+    margin: 24px 0px 0px 0px;
+    padding: 16px 0px;
+}
+
+.my-modal-desiredownload-form-inline {
+  margin: 0 3px;
+  white-space: nowrap;
+}
+
+.my-modal-desiredownload-form-inline .my-modal-desiredownload-form-group {
+  width: 210px;
+  margin-left: 10px;
+}
+
+.my-modal-desiredownload-form-inline .my-modal-desiredownload-form-group .my-modal-desiredownload-form-control {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 6px 12px; 
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-variant: small-caps;
+  line-height: 1.428571429;
+  color: #555;
+  vertical-align: middle;
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.my-modal-desiredownload-form-inline .my-modal-desiredownload-btn {
+  /*---  btn-warning  ---*/
+  background-image: -webkit-gradient(linear,left 0,left 100%,from(#F0AD4E),to(#EC971F));
+  background-image: -webkit-linear-gradient(top,#f0ad4e,0%,#ec971f,100%);
+  background-image: -moz-linear-gradient(top,#f0ad4e 0,#ec971f 100%);
+  background-image: linear-gradient(to bottom,#F0AD4E 0,#EC971F 100%);
+  background-repeat: repeat-x;
+  border-color: #EB9316;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e',endColorstr='#ffec971f',GradientType=0);
+  background-repeat: repeat-x;
+  /*---*/
+  display: inline-block;
+  padding: 6px 12px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  text-transform: uppercase;
+  color: #000;
+  margin: 0px 0px 0px 12px;
+  height: 38px;
+  width: 260px;
+  background-image: url('../img/desire_btn_yellow01.png');
+  background-repeat: repeat;
+  box-shadow: 0px 2px 0px 0px #76610F;
+}
+
+.my-modal-desiredownload-form-inline .my-modal-desiredownload-btn:hover {
+  /*---  btn-warning  ---*/
+  background-image: -webkit-gradient(linear,left 0,left 100%,from(#F0AD4E),to(#EC971F));
+  background-image: -webkit-linear-gradient(top,#f0ad4e,0%,#ec971f,100%);
+  background-image: -moz-linear-gradient(top,#f0ad4e 0,#ec971f 100%);
+  background-image: linear-gradient(to bottom,#F0AD4E 0,#EC971F 100%);
+  background-repeat: repeat-x;
+  border-color: #EB9316;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e',endColorstr='#ffec971f',GradientType=0);
+  background-repeat: repeat-x;
+  background-color: #ED9C28;
+  border-c: ;olor: #D58512;
+  /*---*/
+
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  text-transform: uppercase;
+  color: #000;
+  margin-left: 12px;
+  width: 260px;
+  background-image: url('../img/desire_btn_yellow_hover01.png');
+  background-repeat: repeat;
+  box-shadow: 0px 1px 0px 0px #64670C;
+}
+
+/*---  Таймер модальної форми: Скачать видео инструкцию. Section 01 page-proofs desire "Хотите действительно...?"  ---*/
+.my-modal-desiredownload-timer-all {
+  margin: 17px 0px 0px 140px;
+  margin-right: auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.my-modal-desiredownload-timer-all .my-modal-desiredownload-timer-rubric {
+  display: inline-block !important;
+  vertical-align: top;
+  font-family: "Decima Nova Pro";
+  font-weight: 400;
+  font-size: 18px;
+  font-variant: small-caps;
+  line-height: 22px;
+  margin: 10px 34px 0px 0px;
+}
+
+.my-modal-desiredownload-timer-all .my-modal-desiredownload-timer {
+  display: inline-block !important;
+  vertical-align: top;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.my-modal-desiredownload-timer-all .my-modal-desiredownload-timer .my-modal-desiredownload-timer-section {
+  display: inline-block;
+  vertical-align: top;
+  width: 65px;
+  margin: 0px -9px 0px 0px;
+  text-align: center;
+}
+
+.my-modal-desiredownload-timer-all .my-modal-desiredownload-timer .my-modal-desiredownload-timer-section .my-modal-desiredownload-timer-element {
+  background-image: url('../img/my_modal_timer_background01.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Decima Nova Pro";
+  font-weight: 700;
+  font-size: 30px;
+  font-variant: small-caps;
+  color: #fff;
+  width: 65px;
+  height: 48px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: bottom;
+  /* margin-left: 1px; */
+  margin-right: 1px;
+  margin-left: auto;
+}
+
+.my-modal-desiredownload-timer-all .my-modal-desiredownload-timer .my-modal-desiredownload-timer-section .my-modal-desiredownload-timer-section-lable {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+/*Модальна форма: Получить скидку  30% на тренажор. Section 01 page-proofs desire "Хотите действительно...?"*/
+.my-modal-action-dialog {
+    width: 780px;
+}
+
+.my-modal-action-content {
+    border-radius: 0px;
+    padding: 10px 10px 10px 10px;
+}
+
+.my-modal-action-rubric {
+    font-weight: 700;
+
+    font-size: 48px;
+    text-align: center;
+    margin: 7px 0px 0px 0px;
+}
+
+.my-modal-action-offers {
+    font-size: 24px;
+    text-align: center;
+}
+
+.my-modal-action-offers .my-modal-action-number {
+    font-weight: 700;
+    font-size: 30px;
+    color: #cc0000;
+}
+
+/*---  Форма лінійна ---*/
+.my-modal-action-form-all {
+    background-image: url('../img/my_modal_form_background01.png');
+    background-repeat: repeat;
+    background-position: center;
+    margin: 44px 0px 0px 0px;
+    padding: 16px 0px;
+}
+
+.my-modal-action-form-inline {
+  margin: 0 3px;
+  white-space: nowrap;
+}
+
+.my-modal-action-form-inline .my-modal-action-form-group {
+  width: 210px;
+  margin-left: 10px;
+}
+
+.my-modal-action-form-inline .my-modal-action-form-group .my-modal-action-form-control {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 6px 12px; 
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-variant: small-caps;
+  line-height: 1.428571429;
+  color: #555;
+  vertical-align: middle;
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.my-modal-action-form-inline .my-modal-action-btn {
+  /*---  btn-warning  ---*/
+  background-image: -webkit-gradient(linear,left 0,left 100%,from(#F0AD4E),to(#EC971F));
+  background-image: -webkit-linear-gradient(top,#f0ad4e,0%,#ec971f,100%);
+  background-image: -moz-linear-gradient(top,#f0ad4e 0,#ec971f 100%);
+  background-image: linear-gradient(to bottom,#F0AD4E 0,#EC971F 100%);
+  background-repeat: repeat-x;
+  border-color: #EB9316;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e',endColorstr='#ffec971f',GradientType=0);
+  background-repeat: repeat-x;
+  /*---*/
+  display: inline-block;
+  padding: 6px 12px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  text-transform: uppercase;
+  color: #000;
+  margin: 0px 0px 0px 12px;
+  height: 38px;
+  width: 260px;
+  background-image: url('../img/desire_btn_yellow01.png');
+  background-repeat: repeat;
+  box-shadow: 0px 2px 0px 0px #76610F;
+}
+
+.my-modal-action-form-inline .my-modal-action-btn:hover {
+  /*---  btn-warning  ---*/
+  background-image: -webkit-gradient(linear,left 0,left 100%,from(#F0AD4E),to(#EC971F));
+  background-image: -webkit-linear-gradient(top,#f0ad4e,0%,#ec971f,100%);
+  background-image: -moz-linear-gradient(top,#f0ad4e 0,#ec971f 100%);
+  background-image: linear-gradient(to bottom,#F0AD4E 0,#EC971F 100%);
+  background-repeat: repeat-x;
+  border-color: #EB9316;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e',endColorstr='#ffec971f',GradientType=0);
+  background-repeat: repeat-x;
+  background-color: #ED9C28;
+  border-c: ;olor: #D58512;
+  /*---*/
+
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  text-transform: uppercase;
+  color: #000;
+  margin-left: 12px;
+  width: 260px;
+  background-image: url('../img/desire_btn_yellow_hover01.png');
+  background-repeat: repeat;
+  box-shadow: 0px 1px 0px 0px #64670C;
+}
+
+/*---  Таймер модальної форми: Заказать: Получить скидку  30% на тренажор. Section 01 page-proofs desire "Хотите действительно...?"  ---*/
+.my-modal-action-timer-all {
+  margin: 17px 0px 0px 140px;
+  margin-right: auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.my-modal-action-timer-all .my-modal-action-timer-rubric {
+  display: inline-block !important;
+  vertical-align: top;
+  font-family: "Decima Nova Pro";
+  font-weight: 400;
+  font-size: 18px;
+  font-variant: small-caps;
+  line-height: 22px;
+  margin: 10px 34px 0px 0px;
+}
+
+.my-modal-action-timer-all .my-modal-action-timer {
+  display: inline-block !important;
+  vertical-align: top;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.my-modal-action-timer-all .my-modal-action-timer .my-modal-action-timer-section {
+  display: inline-block;
+  vertical-align: top;
+  width: 65px;
+  margin: 0px -9px 0px 0px;
+  text-align: center;
+}
+
+.my-modal-action-timer-all .my-modal-action-timer .my-modal-action-timer-section .my-modal-action-timer-element {
+  background-image: url('../img/my_modal_timer_background01.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Decima Nova Pro";
+  font-weight: 700;
+  font-size: 30px;
+  font-variant: small-caps;
+  color: #fff;
+  width: 65px;
+  height: 48px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: bottom;
+  /* margin-left: 1px; */
+  margin-right: 1px;
+  margin-left: auto;
+}
+
+.my-modal-action-timer-all .my-modal-action-timer .my-modal-action-timer-section .my-modal-action-timer-section-lable {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+/*Модальна форма: Заказать: Тренажер ДС-1 Section 02 page-proofs trainer "Тренажеры""*/
+.my-modal-dialog {
+    width: 780px;
+}
+
+.my-modal-content {
+    border-radius: 0px;
+    padding: 10px 10px 10px 10px;
+}
+
+.my-modal-rubric {
+    font-weight: 700;
+
+    font-size: 48px;
+    text-align: center;
+    margin: 7px 0px 0px 0px;
+}
+
+.my-modal-price {
+    font-weight: 700;
+    font-size: 34px;
+    color: #cc3333;
+    text-align: center;
+    margin: -8px 0px 0px 0px;
+}
+
+.my-modal-price-lable {
+    font-size: 24px;
+}
+
+.my-modal-price-through {
+    font-size: 22px;
+    
+    color: #000;
+}
+
+.my-modal-price-through .through {
+    text-decoration: line-through;
+}
+
+.my-modal-img {
+  position: absolute;
+  right: 10%;
+  z-index: 0;
+}
+
+.my-modal-offers-rubric {
+    font-weight: 700;
+    font-size: 34px;
+    z-index: 1;
+    margin: 0px 0px 0px 7px;
+}
+
+.my-modal-offers-video {
+    background-image: url('../img/my_modal_play01.png');
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    font-size: 24px;
+    line-height: 21px;
+    padding: 0px 0px 0px 53px;
+    margin: 10px 0px 0px 14px;
+    min-height: 46px;
+}
+
+.my-modal-offers-mechine {
+    background-image: url('../img/my_modal_mechine01.png');
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    font-size: 24px;
+    line-height: 21px;
+    padding: 0px 0px 0px 53px;
+    margin: 23px 0px 0px 14px;
+    min-height: 46px;
+}
+
+.my-modal-offers-check {
+    background-image: url('../img/my_modal_check01.png');
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    font-size: 24px;
+    line-height: 21px;
+    padding: 0px 0px 0px 53px;
+    margin: 21px 0px 0px 14px;
+    min-height: 48px;
+}
+
+/*---  Форма лінійна ---*/
+.my-modal-form-all {
+    background-image: url('../img/my_modal_form_background01.png');
+    background-repeat: repeat;
+    background-position: center;
+    margin: 44px 0px 0px 0px;
+    padding: 5px 0px 16px 0px;
+}
+
+.my-modal-form-rubric {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #c33;
+    white-space: nowrap;
+    margin: 6px 0px 6px 0px;
+}
+
+.my-modal-form-inline {
+  margin: 0 3px;
+  white-space: nowrap;
+}
+
+.my-modal-form-inline .my-modal-form-group {
+  width: 210px;
+  margin-left: 10px;
+}
+
+.my-modal-form-inline .my-modal-form-group .my-modal-form-control {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 6px 12px; 
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-variant: small-caps;
+  line-height: 1.428571429;
+  color: #555;
+  vertical-align: middle;
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.my-modal-form-inline .my-modal-btn {
+  /*---  btn-warning  ---*/
+  background-image: -webkit-gradient(linear,left 0,left 100%,from(#F0AD4E),to(#EC971F));
+  background-image: -webkit-linear-gradient(top,#f0ad4e,0%,#ec971f,100%);
+  background-image: -moz-linear-gradient(top,#f0ad4e 0,#ec971f 100%);
+  background-image: linear-gradient(to bottom,#F0AD4E 0,#EC971F 100%);
+  background-repeat: repeat-x;
+  border-color: #EB9316;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e',endColorstr='#ffec971f',GradientType=0);
+  background-repeat: repeat-x;
+  /*---*/
+  display: inline-block;
+  padding: 6px 12px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  text-transform: uppercase;
+  color: #000;
+  margin: 0px 0px 0px 12px;
+  height: 38px;
+  width: 260px;
+  background-image: url('../img/desire_btn_yellow01.png');
+  background-repeat: repeat;
+  box-shadow: 0px 2px 0px 0px #76610F;
+}
+
+.my-modal-form-inline .my-modal-btn:hover {
+  /*---  btn-warning  ---*/
+  background-image: -webkit-gradient(linear,left 0,left 100%,from(#F0AD4E),to(#EC971F));
+  background-image: -webkit-linear-gradient(top,#f0ad4e,0%,#ec971f,100%);
+  background-image: -moz-linear-gradient(top,#f0ad4e 0,#ec971f 100%);
+  background-image: linear-gradient(to bottom,#F0AD4E 0,#EC971F 100%);
+  background-repeat: repeat-x;
+  border-color: #EB9316;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e',endColorstr='#ffec971f',GradientType=0);
+  background-repeat: repeat-x;
+  background-color: #ED9C28;
+  border-c: ;olor: #D58512;
+  /*---*/
+
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  text-transform: uppercase;
+  color: #000;
+  margin-left: 12px;
+  width: 260px;
+  background-image: url('../img/desire_btn_yellow_hover01.png');
+  background-repeat: repeat;
+  box-shadow: 0px 1px 0px 0px #64670C;
+}
+
+/*---  Таймер модальної форми: Заказать: Тренажер ДС-1, ДС-5, ДС1+ДС5  Section 02 page-proofs trainer "Тренажеры"  ---*/
+.my-modal-timer-all {
+  display: inline-block;
+  margin: 17px 0px 0px 10px;
+  margin-right: auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.my-modal-timer-all .my-modal-timer-rubric {
+  display: inline-block !important;
+  vertical-align: top;
+  font-family: "Decima Nova Pro";
+  font-weight: 400;
+  font-size: 18px;
+  font-variant: small-caps;
+  line-height: 22px;
+  margin: 10px 34px 0px 0px;
+}
+
+.my-modal-timer-all .my-modal-timer {
+  display: inline-block !important;
+  vertical-align: top;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.my-modal-timer-all .my-modal-timer .my-modal-timer-section {
+  display: inline-block;
+  vertical-align: top;
+  width: 65px;
+  margin: 0px -9px 0px 0px;
+  text-align: center;
+}
+
+.my-modal-timer-all .my-modal-timer .my-modal-timer-section .my-modal-timer-element {
+  background-image: url('../img/my_modal_timer_background01.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Decima Nova Pro";
+  font-weight: 700;
+  font-size: 30px;
+  font-variant: small-caps;
+  color: #fff;
+  width: 65px;
+  height: 48px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: bottom;
+  /* margin-left: 1px; */
+  margin-right: 1px;
+  margin-left: auto;
+}
+
+.my-modal-timer-all .my-modal-timer .my-modal-timer-section .my-modal-timer-section-lable {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+/*---  Форма ROBOCASSA  ---*/
+.robokassa {
+  display: inline-block;
+  margin: 0px 0px 0px 24px;
+}
+
+/*Модальна форма: Задать вопрос менеджеру Section 08 page-proofs questions "Остались вопросы?"*/
+/*---  Заголовок ---*/
+.my-modal-questions-dialog {
+    width: 780px;
+}
+
+.my-modal-questions-content {
+    border-radius: 0px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.my-modal-questions-rubric {
+    font-weight: 700;
+
+    font-size: 48px;
+    text-align: center;
+    margin: 7px 0px 0px 0px;
+}
+
+.my-modal-questions-offers {
+    font-size: 24px;
+    text-align: center;
+}
+
+.my-modal-questions-form {
+  display: inline-block;
+  vertical-align: top;
+  width: 352px;
+  margin: 20px 0px 16px 0px;
+}
+
+.my-modal-questions-form .my-modal-questions-form-group {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-modal-questions-form .my-modal-questions-form-group .my-modal-questions-form-textarea:focus,
+.my-modal-questions-form .my-modal-questions-form-group .my-modal-questions-form-textarea:hover {
+  font-size: 14px;
+}
+
+.my-modal-questions-form .my-modal-questions-form-group .my-modal-questions-form-textarea {
+  display: block;
+  width: 100%; 
+  height: 113px;
+  padding: 6px 12px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 1.428571429;
+  color: #555;
+  vertical-align: middle;
+  background-color: #FFF;
+  border: 1px solid #CCC; 
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  
+  resize: none;
+}
+
+.my-modal-questions-form .my-modal-questions-form-group .my-modal-questions-form-control {
+  display: block;
+  width: 100%; 
+  height: 42px;
+  padding: 6px 12px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 1.428571429;
+  color: #555;
+  vertical-align: middle;
+  background-color: #FFF;
+  border: 1px solid #CCC; 
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+
+  resize: none;
+}
+
+.my-modal-questions-form .my-modal-questions-btn {
+  display: inline-block;
+  padding: 6px 12px;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  white-space: nowrap;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  text-transform: uppercase;
+  color: #fff;
+  width: 300px;
+
+  /*---  btn-danger  ---*/
+  margin-top: -4px;
+  background-image: -webkit-gradient(linear,left 0,left 100%,from(#D9534F),to(#C9302C));
+  background-image: -webkit-linear-gradient(top,#d9534f,0%,#c9302c,100%);
+  background-image: -moz-linear-gradient(top,#d9534f 0,#c9302c 100%);
+  background-image: linear-gradient(top bottom,#D9534F 0,#C9302C 100%);
+  background-repeat: repeat-x;
+  border-color: #C12E2A;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f',endColorstr='#ffc9302c',GradientType=0);
+  background-image: url('../img/questions_btn01.png');
+  background-repeat: repeat;
+  box-shadow: 0px 2px 0px 0px #933;
+}
+
+.my-modal-questions-form .my-modal-questions-btn:hover {
+  display: inline-block;
+  padding: 6px 12px;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  text-transform: uppercase;
+  color: #fff;
+  width: 300px;
+
+  /*---  btn-danger  ---*/
+  background-image: -webkit-gradient(linear,left 0,left 100%,from(#D9534F),to(#C9302C));
+  background-image: -webkit-linear-gradient(top,#d9534f,0%,#c9302c,100%);
+  background-image: -moz-linear-gradient(top,#d9534f 0,#c9302c 100%);
+  background-image: linear-gradient(top bottom,#D9534F 0,#C9302C 100%);
+  background-repeat: repeat-x;
+  border-color: #AC2925;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f',endColorstr='#ffc9302c',GradientType=0);
+  background-image: url('../img/questions_btn_hover01.png');
+  background-repeat: repeat;
+  box-shadow: 0px 1px 0px 0px #993333;
+}
